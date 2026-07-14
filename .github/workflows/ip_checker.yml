@@ -26,7 +26,6 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-          # merge_and_filter_geoip.py optionally uses geoip2; install if available
           pip install geoip2 || true
 
       - name: List directory contents (before)
@@ -38,7 +37,6 @@ jobs:
           echo "allowed_countries.txt:"
           sed -n '1,120p' allowed_countries.txt || true
 
-      # Optional: download GeoLite2 DB if you provide a URL via secret/environment
       - name: Download GeoLite2 (optional)
         if: ${{ secrets.GEOLITE2_URL != '' }}
         env:
@@ -49,14 +47,12 @@ jobs:
           curl -L -o geolite/GeoLite2-Country.mmdb "$GEOLITE2_URL" || true
           ls -la geolite || true
 
-      # Prepare allowed countries comma list from file
       - name: Prepare allowed list
         id: allowed
         run: |
           ALLOWED=$(grep -v '^\s*#' allowed_countries.txt | tr -d '\r' | awk 'NF' | paste -sd, -)
           echo "allowed=${ALLOWED}" >> $GITHUB_OUTPUT
 
-      # Run merge_and_filter_geoip.py
       - name: Run merge_and_filter_geoip.py
         run: |
           mkdir -p ips provider
@@ -76,11 +72,17 @@ jobs:
             --provider-local-path provider/allowed_ips.txt \
             --accept-cidr
 
+      - name: Generate proxyip files (no EXE)
+        run: |
+          pip install requests
+          python3 scripts/generate_proxyip_files.py
+
       - name: List directory contents (after)
         run: |
           ls -la ips || true
           ls -la provider || true
-          head -n 50 ips/allowed_ips.txt || true
+          ls -la proxyip.txt proxyip_with_country.txt || true
+          head -n 50 proxyip_with_country.txt || true
 
       - name: Commit and push results
         uses: stefanzweifel/git-auto-commit-action@v7
