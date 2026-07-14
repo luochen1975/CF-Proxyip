@@ -18,11 +18,11 @@ jobs:
     steps:
       # 第一步：检出仓库代码
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       # 第二步：设置 Python 环境
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: '3.x'
 
@@ -54,7 +54,7 @@ jobs:
 
       # 自动提交并推送结果
       - name: Commit and push results
-        uses: stefanzweifel/git-auto-commit-action@v5
+        uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: 'chore: update IP/country info results'
           branch: ${{ github.ref }}
