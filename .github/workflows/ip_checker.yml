@@ -38,14 +38,17 @@ jobs:
           sed -n '1,120p' allowed_countries.txt || true
 
       - name: Download GeoLite2 (optional)
-        if: ${{ secrets.GEOLITE2_URL != '' }}
         env:
           GEOLITE2_URL: ${{ secrets.GEOLITE2_URL }}
         run: |
-          echo "Downloading GeoLite2 from secret URL..."
-          mkdir -p geolite
-          curl -L -o geolite/GeoLite2-Country.mmdb "$GEOLITE2_URL" || true
-          ls -la geolite || true
+          if [ -n "$GEOLITE2_URL" ]; then
+           echo "Downloading GeoLite2 from secret URL..."
+            mkdir -p geolite
+            curl -L -o geolite/GeoLite2-Country.mmdb "$GEOLITE2_URL" || true
+            ls -la geolite || true
+          else
+            echo "No GEOLITE2_URL secret set; skipping GeoLite2 download."
+          fi
 
       - name: Prepare allowed list
         id: allowed
