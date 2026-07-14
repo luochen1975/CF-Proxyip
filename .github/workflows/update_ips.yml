@@ -38,5 +38,59 @@ jobs:
         run: |
           if [ -n "$GEOLITE2_URL" ]; then
             mkdir -p geolite
-            curl -L -o geolite/GeoLite2-Country.mmdb "$GE](#)*
-
+            curl -L -o geolite/GeoLite2-Country.mmdb "$GEOLITE2_URL" || true
+            ls -la geolite || true
+          else
+            echo "No GEOLITE2_URL secret; skipping GeoLite2 download."
+          fi
+
+      - name: Prepare allowed list
+        id: allowed
+        run: |
+          ALLOWED=$(grep -v '^\s*#' allowed_countries.txt | tr -d '\r' | awk 'NF' | paste -sd, -)
+          echo "allowed=${ALLOWED}" >> $GITHUB_OUTPUT
+
+      - name: Run ip_checker steps (merge_and_filter_geoip + generate proxyip)
+        run: |
+          mkdir -p ips provider
+          GEO_DB=""
+          if [ -f geolite/GeoLite2-Country.mmdb ]; then
+            GEO_DB="geolite/GeoLite2-Country.mmdb"
+            echo "Using local GeoLite2 DB"
+          else
+            echo "GeoLite2 DB not found; fallback to ipinfo (may be rate limited)"
+          fi
+          if [ -f scripts/merge_and_filter_geoip.py ]; then
+            python3 scripts/merge_and_filter_geoip.py \
+              --urls-file urls.txt \
+              --allowed "${{ steps.allowed.outputs.allowed }}" \
+              --geo-db "$GEO_DB" \
+              --out ips/allowed_ips.txt \
+              --provider-local-path provider/allowed_ips.txt \
+              --accept-cidr || true
+          else
+            echo "scripts/merge_and_filter_geoip.py not found, skipping that step."
+          fi
+          pip install requests || true
+          if [ -f scripts/generate_proxyip_files.py ]; then
+            python3 scripts/generate_proxyip_files.py || true
+          else
+            echo "scripts/generate_proxyip_files.py not found, skipping."
+          fi
+
+      - name: Run regenerate_all (collect -> geolookup -> filter)
+        run: |
+          if [ -f scripts/regenerate_all.py ]; then
+            python3 scripts/regenerate_all.py
+          else
+            echo "scripts/regenerate_all.py not found; please add it to repo."
+          fi
+
+      - name: Commit and push results (single atomic commit)
+        uses: stefanzweifel/git-auto-commit-action@v7
+        with:
+          commit_message: 'chore: update/regenerate IP lists'
+          branch: main
+          file_pattern: 'ips/**,ips_with_country/**,provider/**,proxyip*.txt'
+          commit_user_name: github-actions[bot]
+          commit_user_email: github-actions[bot]@users.noreply.github.com
