@@ -33,16 +33,11 @@ jobs:
           pip install geoip2 || true
 
       - name: Optional: download GeoLite2 (if GEOLITE2_URL secret provided)
-        env:
-          GEOLITE2_URL: ${{ secrets.GEOLITE2_URL }}
+        if: ${{ secrets.GEOLITE2_URL != '' }}
         run: |
-          if [ -n "$GEOLITE2_URL" ]; then
-            mkdir -p geolite
-            curl -L -o geolite/GeoLite2-Country.mmdb "$GEOLITE2_URL" || true
-            ls -la geolite || true
-          else
-            echo "No GEOLITE2_URL secret; skipping GeoLite2 download."
-          fi
+          mkdir -p geolite
+          curl -L -o geolite/GeoLite2-Country.mmdb "${{ secrets.GEOLITE2_URL }}" || true
+          ls -la geolite || true
 
       - name: Prepare allowed list
         id: allowed
