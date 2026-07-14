@@ -32,18 +32,19 @@ jobs:
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
           pip install geoip2 || true
 
-      - name: Download GeoLite2 (optional)
+            - name: Download GeoLite2 (optional)
         env:
           GEOLITE2_URL: ${{ secrets.GEOLITE2_URL }}
         run: |
           if [ -n "$GEOLITE2_URL" ]; then
-           echo "Downloading GeoLite2 from secret URL..."
+            echo "Downloading GeoLite2 from secret URL..."
             mkdir -p geolite
             curl -L -o geolite/GeoLite2-Country.mmdb "$GEOLITE2_URL" || true
             ls -la geolite || true
           else
             echo "No GEOLITE2_URL secret set; skipping GeoLite2 download."
           fi
+
 
       - name: Prepare allowed list
         id: allowed
