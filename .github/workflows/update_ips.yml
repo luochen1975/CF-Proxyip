@@ -3,7 +3,7 @@ name: Update IP lists (check + regenerate)
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 3 * * *'
+    - cron: '0 3 * * *'  # 每天 03:00 UTC
 
 permissions:
   contents: write
@@ -33,15 +33,15 @@ jobs:
           pip install geoip2 || true
 
       - name: Optional: download GeoLite2 (if GEOLITE2_URL secret provided)
+        env:
+          GEOLITE2_URL: ${{ secrets.GEOLITE2_URL }}
         run: |
-          GEOURL="${{ secrets.GEOLITE2_URL }}"
-          if [ -n "$GEOURL" ]; then
-            echo "Downloading GeoLite2 from secret URL..."
+          if [ -n "$GEOLITE2_URL" ]; then
             mkdir -p geolite
-            curl -L -o geolite/GeoLite2-Country.mmdb "$GEOURL" || true
+            curl -L -o geolite/GeoLite2-Country.mmdb "$GEOLITE2_URL" || true
             ls -la geolite || true
           else
-            echo "No GEOLITE2_URL secret set; skipping GeoLite2 download."
+            echo "No GEOLITE2_URL secret; skipping GeoLite2 download."
           fi
 
       - name: Prepare allowed list
@@ -60,6 +60,7 @@ jobs:
           else
             echo "GeoLite2 DB not found; fallback to ipinfo (may be rate limited)"
           fi
+          # merge_and_filter_geoip.py should exist in scripts/
           if [ -f scripts/merge_and_filter_geoip.py ]; then
             python3 scripts/merge_and_filter_geoip.py \
               --urls-file urls.txt \
@@ -71,6 +72,8 @@ jobs:
           else
             echo "scripts/merge_and_filter_geoip.py not found, skipping that step."
           fi
+
+          # generate_proxyip_files.py is optional helper; run if present
           pip install requests || true
           if [ -f scripts/generate_proxyip_files.py ]; then
             python3 scripts/generate_proxyip_files.py || true
