@@ -1,0 +1,7 @@
+#每行写一个地址
+https://raw.githubusercontent.com/godlockin/cip_refresh/refs/heads/master/ip.txt
+https://raw.githubusercontent.com/AbaloneHunter/YouXuan-CFIP/refs/heads/main/results/top_targets.txt
+https://raw.githubusercontent.com/AbaloneHunter/cf-ip/refs/heads/main/cf-speed-dns.txt
+https://raw.githubusercontent.com/AbaloneHunter/cf-ip/refs/heads/main/max.txt
+https://raw.githubusercontent.com/AbaloneHunter/cf-ip/refs/heads/main/vps789.com.txt
+https://raw.githubusercontent.com/AbaloneHunter/cf-ip/refs/heads/main/%E6%9E%81%E9%80%9F.txt
