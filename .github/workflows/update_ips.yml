@@ -32,7 +32,7 @@ jobs:
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
           pip install geoip2 || true
 
-      - name: Optional: download GeoLite2 (if GEOLITE2_URL secret provided)
+      - name: download GeoLite2 (if GEOLITE2_URL secret provided)
         run: |
           # read secret inside the shell to avoid possible YAML env parsing issues
           GEOURL="${{ secrets.GEOLITE2_URL }}"
