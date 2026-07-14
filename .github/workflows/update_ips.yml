@@ -32,7 +32,7 @@ jobs:
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
           pip install geoip2 || true
 
-            - name: Download GeoLite2 (optional)
+      - name: Download GeoLite2 (optional)
         env:
           GEOLITE2_URL: ${{ secrets.GEOLITE2_URL }}
         run: |
