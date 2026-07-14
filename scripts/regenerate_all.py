@@ -1,4 +1,3 @@
-name=scripts/regenerate_all.py
 #!/usr/bin/env python3
 # scripts/regenerate_all.py
 """
