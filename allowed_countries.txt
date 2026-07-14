@@ -1,3 +1,9 @@
-HK香港
-JP日本
-TW台湾
+HK
+JP
+SG
+AU
+DE
+US
+FI
+KR
+TW
