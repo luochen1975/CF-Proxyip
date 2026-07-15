@@ -35,28 +35,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests dnspython
 
-      - name: Debug: list repo files for troubleshooting
-        run: |
-          echo "Repo root: $(pwd)"
-          ls -la
-          echo "--- scripts dir ---"
-          ls -la scripts || true
-          echo "--- ips_with_country ---"
-          ls -la ips_with_country || true
-          echo "--- ips ---"
-          ls -la ips || true
-
-      - name: Ensure merged source exists (all_ips_with_country or all_ips)
-        id: ensure_source
-        run: |
-          if [ -f "ips_with_country/all_ips_with_country.txt" ]; then
-            echo "source=ips_with_country/all_ips_with_country.txt" >> $GITHUB_OUTPUT
-          elif [ -f "ips/all_ips.txt" ]; then
-            echo "source=ips/all_ips.txt" >> $GITHUB_OUTPUT
-          else
-            echo "source=none" >> $GITHUB_OUTPUT
-          fi
-
       - name: Run regenerate_all to (re)generate IP files
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
