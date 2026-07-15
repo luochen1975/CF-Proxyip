@@ -1,10 +1,9 @@
-
 name: IP Checker
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 */12 * * *'
+    - cron: '0 */12 * * *'  # 每 12 小时一次（原示例）
 
 permissions:
   contents: write
@@ -12,79 +11,43 @@ permissions:
 
 jobs:
   check-ips:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v6
+        uses: actions/setup-python@v5
         with:
           python-version: '3.x'
 
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
-          pip install geoip2 || true
+          pip install requests dnspython
+
+      - name: Fetch IP lists from urls.txt
+        run: |
+          python scripts/fetch_urls.py
+
       - name: List directory contents (before)
         run: |
-          ls -la
-          ls -la scripts || true
-          echo "urls.txt:"
-          sed -n '1,120p' urls.txt || true
-          echo "allowed_countries.txt:"
-          sed -n '1,120p' allowed_countries.txt || true
-      - name: Download GeoLite2 (optional)
-        env:
-          GEOLITE2_URL: ${{ secrets.GEOLITE2_URL }}
-        run: |
-          if [ -n "$GEOLITE2_URL" ]; then
-           echo "Downloading GeoLite2 from secret URL..."
-            mkdir -p geolite
-            curl -L -o geolite/GeoLite2-Country.mmdb "$GEOLITE2_URL" || true
-            ls -la geolite || true
-          else
-            echo "No GEOLITE2_URL secret set; skipping GeoLite2 download."
-          fi
-      - name: Prepare allowed list
-        id: allowed
-        run: |
-          ALLOWED=$(grep -v '^\s*#' allowed_countries.txt | tr -d '\r' | awk 'NF' | paste -sd, -)
-          echo "allowed=${ALLOWED}" >> $GITHUB_OUTPUT
-      - name: Run merge_and_filter_geoip.py
-        run: |
-          mkdir -p ips provider
-          GEO_DB=""
-          if [ -f geolite/GeoLite2-Country.mmdb ]; then
-            GEO_DB="geolite/GeoLite2-Country.mmdb"
-            echo "Using local GeoLite2 DB: $GEO_DB"
-          else
-            echo "GeoLite2 DB not found, script will fall back to ipinfo queries (may be rate-limited)."
-          fi
-          echo "Allowed list: ${{ steps.allowed.outputs.allowed }}"
-          python3 scripts/merge_and_filter_geoip.py \
-            --urls-file urls.txt \
-            --allowed "${{ steps.allowed.outputs.allowed }}" \
-            --geo-db "$GEO_DB" \
-            --out ips/allowed_ips.txt \
-            --provider-local-path provider/allowed_ips.txt \
-            --accept-cidr
-      - name: Generate proxyip files (no EXE)
-        run: |
-          pip install requests
-          python3 scripts/generate_proxyip_files.py
+          dir
+          dir CloudflareScanner || echo "CloudflareScanner 目录不存在"
+
+      - name: Run DNS2Geo.py
+        run: python DNS2Geo.py
+
       - name: List directory contents (after)
         run: |
-          ls -la ips || true
-          ls -la provider || true
-          ls -la proxyip.txt proxyip_with_country.txt || true
-          head -n 50 proxyip_with_country.txt || true
+          dir
+          dir CloudflareScanner || echo "CloudflareScanner 目录不存在"
+
       - name: Commit and push results
-        uses: stefanzweifel/git-auto-commit-action@v7
+        uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: 'chore: update IP/country info results'
+          commit_message: 'chore: update IP/country info results (ip_checker)'
           branch: ${{ github.ref }}
           commit_user_name: github-actions[bot]
           commit_user_email: github-actions[bot]@users.noreply.github.com
