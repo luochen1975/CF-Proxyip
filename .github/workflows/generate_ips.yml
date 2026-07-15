@@ -53,6 +53,26 @@ jobs:
             echo "scripts/generate_proxyip_files.py not found, skipping proxyip generation"
           fi
 
+      - name: Generate proxyip files (proxyip.txt / proxyip_with_country.txt)
+        shell: powershell
+        run: |
+          Write-Host "Check ips/allowed_ips.txt existence:"
+          if (Test-Path 'ips/allowed_ips.txt') {
+             Get-Content ips/allowed_ips.txt -TotalCount 5
+          } else {
+            Write-Host "ips/allowed_ips.txt not found"
+          }
+
+          if (Test-Path 'scripts/generate_proxyip_files.py') {
+            Write-Host "Running scripts/generate_proxyip_files.py"
+            python scripts/generate_proxyip_files.py
+            Write-Host "After running, check generated files:"
+            if (Test-Path 'proxyip.txt') { Get-Content proxyip.txt -TotalCount 5 } else { Write-Host "proxyip.txt not found" }
+            if (Test-Path 'proxyip_with_country.txt') { Get-Content proxyip_with_country.txt -TotalCount 5 } else { Write-Host "proxyip_with_country.txt not found" }
+          } else {
+            Write-Host "scripts/generate_proxyip_files.py not found, skipping"
+          }
+      
       - name: Verify expected outputs
         run: |
           expected=(
