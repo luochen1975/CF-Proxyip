@@ -3,7 +3,7 @@ name: Generate IP country lists
 on:
   workflow_run:
     workflows:
-      - "ip_checker.yml"   # 确保与触发器工作流文件名一致
+      - "ip_checker.yml"
     types:
       - completed
 
@@ -18,6 +18,7 @@ jobs:
   generate:
     if: ${{ github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -48,7 +49,6 @@ jobs:
       - name: Ensure merged source exists (all_ips_with_country or all_ips)
         id: ensure_source
         run: |
-          # prefer ips_with_country/all_ips_with_country.txt produced by merge step in ip_checker
           if [ -f "ips_with_country/all_ips_with_country.txt" ]; then
             echo "source=ips_with_country/all_ips_with_country.txt" >> $GITHUB_OUTPUT
           elif [ -f "ips/all_ips.txt" ]; then
@@ -61,8 +61,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          # regenerate_all.py will use existing ips_with_country/all_ips_with_country.txt
-          # or ips/all_ips.txt; it orchestrates DNS2Geo/proxyip logic and writes the target files.
           if [ ! -f scripts/regenerate_all.py ]; then
             echo "Error: scripts/regenerate_all.py not found" >&2
             exit 2
