@@ -3,7 +3,7 @@ name: Generate IP country lists
 on:
   workflow_run:
     workflows:
-      - "ip_checker.yml"
+      - "ip_checker.yml"   # 确保与触发器工作流文件名一致
     types:
       - completed
 
@@ -18,15 +18,14 @@ jobs:
   generate:
     if: ${{ github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4.6
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
       - name: Set up Python
-        uses: actions/setup-python@v5.1
+        uses: actions/setup-python@v5
         with:
           python-version: '3.x'
 
@@ -35,11 +34,61 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests dnspython
 
-      - name: Run regenerate_all to generate IP files
+      - name: Debug: list repo files for troubleshooting
+        run: |
+          echo "Repo root: $(pwd)"
+          ls -la
+          echo "--- scripts dir ---"
+          ls -la scripts || true
+          echo "--- ips_with_country ---"
+          ls -la ips_with_country || true
+          echo "--- ips ---"
+          ls -la ips || true
+
+      - name: Ensure merged source exists (all_ips_with_country or all_ips)
+        id: ensure_source
+        run: |
+          # prefer ips_with_country/all_ips_with_country.txt produced by merge step in ip_checker
+          if [ -f "ips_with_country/all_ips_with_country.txt" ]; then
+            echo "source=ips_with_country/all_ips_with_country.txt" >> $GITHUB_OUTPUT
+          elif [ -f "ips/all_ips.txt" ]; then
+            echo "source=ips/all_ips.txt" >> $GITHUB_OUTPUT
+          else
+            echo "source=none" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Run regenerate_all to (re)generate IP files
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          # regenerate_all.py will use existing ips_with_country/all_ips_with_country.txt
+          # or ips/all_ips.txt; it orchestrates DNS2Geo/proxyip logic and writes the target files.
+          if [ ! -f scripts/regenerate_all.py ]; then
+            echo "Error: scripts/regenerate_all.py not found" >&2
+            exit 2
+          fi
           python scripts/regenerate_all.py
+
+      - name: Verify expected outputs
+        run: |
+          expected=(
+            "ips_with_country/all_ips_with_country.txt"
+            "ips_with_country/allowed_ips_with_country.txt"
+            "ips_with_country/blocked_ips_with_country.txt"
+            "ips_with_country/unreachable_ips_with_country.txt"
+          )
+          missing=()
+          for f in "${expected[@]}"; do
+            if [ ! -f "$f" ]; then
+              missing+=("$f")
+            fi
+          done
+          if [ ${#missing[@]} -ne 0 ]; then
+            echo "Missing expected output files:" "${missing[@]}" >&2
+            ls -la ips_with_country || true
+            exit 3
+          fi
+          echo "All expected files exist."
 
       - name: Commit and push results
         uses: stefanzweifel/git-auto-commit-action@v5
