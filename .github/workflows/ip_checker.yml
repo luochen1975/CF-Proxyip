@@ -3,7 +3,7 @@ name: IP Checker
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 */12 * * *'  # 每 12 小时运行一次
+    - cron: '0 */4 * * *'  # 每 12 小时运行一次
 
 permissions:
   contents: write
