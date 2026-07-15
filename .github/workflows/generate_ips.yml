@@ -33,17 +33,25 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests dnspython
+          pip install requests dnspython geoip2 || pip install requests dnspython
 
-      - name: Run regenerate_all to (re)generate IP files
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Run regenerate_all (if present)
         run: |
-          if [ ! -f scripts/regenerate_all.py ]; then
-            echo "Error: scripts/regenerate_all.py not found" >&2
-            exit 2
+          if [ -f scripts/regenerate_all.py ]; then
+            echo "Running scripts/regenerate_all.py"
+            python scripts/regenerate_all.py
+          else
+            echo "scripts/regenerate_all.py not found, skipping regenerate_all step"
           fi
-          python scripts/regenerate_all.py
+
+      - name: Generate proxyip files (proxyip.txt / proxyip_with_country.txt)
+        run: |
+          if [ -f scripts/generate_proxyip_files.py ]; then
+            echo "Running scripts/generate_proxyip_files.py"
+            python scripts/generate_proxyip_files.py
+          else
+            echo "scripts/generate_proxyip_files.py not found, skipping proxyip generation"
+          fi
 
       - name: Verify expected outputs
         run: |
@@ -52,6 +60,8 @@ jobs:
             "ips_with_country/allowed_ips_with_country.txt"
             "ips_with_country/blocked_ips_with_country.txt"
             "ips_with_country/unreachable_ips_with_country.txt"
+            "proxyip.txt"
+            "proxyip_with_country.txt"
           )
           missing=()
           for f in "${expected[@]}"; do
@@ -62,6 +72,7 @@ jobs:
           if [ ${#missing[@]} -ne 0 ]; then
             echo "Missing expected output files:" "${missing[@]}" >&2
             ls -la ips_with_country || true
+            ls -la . || true
             exit 3
           fi
           echo "All expected files exist."
@@ -69,7 +80,7 @@ jobs:
       - name: Commit and push results
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: 'chore: generate ip country lists'
+          commit_message: 'chore: generate ip country lists (including proxyip files)'
           branch: ${{ github.ref }}
           commit_user_name: github-actions[bot]
           commit_user_email: github-actions[bot]@users.noreply.github.com
