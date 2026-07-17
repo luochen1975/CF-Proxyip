@@ -1,75 +1,64 @@
 #!/usr/bin/env python3
 # scripts/generate_proxyip_files.py
-# 读取 ips/allowed_ips.txt -> 生成 proxyip.txt (仅 IP 列)
-# 并生成 proxyip_with_country.txt，每行 ip#<COUNTRY_CODE><COUNTRY_NAME> 或 ip#未知
-# 依赖: requests, shelve
+# 读取 ips/allowed_ips.txt 和 ips_with_country/allowed_ips_with_country.txt
+# 生成 proxyip.txt (仅 IP 列) 和 proxyip_with_country.txt
+# 优先复用已有的 GeoIP 数据，避免重复 API 查询
 import os
-import requests
-import shelve
-import time
+from pathlib import Path
 
-CACHE_DB = "geo_cache.db"
-INPUT = "ips/allowed_ips.txt"
+INPUT_IPS = "ips/allowed_ips.txt"
+INPUT_WITH_COUNTRY = "ips_with_country/allowed_ips_with_country.txt"
 OUT_IPS = "proxyip.txt"
 OUT_WITH = "proxyip_with_country.txt"
-COUNTRIES_FILE = "countries.txt"
 
-# load mapping code -> name from countries.txt (格式: code,name)
-def load_country_map(path=COUNTRIES_FILE):
-    m = {}
-    if not os.path.exists(path):
-        return m
-    with open(path, "r", encoding="utf-8") as f:
-        for line in f:
-            line = line.strip()
-            if not line or line.startswith("#"):
-                continue
-            parts = line.split(",", 1)
-            if len(parts) == 2:
-                code = parts[0].strip().upper()
-                name = parts[1].strip()
-                m[code] = name
-    return m
-
-def lookup_country(ip, cache):
-    if ip in cache:
-        return cache[ip][0]
-    url = f"https://ipinfo.io/{ip}/json"
-    try:
-        r = requests.get(url, timeout=8)
-        if r.status_code == 200:
-            j = r.json()
-            code = j.get("country")
-            cache[ip] = (code, time.time())
-            time.sleep(0.15)  # 减速以防爆速率
-            return code
-    except Exception:
-        pass
-    return None
+def parse_ip_with_country(line: str):
+    """解析 ip#country_info 格式，返回 (ip, country_info)"""
+    line = line.strip()
+    if not line:
+        return None, None
+    parts = line.split('#')
+    ip = parts[0].strip()
+    info = '#'.join(parts[1:]).strip() if len(parts) > 1 else ''
+    return ip, info
 
 def main():
-    os.makedirs(os.path.dirname(OUT_IPS) or ".", exist_ok=True)
-    if not os.path.exists(INPUT):
-        print(f"{INPUT} not found, nothing to do.")
+    # 确保输出目录存在
+    out_dir = os.path.dirname(OUT_IPS)
+    if out_dir:
+        os.makedirs(out_dir, exist_ok=True)
+
+    # 读取 IP 列表
+    if not os.path.exists(INPUT_IPS):
+        print(f"Error: {INPUT_IPS} not found")
         return
-    country_map = load_country_map()
-    with open(INPUT, "r", encoding="utf-8") as f:
+
+    with open(INPUT_IPS, "r", encoding="utf-8") as f:
         ips = [line.strip() for line in f if line.strip()]
-    with shelve.open(CACHE_DB) as cache:
-        with open(OUT_IPS, "w", encoding="utf-8") as f_ips, open(OUT_WITH, "w", encoding="utf-8") as f_with:
-            for ip in sorted(set(ips)):
-                f_ips.write(ip + "\n")
-                code = lookup_country(ip, cache)
-                name = country_map.get(code.upper(), "") if code else ""
-                if code and name:
-                    info = f"{code}{name}"
-                elif code:
-                    info = code
-                else:
-                    info = "未知"
-                # 注意：没有测速字段 (MB/s)，原来的 speed 字段不可得
-                f_with.write(f"{ip}#{info}\n")
-    print(f"Wrote {OUT_IPS} and {OUT_WITH}")
+
+    # 尝试读取已有的带国家信息的数据
+    country_info_map = {}
+    if os.path.exists(INPUT_WITH_COUNTRY):
+        with open(INPUT_WITH_COUNTRY, "r", encoding="utf-8") as f:
+            for line in f:
+                ip, info = parse_ip_with_country(line)
+                if ip:
+                    country_info_map[ip] = info
+
+    # 生成 proxyip.txt（所有 allowed IPs）
+    with open(OUT_IPS, "w", encoding="utf-8") as f:
+        for ip in sorted(set(ips)):
+            f.write(ip + "\n")
+
+    # 生成 proxyip_with_country.txt
+    with open(OUT_WITH, "w", encoding="utf-8") as f:
+        for ip in sorted(set(ips)):
+            info = country_info_map.get(ip, "")
+            if info:
+                f.write(f"{ip}#{info}\n")
+            else:
+                f.write(f"{ip}#未知\n")
+
+    print(f"Wrote {OUT_IPS} ({len(ips)} IPs) and {OUT_WITH}")
 
 if __name__ == "__main__":
     main()
