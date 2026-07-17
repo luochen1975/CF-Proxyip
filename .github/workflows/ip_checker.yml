@@ -30,7 +30,7 @@ jobs:
           pip install geoip2
           if ($LASTEXITCODE -ne 0) { Write-Host 'geoip2 install failed or not available, continuing' }
 
-      - name: Merge & fetch IP lists (merge_and_filter_geoip or regenerate_all fallback)
+      - name: Merge & fetch IP lists
         shell: powershell
         run: |
           if (Test-Path 'scripts/merge_and_filter_geoip.py') {
@@ -40,19 +40,9 @@ jobs:
             Write-Host "Running scripts/regenerate_all.py"
             python scripts/regenerate_all.py
           } else {
-            Write-Error "No suitable script found: scripts/merge_and_filter_geoip.py or scripts/regenerate_all.py"
+            Write-Error "No suitable script found"
             exit 1
           }
-
-      - name: List directory contents (before DNS2Geo)
-        shell: powershell
-        run: |
-          Write-Host "Root files:"
-          Get-ChildItem -Force | Format-Table -AutoSize
-          Write-Host "scripts directory:"
-          if (Test-Path scripts) { Get-ChildItem scripts -Force | Format-Table -AutoSize } else { Write-Host "scripts not found" }
-          Write-Host "ips_with_country:"
-          if (Test-Path ips_with_country) { Get-ChildItem ips_with_country -Force | Format-Table -AutoSize } else { Write-Host "ips_with_country not found" }
 
       - name: Run DNS2Geo.py if present
         shell: powershell
@@ -64,13 +54,23 @@ jobs:
             Write-Host "DNS2Geo.py not found, skipping"
           }
 
-      - name: List directory contents (after)
+      - name: List directory contents
         shell: powershell
         run: |
-          Write-Host "ips_with_country after:"
-          if (Test-Path ips_with_country) { Get-ChildItem ips_with_country -Force | Format-Table -AutoSize } else { Write-Host "ips_with_country not found" }
-          Write-Host "ips directory:"
+          Write-Host "=== Root files ==="
+          Get-ChildItem -Force | Format-Table -AutoSize
+          Write-Host "=== ips/ ==="
           if (Test-Path ips) { Get-ChildItem ips -Force | Format-Table -AutoSize } else { Write-Host "ips not found" }
+          Write-Host "=== ips_with_country/ ==="
+          if (Test-Path ips_with_country) { Get-ChildItem ips_with_country -Force | Format-Table -AutoSize } else { Write-Host "ips_with_country not found" }
+
+      - name: Stage all files including untracked
+        shell: powershell
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add proxyip.txt proxyip_with_country.txt geo_cache.db ips/ ips_with_country/
+          git status
 
       - name: Commit and push results
         uses: stefanzweifel/git-auto-commit-action@v5
@@ -79,3 +79,4 @@ jobs:
           branch: ${{ github.ref }}
           commit_user_name: github-actions[bot]
           commit_user_email: github-actions[bot]@users.noreply.github.com
+          file_pattern: 'ips/ ips_with_country/ proxyip.txt proxyip_with_country.txt geo_cache.db'
