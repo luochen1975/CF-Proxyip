@@ -52,6 +52,21 @@ jobs:
             fi
           fi
 
+      - name: Verify proxyip files exist
+        run: |
+          echo "=== Checking generated files ==="
+          ls -la proxyip.txt proxyip_with_country.txt 2>/dev/null || echo "WARNING: proxyip files not found!"
+          if [ -f proxyip.txt ]; then
+            echo "proxyip.txt size: $(wc -l < proxyip.txt) lines"
+            head -5 proxyip.txt
+          fi
+          if [ -f proxyip_with_country.txt ]; then
+            echo "proxyip_with_country.txt size: $(wc -l < proxyip_with_country.txt) lines"
+            head -5 proxyip_with_country.txt
+          fi
+          echo "=== Checking geo_cache.db ==="
+          ls -la geo_cache.db 2>/dev/null || echo "geo_cache.db not found"
+
       - name: Verify expected outputs
         run: |
           expected=(
@@ -76,6 +91,14 @@ jobs:
           fi
           echo "All expected files exist."
 
+      - name: Stage all changes including new files
+        run: |
+          # 关键：确保新文件被 git 跟踪
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add proxyip.txt proxyip_with_country.txt geo_cache.db ips/ ips_with_country/ || true
+          git status
+
       - name: Commit and push results
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
@@ -83,3 +106,5 @@ jobs:
           branch: ${{ github.ref }}
           commit_user_name: github-actions[bot]
           commit_user_email: github-actions[bot]@users.noreply.github.com
+          # 关键：添加 file_pattern 确保这些文件被包含
+          file_pattern: 'proxyip.txt proxyip_with_country.txt geo_cache.db ips/ ips_with_country/'
