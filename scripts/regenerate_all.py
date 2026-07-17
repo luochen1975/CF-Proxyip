@@ -179,13 +179,13 @@ def lookup_country(ip: str, cache: dict, country_map: dict) -> tuple:
             # Legacy cache format
             code = cached
             name = country_map.get(code, code) if code else ''
-        return code, name, f"{code}{name}" if code else "不可达"
+        return code, name, f"{code}#{name}" if code else "不可达"
 
     # Try APIs in order
     code, name = None, None
     for api in GEOIP_APIS:
         if api == 'ipinfo':
-            code, name = query_ipinfo(ip)
+            code, name = query_ipinfo(ip, country_map)
         elif api == 'ipapi':
             code, name = query_ipapi(ip)
         elif api == 'ipgeolocation':
