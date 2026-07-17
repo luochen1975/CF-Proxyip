@@ -123,7 +123,7 @@ def save_geo_cache(cache: dict):
         json.dump(cache, f, ensure_ascii=False, indent=2)
 
 
-def query_ipinfo(ip: str) -> tuple:
+def query_ipinfo(ip: str, country_map: dict) -> tuple:
     """Query ipinfo.io for IP geolocation. Returns (country_code, country_name) or (None, None)."""
     try:
         url = f"https://ipinfo.io/{ip}/json"
@@ -131,8 +131,9 @@ def query_ipinfo(ip: str) -> tuple:
         with urllib.request.urlopen(req, timeout=10) as response:
             data = json.loads(response.read().decode('utf-8'))
             code = data.get('country', '')
-            # ipinfo returns region names, we need to map to full name
-            return (code.upper() if code else None, code.upper() if code else None)
+            code = code.upper() if code else None
+            name = country_map.get(code, code) if code else ''
+            return (code, name)
     except Exception:
         return None, None
 
@@ -202,7 +203,7 @@ def lookup_country(ip: str, cache: dict, country_map: dict) -> tuple:
         if not name or name == code:
             name = country_map.get(code, code)
         cache[ip] = {'code': code, 'name': name, 'ts': time.time()}
-        return code, name, f"{code}{name}"
+        return code, name, f"{code}#{name}"
     else:
         cache[ip] = {'code': None, 'name': '', 'ts': time.time()}
         return None, '', '不可达'
@@ -414,6 +415,15 @@ def parse_all_with_country(path: Path):
 def extract_country_code(info: str):
     if not info:
         return None
+    # 先尝试匹配 # 分隔的格式: CODE#NAME
+    m = re.search(r'^([A-Z]{2})#', info)
+    if m:
+        return m.group(1)
+    # 再尝试匹配 CODE 后面跟大写字母: CODENAME
+    m = re.search(r'^([A-Z]{2})[A-Z]', info)
+    if m:
+        return m.group(1)
+    # 最后尝试匹配独立的两个大写字母
     m = re.search(r'\b([A-Z]{2})\b', info)
     if m:
         return m.group(1)
