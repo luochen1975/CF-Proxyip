@@ -3,7 +3,7 @@ name: IP Checker
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 */4 * * *'  # 每 12 小时运行一次
+    - cron: '0 */4 * * *'  # 每 4 小时运行一次
 
 permissions:
   contents: write
@@ -33,15 +33,11 @@ jobs:
       - name: Merge & fetch IP lists (merge_and_filter_geoip or regenerate_all fallback)
         shell: powershell
         run: |
-          python -m pip install --upgrade pip
-          pip install requests
-          pip install geoip2
-          if ($LASTEXITCODE -ne 0) { Write-Host 'geoip2 install failed, continuing' }
           if (Test-Path 'scripts/merge_and_filter_geoip.py') {
             Write-Host "Running scripts/merge_and_filter_geoip.py --write-all-with-country"
             python scripts/merge_and_filter_geoip.py --write-all-with-country
           } elseif (Test-Path 'scripts/regenerate_all.py') {
-            Write-Host "merge_and_filter_geoip.py not found, running scripts/regenerate_all.py"
+            Write-Host "Running scripts/regenerate_all.py"
             python scripts/regenerate_all.py
           } else {
             Write-Error "No suitable script found: scripts/merge_and_filter_geoip.py or scripts/regenerate_all.py"
