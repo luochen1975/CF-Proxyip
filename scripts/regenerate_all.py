@@ -12,6 +12,8 @@ then produces the following files (overwriting existing):
   - ips_with_country/allowed_ips_with_country.txt
   - ips_with_country/blocked_ips_with_country.txt
   - ips_with_country/unreachable_ips_with_country.txt
+  - proxyip.txt                          (新增: 所有可达 IP)
+  - proxyip_with_country.txt             (新增: 所有可达 IP 带国家信息)
 
 Run in repository root. This script is intended to be executed by CI (GitHub Actions).
 """
@@ -46,13 +48,19 @@ OUT_ALLOWED_WITH_INFO = IPS_WITH_COUNTRY_DIR / 'allowed_ips_with_country.txt'
 OUT_BLOCKED_WITH_INFO = IPS_WITH_COUNTRY_DIR / 'blocked_ips_with_country.txt'
 OUT_UNREACHABLE_WITH_INFO = IPS_WITH_COUNTRY_DIR / 'unreachable_ips_with_country.txt'
 
+# 新增: proxyip 输出文件
+PROXYIP = ROOT / 'proxyip.txt'
+PROXYIP_WITH_COUNTRY = ROOT / 'proxyip_with_country.txt'
+
 # Input sources
 MANUAL_INPUT = ROOT / 'Manual_input_IP.txt'
 DOMAINS = ROOT / 'domains.txt'
 
+
 def clean_line_prefix(s: str) -> str:
     # Remove a leading numbered prefix like "1| " if present, and trim
     return re.sub(r'^\s*\d+\|\s*', '', s).strip()
+
 
 def run_collection():
     os.makedirs(IPS_DIR, exist_ok=True)
@@ -84,6 +92,7 @@ def run_collection():
         except Exception as e:
             print("collect_all_ips failed:", e)
 
+
 def run_geolookup_and_save():
     # Clear target file first
     if ALL_WITH_COUNTRY.exists():
@@ -106,6 +115,7 @@ def run_geolookup_and_save():
     except Exception as e:
         print('save_all_ip_country failed:', e)
 
+
 def parse_all_with_country(path: Path):
     entries = []  # list of tuples (ip, info_part)
     if not path.exists():
@@ -122,6 +132,7 @@ def parse_all_with_country(path: Path):
             entries.append((ip, info))
     return entries
 
+
 def extract_country_code(info: str):
     # try to extract two-letter uppercase country code
     if not info:
@@ -132,6 +143,7 @@ def extract_country_code(info: str):
     if '不可' in info or '不可达' in info:
         return 'UNREACH'
     return None
+
 
 def load_allowed_codes(path: Path):
     codes = set()
@@ -148,6 +160,7 @@ def load_allowed_codes(path: Path):
             else:
                 codes.add(ln)
     return codes
+
 
 def run_filter_and_write():
     entries = parse_all_with_country(ALL_WITH_COUNTRY)
@@ -200,10 +213,29 @@ def run_filter_and_write():
 
     print('Filter step completed. Wrote allowed/blocked/unreachable files.')
 
+    # ========================================================================
+    # 新增: 生成 proxyip.txt 和 proxyip_with_country.txt
+    # ========================================================================
+    # proxyip.txt = 所有可达的 IP (allowed + blocked，排除 unreachable)
+    all_proxy_ips = sorted(set(allowed_ips + blocked_ips))
+    with open(PROXYIP, 'w', encoding='utf-8') as f:
+        for ip in all_proxy_ips:
+            f.write(ip + '\n')
+
+    # proxyip_with_country.txt = 所有可达 IP 带国家信息
+    all_proxy_with_country = sorted(set(allowed_info + blocked_info))
+    with open(PROXYIP_WITH_COUNTRY, 'w', encoding='utf-8') as f:
+        for line in all_proxy_with_country:
+            f.write(line + '\n')
+
+    print(f'Wrote {PROXYIP} ({len(all_proxy_ips)} IPs) and {PROXYIP_WITH_COUNTRY} ({len(all_proxy_with_country)} IPs)')
+
+
 def main():
     run_collection()
     run_geolookup_and_save()
     run_filter_and_write()
+
 
 if __name__ == '__main__':
     main()
