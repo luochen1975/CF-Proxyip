@@ -2,13 +2,19 @@
 # scripts/regenerate_all.py
 """
 Regenerate IP lists and classification from multiple data sources:
-  - Manual_input_IP.txt  (手动输入的 IP 列表)
-  - urls.txt             (URL 列表，支持 IP、域名、可 fetch 的 URL)
+  - Manual_input_IP.txt  (手动输入的 IP/域名 列表)
+  - urls.txt             (URL 列表，支持 IP、IPv6、域名、可 fetch 的 URL)
   - domains.txt          (域名列表，需要 DNS 解析)
 
 内置 GeoIP 查询（多 API 源 + 缓存），不依赖外部 DNS2Geo.py。
 
+同时生成 IPv4、IPv6 和域名的代理列表，各自独立分类：
+  - proxyip.txt / proxyip_with_country.txt           (IPv4)
+  - proxyip_v6.txt / proxyip_with_country_v6.txt       (IPv6)
+  - proxyip_domain.txt / proxyip_domain_with_country.txt (域名)
+
 生成的文件：
+  === IPv4 ===
   - ips/all_ips.txt
   - ips_with_country/all_ips_with_country.txt
   - ips/allowed_ips.txt
@@ -17,8 +23,26 @@ Regenerate IP lists and classification from multiple data sources:
   - ips_with_country/allowed_ips_with_country.txt
   - ips_with_country/blocked_ips_with_country.txt
   - ips_with_country/unreachable_ips_with_country.txt
-  - proxyip.txt
-  - proxyip_with_country.txt
+
+  === IPv6 ===
+  - ips/all_ips_v6.txt
+  - ips_with_country/all_ips_with_country_v6.txt
+  - ips/allowed_ips_v6.txt
+  - ips/blocked_ips_v6.txt
+  - ips/unreachable_ips_v6.txt
+  - ips_with_country/allowed_ips_with_country_v6.txt
+  - ips_with_country/blocked_ips_with_country_v6.txt
+  - ips_with_country/unreachable_ips_with_country_v6.txt
+
+  === Domain ===
+  - ips/all_domains.txt
+  - ips_with_country/all_domains_with_country.txt
+  - ips/allowed_domains.txt
+  - ips/blocked_domains.txt
+  - ips/unreachable_domains.txt
+  - ips_with_country/allowed_domains_with_country.txt
+  - ips_with_country/blocked_domains_with_country.txt
+  - ips_with_country/unreachable_domains_with_country.txt
 
 Run in repository root. Intended to be executed by CI (GitHub Actions).
 """
@@ -48,20 +72,47 @@ IPS_DIR = ROOT / 'ips'
 IPS_WITH_COUNTRY_DIR = ROOT / 'ips_with_country'
 CACHE_FILE = ROOT / 'geo_cache.json'
 
+# --- IPv4 files ---
 ALL_IPS = IPS_DIR / 'all_ips.txt'
 ALL_WITH_COUNTRY = IPS_WITH_COUNTRY_DIR / 'all_ips_with_country.txt'
-ALLOWED_COUNTRIES = ROOT / 'allowed_countries.txt'
-COUNTRIES_FILE = ROOT / 'countries.txt'
-
-# Output files
 OUT_ALLOWED_IPS = IPS_DIR / 'allowed_ips.txt'
 OUT_BLOCKED_IPS = IPS_DIR / 'blocked_ips.txt'
 OUT_UNREACHABLE_IPS = IPS_DIR / 'unreachable_ips.txt'
 OUT_ALLOWED_WITH_INFO = IPS_WITH_COUNTRY_DIR / 'allowed_ips_with_country.txt'
 OUT_BLOCKED_WITH_INFO = IPS_WITH_COUNTRY_DIR / 'blocked_ips_with_country.txt'
 OUT_UNREACHABLE_WITH_INFO = IPS_WITH_COUNTRY_DIR / 'unreachable_ips_with_country.txt'
+
+# --- IPv6 files ---
+ALL_IPS_V6 = IPS_DIR / 'all_ips_v6.txt'
+ALL_WITH_COUNTRY_V6 = IPS_WITH_COUNTRY_DIR / 'all_ips_with_country_v6.txt'
+OUT_ALLOWED_IPS_V6 = IPS_DIR / 'allowed_ips_v6.txt'
+OUT_BLOCKED_IPS_V6 = IPS_DIR / 'blocked_ips_v6.txt'
+OUT_UNREACHABLE_IPS_V6 = IPS_DIR / 'unreachable_ips_v6.txt'
+OUT_ALLOWED_WITH_INFO_V6 = IPS_WITH_COUNTRY_DIR / 'allowed_ips_with_country_v6.txt'
+OUT_BLOCKED_WITH_INFO_V6 = IPS_WITH_COUNTRY_DIR / 'blocked_ips_with_country_v6.txt'
+OUT_UNREACHABLE_WITH_INFO_V6 = IPS_WITH_COUNTRY_DIR / 'unreachable_ips_with_country_v6.txt'
+
+# --- Domain files ---
+ALL_DOMAINS = IPS_DIR / 'all_domains.txt'
+ALL_WITH_COUNTRY_DOMAIN = IPS_WITH_COUNTRY_DIR / 'all_domains_with_country.txt'
+OUT_ALLOWED_DOMAINS = IPS_DIR / 'allowed_domains.txt'
+OUT_BLOCKED_DOMAINS = IPS_DIR / 'blocked_domains.txt'
+OUT_UNREACHABLE_DOMAINS = IPS_DIR / 'unreachable_domains.txt'
+OUT_ALLOWED_WITH_INFO_DOMAIN = IPS_WITH_COUNTRY_DIR / 'allowed_domains_with_country.txt'
+OUT_BLOCKED_WITH_INFO_DOMAIN = IPS_WITH_COUNTRY_DIR / 'blocked_domains_with_country.txt'
+OUT_UNREACHABLE_WITH_INFO_DOMAIN = IPS_WITH_COUNTRY_DIR / 'unreachable_domains_with_country.txt'
+
+ALLOWED_COUNTRIES = ROOT / 'allowed_countries.txt'
+COUNTRIES_FILE = ROOT / 'countries.txt'
+
+# --- Proxy output files ---
 PROXYIP = ROOT / 'proxyip.txt'
+PROXYIP_V6 = ROOT / 'proxyip_v6.txt'
+PROXYIP_DOMAIN = ROOT / 'proxyip_domain.txt'
 PROXYIP_WITH_COUNTRY = ROOT / 'proxyip_with_country.txt'
+PROXYIP_WITH_COUNTRY_V4 = ROOT / 'proxyip_with_country_v4.txt'
+PROXYIP_WITH_COUNTRY_V6 = ROOT / 'proxyip_with_country_v6.txt'
+PROXYIP_DOMAIN_WITH_COUNTRY = ROOT / 'proxyip_domain_with_country.txt'
 
 # Input sources
 MANUAL_INPUT = ROOT / 'Manual_input_IP.txt'
@@ -70,9 +121,9 @@ DOMAINS = ROOT / 'domains.txt'
 
 # GeoIP API endpoints (按优先级排序)
 GEOIP_APIS = [
-    'ipinfo',      # ipinfo.io (无需 key，有速率限制)
-    'ipapi',       # ip-api.com (免费版 45/min，无需 key)
-    'ipgeolocation', # ipgeolocation.io (有免费额度)
+    'ipinfo',
+    'ipapi',
+    'ipgeolocation',
 ]
 
 
@@ -80,16 +131,80 @@ def clean_line_prefix(s: str) -> str:
     return re.sub(r'^\s*\d+\|\s*', '', s).strip()
 
 
-def is_ip_address(s: str) -> bool:
+def classify_address(s: str) -> str:
+    """Classify an address string as 'ipv4', 'ipv6', or 'domain'."""
+    if s.startswith('['):
+        end = s.find(']')
+        if end != -1:
+            ip_part = s[1:end]
+            try:
+                addr = ipaddress.ip_address(ip_part)
+                if isinstance(addr, ipaddress.IPv6Address):
+                    return 'ipv6'
+            except ValueError:
+                pass
+
     try:
-        ipaddress.ip_address(s)
-        return True
+        addr = ipaddress.ip_address(s)
+        if isinstance(addr, ipaddress.IPv4Address):
+            return 'ipv4'
+        elif isinstance(addr, ipaddress.IPv6Address):
+            return 'ipv6'
+    except ValueError:
+        pass
+
+    if ':' in s:
+        host_part = s.rsplit(':', 1)[0]
+        if host_part.startswith('['):
+            host_part = host_part[1:]
+        try:
+            addr = ipaddress.ip_address(host_part)
+            if isinstance(addr, ipaddress.IPv4Address):
+                return 'ipv4'
+            elif isinstance(addr, ipaddress.IPv6Address):
+                return 'ipv6'
+        except ValueError:
+            pass
+
+    return 'domain'
+
+
+def extract_host(s: str) -> str:
+    """Extract host (IP or domain) from a string, stripping comments."""
+    s = s.split('#')[0].strip()
+    if s.startswith('['):
+        end = s.find(']')
+        if end != -1:
+            return s[:end + 1]
+    if ':' in s:
+        if s.count(':') > 2:
+            return s
+        parts = s.rsplit(':', 1)
+        try:
+            int(parts[1])
+            return parts[0]
+        except ValueError:
+            return s
+    return s
+
+
+def is_ipv4_address(s: str) -> bool:
+    try:
+        addr = ipaddress.ip_address(s)
+        return isinstance(addr, ipaddress.IPv4Address)
+    except ValueError:
+        return False
+
+
+def is_ipv6_address(s: str) -> bool:
+    try:
+        addr = ipaddress.ip_address(s)
+        return isinstance(addr, ipaddress.IPv6Address)
     except ValueError:
         return False
 
 
 def load_country_map(path: Path) -> dict:
-    """Load country code -> name mapping from countries.txt."""
     m = {}
     if not path.exists():
         return m
@@ -107,7 +222,6 @@ def load_country_map(path: Path) -> dict:
 
 
 def load_geo_cache() -> dict:
-    """Load GeoIP cache from JSON file."""
     if CACHE_FILE.exists():
         try:
             with open(CACHE_FILE, 'r', encoding='utf-8') as f:
@@ -118,13 +232,11 @@ def load_geo_cache() -> dict:
 
 
 def save_geo_cache(cache: dict):
-    """Save GeoIP cache to JSON file."""
     with open(CACHE_FILE, 'w', encoding='utf-8') as f:
         json.dump(cache, f, ensure_ascii=False, indent=2)
 
 
 def query_ipinfo(ip: str, country_map: dict) -> tuple:
-    """Query ipinfo.io for IP geolocation. Returns (country_code, country_name) or (None, None)."""
     try:
         url = f"https://ipinfo.io/{ip}/json"
         req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
@@ -138,22 +250,37 @@ def query_ipinfo(ip: str, country_map: dict) -> tuple:
         return None, None
 
 
-def query_ipapi(ip: str) -> tuple:
-    """Query ip-api.com for IP geolocation. Returns (country_code, country_name) or (None, None)."""
-    try:
-        url = f"http://ip-api.com/json/{ip}?fields=status,country,countryCode"
-        with urllib.request.urlopen(url, timeout=10) as response:
-            data = json.loads(response.read().decode('utf-8'))
-            if data.get('status') == 'success':
-                code = data.get('countryCode', '')
-                name = data.get('country', '')
-                return (code.upper() if code else None, name)
-    except Exception:
-        return None, None
+def query_ipapi(ip: str, max_retries: int = 3) -> tuple:
+    url = f"http://ip-api.com/json/{ip}?fields=status,country,countryCode"
+    for attempt in range(max_retries):
+        try:
+            with urllib.request.urlopen(url, timeout=10) as response:
+                data = json.loads(response.read().decode('utf-8'))
+                if data.get('status') == 'success':
+                    code = data.get('countryCode', '')
+                    name = data.get('country', '')
+                    return (code.upper() if code else None, name)
+                else:
+                    error_msg = data.get('message', 'unknown error')
+                    print(f"    ip-api returned failure for {ip}: {error_msg}")
+                    return None, None
+        except urllib.error.HTTPError as e:
+            if e.code == 429:
+                wait_time = 2 ** attempt
+                print(f"    ip-api rate limited for {ip}, retrying in {wait_time}s... (attempt {attempt + 1}/{max_retries})")
+                time.sleep(wait_time)
+                continue
+            else:
+                print(f"    ip-api HTTP error for {ip}: {e.code}")
+                return None, None
+        except Exception as e:
+            print(f"    ip-api error for {ip}: {e}")
+            return None, None
+    print(f"    ip-api failed for {ip} after {max_retries} retries")
+    return None, None
 
 
 def query_ipgeolocation(ip: str) -> tuple:
-    """Query ipgeolocation.io for IP geolocation. Returns (country_code, country_name) or (None, None)."""
     try:
         url = f"https://api.ipgeolocation.io/ipgeo?apiKey=demo&ip={ip}"
         with urllib.request.urlopen(url, timeout=10) as response:
@@ -166,40 +293,36 @@ def query_ipgeolocation(ip: str) -> tuple:
 
 
 def lookup_country(ip: str, cache: dict, country_map: dict) -> tuple:
-    """
-    Lookup country for an IP using multiple APIs with fallback.
-    Returns (country_code, country_name, info_string).
-    """
-    # Check cache first
     if ip in cache:
         cached = cache[ip]
         if isinstance(cached, dict):
             code = cached.get('code')
             name = cached.get('name', country_map.get(code, code) if code else '')
         else:
-            # Legacy cache format
             code = cached
             name = country_map.get(code, code) if code else ''
         return code, name, f"{code}#{name}" if code else "不可达"
 
-    # Try APIs in order
     code, name = None, None
     for api in GEOIP_APIS:
+        result = None
         if api == 'ipinfo':
-            code, name = query_ipinfo(ip, country_map)
+            result = query_ipinfo(ip, country_map)
         elif api == 'ipapi':
-            code, name = query_ipapi(ip)
+            result = query_ipapi(ip)
         elif api == 'ipgeolocation':
-            code, name = query_ipgeolocation(ip)
+            result = query_ipgeolocation(ip)
+
+        if isinstance(result, (tuple, list)) and len(result) >= 2:
+            code, name = result[0], result[1]
+        else:
+            code, name = None, None
 
         if code:
             break
-
-        # Rate limiting between APIs
         time.sleep(0.5)
 
     if code:
-        # Use country_map for full name if available
         if not name or name == code:
             name = country_map.get(code, code)
         cache[ip] = {'code': code, 'name': name, 'ts': time.time()}
@@ -209,23 +332,44 @@ def lookup_country(ip: str, cache: dict, country_map: dict) -> tuple:
         return None, '', '不可达'
 
 
-def resolve_domain(domain: str) -> list:
-    """Resolve domain to IP addresses via DNS."""
-    ips = []
+def resolve_domain(domain: str, include_v6: bool = True) -> dict:
+    """Resolve domain to IP addresses via DNS. Returns dict with 'ipv4', 'ipv6', 'all'."""
+    results = {'ipv4': [], 'ipv6': [], 'all': []}
     try:
         result = socket.getaddrinfo(domain, None, socket.AF_INET)
         for item in result:
             ip = item[4][0]
-            if ip not in ips:
-                ips.append(ip)
-    except Exception as e:
-        print(f"  DNS resolve failed for {domain}: {e}")
-    return ips
+            if ip not in results['ipv4']:
+                results['ipv4'].append(ip)
+                if ip not in results['all']:
+                    results['all'].append(ip)
+    except Exception:
+        pass
+
+    if include_v6:
+        try:
+            result = socket.getaddrinfo(domain, None, socket.AF_INET6)
+            for item in result:
+                ip = item[4][0]
+                try:
+                    addr = ipaddress.ip_address(ip)
+                    if addr.is_loopback or addr.is_link_local:
+                        continue
+                except ValueError:
+                    continue
+                if ip not in results['ipv6']:
+                    results['ipv6'].append(ip)
+                    if ip not in results['all']:
+                        results['all'].append(ip)
+        except Exception:
+            pass
+
+    return results
 
 
-def fetch_url_ips(url: str) -> list:
-    """Fetch IP list from a URL."""
-    ips = []
+def fetch_url_ips(url: str) -> dict:
+    """Fetch IP/domain list from a URL. Returns dict with 'ipv4', 'ipv6', 'domain', 'all'."""
+    results = {'ipv4': [], 'ipv6': [], 'domain': [], 'all': []}
     try:
         import ssl
         ctx = ssl.create_default_context()
@@ -238,68 +382,102 @@ def fetch_url_ips(url: str) -> list:
                 line = line.strip()
                 if not line or line.startswith('#'):
                     continue
-                ip_part = line.split(':')[0].split('#')[0].strip()
-                if is_ip_address(ip_part):
-                    ips.append(ip_part)
-                elif is_ip_address(line):
-                    ips.append(line)
+                host = extract_host(line)
+                if not host:
+                    continue
+                addr_type = classify_address(host)
+                if addr_type == 'ipv4':
+                    if host not in results['ipv4']:
+                        results['ipv4'].append(host)
+                        results['all'].append(host)
+                elif addr_type == 'ipv6':
+                    if host not in results['ipv6']:
+                        results['ipv6'].append(host)
+                        results['all'].append(host)
+                else:
+                    if line not in results['domain']:
+                        results['domain'].append(line)
+                        results['all'].append(line)
     except Exception as e:
         print(f"  Fetch failed for {url}: {e}")
-    return ips
+    return results
 
 
-def collect_from_manual(manual_file: Path) -> list:
-    """Collect IPs from Manual_input_IP.txt."""
-    ips = []
+def collect_from_manual(manual_file: Path) -> dict:
+    results = {'ipv4': [], 'ipv6': [], 'domain': [], 'all': []}
     if not manual_file.exists():
-        return ips
+        return results
     with open(manual_file, 'r', encoding='utf-8') as f:
         for ln in f:
             ln = clean_line_prefix(ln)
             if not ln:
                 continue
-            ip_part = ln.split(':')[0].split('#')[0].strip()
-            if is_ip_address(ip_part):
-                ips.append(ip_part)
-            elif is_ip_address(ln):
-                ips.append(ln)
-    print(f"  Collected {len(ips)} IPs from {manual_file}")
-    return ips
+            host = extract_host(ln)
+            if not host:
+                continue
+            addr_type = classify_address(host)
+            if addr_type == 'ipv4':
+                if host not in results['ipv4']:
+                    results['ipv4'].append(host)
+                    results['all'].append(host)
+            elif addr_type == 'ipv6':
+                if host not in results['ipv6']:
+                    results['ipv6'].append(host)
+                    results['all'].append(host)
+            else:
+                if ln not in results['domain']:
+                    results['domain'].append(ln)
+                    results['all'].append(ln)
+    print(f"  Collected {len(results['ipv4'])} IPv4, {len(results['ipv6'])} IPv6, {len(results['domain'])} domains from {manual_file}")
+    return results
 
 
-def collect_from_urls(urls_file: Path) -> list:
-    """Collect IPs from urls.txt (IPs, domains, fetchable URLs)."""
-    ips = []
+def collect_from_urls(urls_file: Path) -> dict:
+    results = {'ipv4': [], 'ipv6': [], 'domain': [], 'all': []}
     if not urls_file.exists():
         print(f"  {urls_file} not found, skipping URL collection")
-        return ips
+        return results
     with open(urls_file, 'r', encoding='utf-8') as f:
         for ln in f:
             ln = clean_line_prefix(ln)
             if not ln or ln.startswith('#'):
                 continue
             print(f"  Processing: {ln[:60]}...")
-            if is_ip_address(ln):
-                ips.append(ln)
-                print(f"    -> Direct IP")
-            elif ln.startswith(('http://', 'https://')):
+            if ln.startswith(('http://', 'https://')):
                 fetched = fetch_url_ips(ln)
-                ips.extend(fetched)
-                print(f"    -> Fetched {len(fetched)} IPs")
+                for k in ['ipv4', 'ipv6', 'domain']:
+                    for item in fetched[k]:
+                        if item not in results[k]:
+                            results[k].append(item)
+                            if item not in results['all']:
+                                results['all'].append(item)
+                print(f"    -> Fetched {len(fetched['ipv4'])} IPv4, {len(fetched['ipv6'])} IPv6, {len(fetched['domain'])} domains")
             else:
-                domain = ln.split(':')[0].split('/')[0].strip()
-                resolved = resolve_domain(domain)
-                ips.extend(resolved)
-                print(f"    -> Resolved {len(resolved)} IPs from {domain}")
-    return ips
+                host = extract_host(ln)
+                addr_type = classify_address(host)
+                if addr_type == 'ipv4':
+                    if host not in results['ipv4']:
+                        results['ipv4'].append(host)
+                        results['all'].append(host)
+                    print(f"    -> Direct IPv4")
+                elif addr_type == 'ipv6':
+                    if host not in results['ipv6']:
+                        results['ipv6'].append(host)
+                        results['all'].append(host)
+                    print(f"    -> Direct IPv6")
+                else:
+                    if ln not in results['domain']:
+                        results['domain'].append(ln)
+                        results['all'].append(ln)
+                    print(f"    -> Domain")
+    return results
 
 
-def collect_from_domains(domains_file: Path) -> list:
-    """Collect IPs from domains.txt."""
-    ips = []
+def collect_from_domains(domains_file: Path) -> dict:
+    results = {'ipv4': [], 'ipv6': [], 'domain': [], 'all': []}
     if not domains_file.exists():
         print(f"  {domains_file} not found, skipping domains")
-        return ips
+        return results
     with open(domains_file, 'r', encoding='utf-8') as f:
         for ln in f:
             ln = clean_line_prefix(ln)
@@ -307,28 +485,47 @@ def collect_from_domains(domains_file: Path) -> list:
                 continue
             domain = ln.split(':')[0].split('/')[0].strip()
             resolved = resolve_domain(domain)
-            ips.extend(resolved)
-            print(f"  Resolved {len(resolved)} IPs from: {domain}")
-    return ips
+            for ip in resolved['ipv4']:
+                if ip not in results['ipv4']:
+                    results['ipv4'].append(ip)
+                    results['all'].append(ip)
+            for ip in resolved['ipv6']:
+                if ip not in results['ipv6']:
+                    results['ipv6'].append(ip)
+                    results['all'].append(ip)
+            if ln not in results['domain']:
+                results['domain'].append(ln)
+                results['all'].append(ln)
+            print(f"  Resolved {len(resolved['ipv4'])} IPv4, {len(resolved['ipv6'])} IPv6 from: {domain}")
+    return results
 
 
 def run_collection():
-    """Collect IPs from all sources and write to ips/all_ips.txt."""
     os.makedirs(IPS_DIR, exist_ok=True)
     os.makedirs(IPS_WITH_COUNTRY_DIR, exist_ok=True)
 
-    all_ips = set()
+    all_ipv4 = set()
+    all_ipv6 = set()
+    all_domains = set()
 
     print("[Source 1] Reading Manual_input_IP.txt...")
-    all_ips.update(collect_from_manual(MANUAL_INPUT))
+    manual = collect_from_manual(MANUAL_INPUT)
+    all_ipv4.update(manual['ipv4'])
+    all_ipv6.update(manual['ipv6'])
+    all_domains.update(manual['domain'])
 
     print("[Source 2] Reading urls.txt...")
-    all_ips.update(collect_from_urls(URLS_INPUT))
+    urls = collect_from_urls(URLS_INPUT)
+    all_ipv4.update(urls['ipv4'])
+    all_ipv6.update(urls['ipv6'])
+    all_domains.update(urls['domain'])
 
     print("[Source 3] Reading domains.txt...")
-    all_ips.update(collect_from_domains(DOMAINS))
+    domains = collect_from_domains(DOMAINS)
+    all_ipv4.update(domains['ipv4'])
+    all_ipv6.update(domains['ipv6'])
+    all_domains.update(domains['domain'])
 
-    # Also try external collect_all_ips if available
     if collect_all_ips is not None:
         print("\n[External] Trying collect_all_ips from DNS2Geo/proxyip...")
         try:
@@ -337,34 +534,47 @@ def run_collection():
                 with open(ALL_IPS, 'r', encoding='utf-8') as f:
                     for ln in f:
                         ln = ln.strip()
-                        if ln:
-                            ip_part = ln.split(':')[0].split('#')[0].strip()
-                            if is_ip_address(ip_part):
-                                all_ips.add(ip_part)
+                        if not ln:
+                            continue
+                        host = extract_host(ln)
+                        addr_type = classify_address(host)
+                        if addr_type == 'ipv4':
+                            all_ipv4.add(host)
+                        elif addr_type == 'ipv6':
+                            all_ipv6.add(host)
+                        else:
+                            all_domains.add(ln)
                 print(f"  Merged external results")
         except Exception as e:
             print(f"  collect_all_ips failed: {e}")
 
-    print(f"\nTotal unique IPs collected: {len(all_ips)}")
+    # Write IPv4
     with open(ALL_IPS, 'w', encoding='utf-8') as out:
-        for ip in sorted(all_ips):
+        for ip in sorted(all_ipv4):
             out.write(ip + '\n')
-    print(f"Wrote {len(all_ips)} IPs to {ALL_IPS}")
+    print(f"\nWrote {len(all_ipv4)} IPv4 to {ALL_IPS}")
+
+    # Write IPv6
+    with open(ALL_IPS_V6, 'w', encoding='utf-8') as out:
+        for ip in sorted(all_ipv6):
+            out.write(ip + '\n')
+    print(f"Wrote {len(all_ipv6)} IPv6 to {ALL_IPS_V6}")
+
+    # Write Domains
+    with open(ALL_DOMAINS, 'w', encoding='utf-8') as out:
+        for domain in sorted(all_domains):
+            out.write(domain + '\n')
+    print(f"Wrote {len(all_domains)} domains to {ALL_DOMAINS}")
+
+    print(f"\nTotal unique: {len(all_ipv4)} IPv4, {len(all_ipv6)} IPv6, {len(all_domains)} domains")
 
 
-def run_geolookup_and_save():
-    """Run geolocation lookup using built-in APIs and save results."""
-    country_map = load_country_map(COUNTRIES_FILE)
-    cache = load_geo_cache()
+def lookup_batch(ips: list, cache: dict, country_map: dict, label: str) -> list:
+    """Lookup country for a batch of IPs, return list of (ip, info) tuples."""
+    if not ips:
+        return []
 
-    if not ALL_IPS.exists():
-        print(f"Error: {ALL_IPS} not found")
-        return
-
-    with open(ALL_IPS, 'r', encoding='utf-8') as f:
-        ips = [ln.strip() for ln in f if ln.strip()]
-
-    print(f"\n[GeoIP] Looking up {len(ips)} IPs...")
+    print(f"\n[GeoIP] Looking up {len(ips)} {label} addresses...")
     results = []
     success_count = 0
     fail_count = 0
@@ -377,26 +587,95 @@ def run_geolookup_and_save():
         else:
             fail_count += 1
 
-        # Progress report every 10 IPs
         if (i + 1) % 10 == 0:
             print(f"  Progress: {i + 1}/{len(ips)} | Success: {success_count} | Failed: {fail_count}")
-
-        # Rate limiting to avoid API bans
         time.sleep(0.3)
+
+    print(f"{label} lookup complete: {success_count} success, {fail_count} failed")
+    return results
+
+
+def run_geolookup_and_save():
+    country_map = load_country_map(COUNTRIES_FILE)
+    cache = load_geo_cache()
+
+    # --- IPv4 GeoIP ---
+    ipv4s = []
+    if ALL_IPS.exists():
+        with open(ALL_IPS, 'r', encoding='utf-8') as f:
+            ipv4s = [ln.strip() for ln in f if ln.strip()]
+
+    ipv4_results = lookup_batch(ipv4s, cache, country_map, "IPv4")
+
+    with open(ALL_WITH_COUNTRY, 'w', encoding='utf-8') as f:
+        for ip, info in ipv4_results:
+            f.write(f"{ip}#{info}\n")
+    print(f"Wrote {len(ipv4_results)} IPv4 entries to {ALL_WITH_COUNTRY}")
+
+    # --- IPv6 GeoIP ---
+    ipv6s = []
+    if ALL_IPS_V6.exists():
+        with open(ALL_IPS_V6, 'r', encoding='utf-8') as f:
+            ipv6s = [ln.strip() for ln in f if ln.strip()]
+
+    ipv6_results = lookup_batch(ipv6s, cache, country_map, "IPv6")
+
+    with open(ALL_WITH_COUNTRY_V6, 'w', encoding='utf-8') as f:
+        for ip, info in ipv6_results:
+            f.write(f"{ip}#{info}\n")
+    print(f"Wrote {len(ipv6_results)} IPv6 entries to {ALL_WITH_COUNTRY_V6}")
+
+    # --- Domain GeoIP (解析域名对应的 IP 来查国家) ---
+    domains = []
+    if ALL_DOMAINS.exists():
+        with open(ALL_DOMAINS, 'r', encoding='utf-8') as f:
+            domains = [ln.strip() for ln in f if ln.strip()]
+
+    domain_results = []
+    if domains:
+        print(f"\n[GeoIP] Looking up {len(domains)} domains (via DNS resolution)...")
+        success_count = 0
+        fail_count = 0
+
+        for i, domain_line in enumerate(domains):
+            domain = domain_line.split(':')[0].split('/')[0].strip()
+            resolved = resolve_domain(domain)
+
+            # 用解析出的 IP 查询国家（优先 IPv4，其次 IPv6）
+            lookup_ip = None
+            if resolved['ipv4']:
+                lookup_ip = resolved['ipv4'][0]
+            elif resolved['ipv6']:
+                lookup_ip = resolved['ipv6'][0]
+
+            if lookup_ip:
+                code, name, info = lookup_country(lookup_ip, cache, country_map)
+                if code:
+                    success_count += 1
+                    domain_results.append((domain_line, info))
+                else:
+                    fail_count += 1
+                    domain_results.append((domain_line, "不可达"))
+            else:
+                fail_count += 1
+                domain_results.append((domain_line, "不可达"))
+
+            if (i + 1) % 10 == 0:
+                print(f"  Progress: {i + 1}/{len(domains)} | Success: {success_count} | Failed: {fail_count}")
+            time.sleep(0.3)
+
+        print(f"Domain lookup complete: {success_count} success, {fail_count} failed")
+
+    with open(ALL_WITH_COUNTRY_DOMAIN, 'w', encoding='utf-8') as f:
+        for domain, info in domain_results:
+            f.write(f"{domain}#{info}\n")
+    print(f"Wrote {len(domain_results)} domain entries to {ALL_WITH_COUNTRY_DOMAIN}")
 
     # Save cache
     save_geo_cache(cache)
 
-    # Write all_ips_with_country.txt
-    with open(ALL_WITH_COUNTRY, 'w', encoding='utf-8') as f:
-        for ip, info in results:
-            f.write(f"{ip}#{info}\n")
 
-    print(f"\nGeoIP lookup complete: {success_count} success, {fail_count} failed")
-    print(f"Wrote {ALL_WITH_COUNTRY}")
-
-
-def parse_all_with_country(path: Path):
+def parse_with_country(path: Path):
     entries = []
     if not path.exists():
         return entries
@@ -415,15 +694,12 @@ def parse_all_with_country(path: Path):
 def extract_country_code(info: str):
     if not info:
         return None
-    # 先尝试匹配 # 分隔的格式: CODE#NAME
     m = re.search(r'^([A-Z]{2})#', info)
     if m:
         return m.group(1)
-    # 再尝试匹配 CODE 后面跟大写字母: CODENAME
     m = re.search(r'^([A-Z]{2})[A-Z]', info)
     if m:
         return m.group(1)
-    # 最后尝试匹配独立的两个大写字母
     m = re.search(r'\b([A-Z]{2})\b', info)
     if m:
         return m.group(1)
@@ -449,12 +725,11 @@ def load_allowed_codes(path: Path):
     return codes
 
 
-def run_filter_and_write():
-    entries = parse_all_with_country(ALL_WITH_COUNTRY)
-    allowed_codes = load_allowed_codes(ALLOWED_COUNTRIES)
-
-    print(f"\n[Filter] Allowed country codes: {sorted(allowed_codes)}")
-    print(f"[Filter] Total entries to process: {len(entries)}")
+def filter_and_write(entries: list, allowed_codes: set, 
+                     out_allowed_ips: Path, out_blocked_ips: Path, out_unreachable_ips: Path,
+                     out_allowed_info: Path, out_blocked_info: Path, out_unreachable_info: Path,
+                     label: str):
+    """Filter entries by country code and write to output files."""
 
     allowed_ips = []
     blocked_ips = []
@@ -478,43 +753,142 @@ def run_filter_and_write():
                 blocked_ips.append(ip)
                 blocked_info.append(f"{ip}#{info}" if info else ip)
 
-    print(f"  Allowed: {len(allowed_ips)} | Blocked: {len(blocked_ips)} | Unreachable: {len(unreachable_ips)}")
+    print(f"  [{label}] Allowed: {len(allowed_ips)} | Blocked: {len(blocked_ips)} | Unreachable: {len(unreachable_ips)}")
 
     IPS_DIR.mkdir(parents=True, exist_ok=True)
     IPS_WITH_COUNTRY_DIR.mkdir(parents=True, exist_ok=True)
 
-    with open(OUT_ALLOWED_IPS, 'w', encoding='utf-8') as f:
+    with open(out_allowed_ips, 'w', encoding='utf-8') as f:
         for ip in sorted(set(allowed_ips)):
             f.write(ip + '\n')
-    with open(OUT_BLOCKED_IPS, 'w', encoding='utf-8') as f:
+    with open(out_blocked_ips, 'w', encoding='utf-8') as f:
         for ip in sorted(set(blocked_ips)):
             f.write(ip + '\n')
-    with open(OUT_UNREACHABLE_IPS, 'w', encoding='utf-8') as f:
+    with open(out_unreachable_ips, 'w', encoding='utf-8') as f:
         for ip in sorted(set(unreachable_ips)):
             f.write(ip + '\n')
 
-    with open(OUT_ALLOWED_WITH_INFO, 'w', encoding='utf-8') as f:
+    with open(out_allowed_info, 'w', encoding='utf-8') as f:
         for line in sorted(set(allowed_info)):
             f.write(line + '\n')
-    with open(OUT_BLOCKED_WITH_INFO, 'w', encoding='utf-8') as f:
+    with open(out_blocked_info, 'w', encoding='utf-8') as f:
         for line in sorted(set(blocked_info)):
             f.write(line + '\n')
-    with open(OUT_UNREACHABLE_WITH_INFO, 'w', encoding='utf-8') as f:
+    with open(out_unreachable_info, 'w', encoding='utf-8') as f:
         for line in sorted(set(unreachable_info)):
             f.write(line + '\n')
 
-    # 生成 proxyip.txt 和 proxyip_with_country.txt
-    all_proxy_ips = sorted(set(allowed_ips + blocked_ips))
+    return allowed_ips, blocked_ips, unreachable_ips, allowed_info, blocked_info, unreachable_info
+
+
+def run_filter_and_write():
+    allowed_codes = load_allowed_codes(ALLOWED_COUNTRIES)
+    print(f"\n[Filter] Allowed country codes: {sorted(allowed_codes)}")
+
+    # --- IPv4 Filter ---
+    print("\n[Filter] Processing IPv4...")
+    ipv4_entries = parse_with_country(ALL_WITH_COUNTRY)
+    ipv4_allowed, ipv4_blocked, ipv4_unreachable, \
+    ipv4_allowed_info, ipv4_blocked_info, ipv4_unreachable_info = filter_and_write(
+        ipv4_entries, allowed_codes,
+        OUT_ALLOWED_IPS, OUT_BLOCKED_IPS, OUT_UNREACHABLE_IPS,
+        OUT_ALLOWED_WITH_INFO, OUT_BLOCKED_WITH_INFO, OUT_UNREACHABLE_WITH_INFO,
+        "IPv4"
+    )
+
+    # --- IPv6 Filter ---
+    print("\n[Filter] Processing IPv6...")
+    ipv6_entries = parse_with_country(ALL_WITH_COUNTRY_V6)
+    ipv6_allowed, ipv6_blocked, ipv6_unreachable, \
+    ipv6_allowed_info, ipv6_blocked_info, ipv6_unreachable_info = filter_and_write(
+        ipv6_entries, allowed_codes,
+        OUT_ALLOWED_IPS_V6, OUT_BLOCKED_IPS_V6, OUT_UNREACHABLE_IPS_V6,
+        OUT_ALLOWED_WITH_INFO_V6, OUT_BLOCKED_WITH_INFO_V6, OUT_UNREACHABLE_WITH_INFO_V6,
+        "IPv6"
+    )
+
+    # --- Domain Filter ---
+    print("\n[Filter] Processing Domains...")
+    domain_entries = parse_with_country(ALL_WITH_COUNTRY_DOMAIN)
+    domain_allowed, domain_blocked, domain_unreachable, \
+    domain_allowed_info, domain_blocked_info, domain_unreachable_info = filter_and_write(
+        domain_entries, allowed_codes,
+        OUT_ALLOWED_DOMAINS, OUT_BLOCKED_DOMAINS, OUT_UNREACHABLE_DOMAINS,
+        OUT_ALLOWED_WITH_INFO_DOMAIN, OUT_BLOCKED_WITH_INFO_DOMAIN, OUT_UNREACHABLE_WITH_INFO_DOMAIN,
+        "Domain"
+    )
+
+    # --- Generate proxyip files ---
+
+    # IPv4 proxyip
+    proxyip_v4 = sorted(set(ipv4_allowed + ipv4_blocked))
     with open(PROXYIP, 'w', encoding='utf-8') as f:
-        for ip in all_proxy_ips:
+        for ip in proxyip_v4:
             f.write(ip + '\n')
 
-    all_proxy_with_country = sorted(set(allowed_info + blocked_info))
-    with open(PROXYIP_WITH_COUNTRY, 'w', encoding='utf-8') as f:
-        for line in all_proxy_with_country:
+    proxyip_v4_info = sorted(set(ipv4_allowed_info + ipv4_blocked_info))
+    with open(PROXYIP_WITH_COUNTRY_V4, 'w', encoding='utf-8') as f:
+        for line in proxyip_v4_info:
             f.write(line + '\n')
 
-    print(f"Wrote proxyip files: {PROXYIP} ({len(all_proxy_ips)}), {PROXYIP_WITH_COUNTRY} ({len(all_proxy_with_country)})")
+    # IPv6 proxyip
+    proxyip_v6 = sorted(set(ipv6_allowed + ipv6_blocked))
+    with open(PROXYIP_V6, 'w', encoding='utf-8') as f:
+        for ip in proxyip_v6:
+            f.write(ip + '\n')
+
+    proxyip_v6_info = sorted(set(ipv6_allowed_info + ipv6_blocked_info))
+    with open(PROXYIP_WITH_COUNTRY_V6, 'w', encoding='utf-8') as f:
+        for line in proxyip_v6_info:
+            f.write(line + '\n')
+
+    # Domain proxyip
+    proxyip_domain = sorted(set(domain_allowed + domain_blocked))
+    with open(PROXYIP_DOMAIN, 'w', encoding='utf-8') as f:
+        for domain in proxyip_domain:
+            f.write(domain + '\n')
+
+    proxyip_domain_info = sorted(set(domain_allowed_info + domain_blocked_info))
+    with open(PROXYIP_DOMAIN_WITH_COUNTRY, 'w', encoding='utf-8') as f:
+        for line in proxyip_domain_info:
+            f.write(line + '\n')
+
+    # Combined proxyip (IPv4 + IPv6)
+    all_proxy_ips = sorted(set(proxyip_v4 + proxyip_v6))
+    with open(PROXYIP_WITH_COUNTRY, 'w', encoding='utf-8') as f:
+        for line in sorted(set(proxyip_v4_info + proxyip_v6_info)):
+            f.write(line + '\n')
+
+    print(f"\n[Output Summary]")
+    print(f"  === IPv4 ===")
+    print(f"    ips/allowed_ips.txt              : {len(ipv4_allowed)}")
+    print(f"    ips/blocked_ips.txt              : {len(ipv4_blocked)}")
+    print(f"    ips/unreachable_ips.txt          : {len(ipv4_unreachable)}")
+    print(f"    ips_with_country/allowed_ips_with_country.txt    : {len(ipv4_allowed_info)}")
+    print(f"    ips_with_country/blocked_ips_with_country.txt      : {len(ipv4_blocked_info)}")
+    print(f"    ips_with_country/unreachable_ips_with_country.txt  : {len(ipv4_unreachable_info)}")
+    print(f"    proxyip.txt                      : {len(proxyip_v4)}")
+    print(f"    proxyip_with_country_v4.txt      : {len(proxyip_v4_info)}")
+    print(f"  === IPv6 ===")
+    print(f"    ips/allowed_ips_v6.txt           : {len(ipv6_allowed)}")
+    print(f"    ips/blocked_ips_v6.txt           : {len(ipv6_blocked)}")
+    print(f"    ips/unreachable_ips_v6.txt       : {len(ipv6_unreachable)}")
+    print(f"    ips_with_country/allowed_ips_with_country_v6.txt   : {len(ipv6_allowed_info)}")
+    print(f"    ips_with_country/blocked_ips_with_country_v6.txt     : {len(ipv6_blocked_info)}")
+    print(f"    ips_with_country/unreachable_ips_with_country_v6.txt : {len(ipv6_unreachable_info)}")
+    print(f"    proxyip_v6.txt                   : {len(proxyip_v6)}")
+    print(f"    proxyip_with_country_v6.txt      : {len(proxyip_v6_info)}")
+    print(f"  === Domain ===")
+    print(f"    ips/allowed_domains.txt          : {len(domain_allowed)}")
+    print(f"    ips/blocked_domains.txt          : {len(domain_blocked)}")
+    print(f"    ips/unreachable_domains.txt      : {len(domain_unreachable)}")
+    print(f"    ips_with_country/allowed_domains_with_country.txt    : {len(domain_allowed_info)}")
+    print(f"    ips_with_country/blocked_domains_with_country.txt      : {len(domain_blocked_info)}")
+    print(f"    ips_with_country/unreachable_domains_with_country.txt  : {len(domain_unreachable_info)}")
+    print(f"    proxyip_domain.txt               : {len(proxyip_domain)}")
+    print(f"    proxyip_domain_with_country.txt  : {len(proxyip_domain_info)}")
+    print(f"  === Combined ===")
+    print(f"    proxyip_with_country.txt         : {len(all_proxy_ips)}")
 
 
 def main():
