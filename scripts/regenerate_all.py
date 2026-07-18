@@ -13,36 +13,7 @@ Regenerate IP lists and classification from multiple data sources:
   - proxyip_v6.txt / proxyip_with_country_v6.txt       (IPv6)
   - proxyip_domain.txt / proxyip_domain_with_country.txt (域名)
 
-生成的文件：
-  === IPv4 ===
-  - ips/all_ips.txt
-  - ips_with_country/all_ips_with_country.txt
-  - ips/allowed_ips.txt
-  - ips/blocked_ips.txt
-  - ips/unreachable_ips.txt
-  - ips_with_country/allowed_ips_with_country.txt
-  - ips_with_country/blocked_ips_with_country.txt
-  - ips_with_country/unreachable_ips_with_country.txt
-
-  === IPv6 ===
-  - ips/all_ips_v6.txt
-  - ips_with_country/all_ips_with_country_v6.txt
-  - ips/allowed_ips_v6.txt
-  - ips/blocked_ips_v6.txt
-  - ips/unreachable_ips_v6.txt
-  - ips_with_country/allowed_ips_with_country_v6.txt
-  - ips_with_country/blocked_ips_with_country_v6.txt
-  - ips_with_country/unreachable_ips_with_country_v6.txt
-
-  === Domain ===
-  - ips/all_domains.txt
-  - ips_with_country/all_domains_with_country.txt
-  - ips/allowed_domains.txt
-  - ips/blocked_domains.txt
-  - ips/unreachable_domains.txt
-  - ips_with_country/allowed_domains_with_country.txt
-  - ips_with_country/blocked_domains_with_country.txt
-  - ips_with_country/unreachable_domains_with_country.txt
+运行后会自动调用 speedtest.py 对 allowed_ips_with_country.txt 前 500 个 IP 测速。
 
 Run in repository root. Intended to be executed by CI (GitHub Actions).
 """
@@ -54,6 +25,8 @@ import socket
 import ipaddress
 import urllib.request
 import urllib.error
+import subprocess
+import sys
 from pathlib import Path
 
 # Try to import helper functions from DNS2Geo.py as fallback
@@ -548,19 +521,16 @@ def run_collection():
         except Exception as e:
             print(f"  collect_all_ips failed: {e}")
 
-    # Write IPv4
     with open(ALL_IPS, 'w', encoding='utf-8') as out:
         for ip in sorted(all_ipv4):
             out.write(ip + '\n')
     print(f"\nWrote {len(all_ipv4)} IPv4 to {ALL_IPS}")
 
-    # Write IPv6
     with open(ALL_IPS_V6, 'w', encoding='utf-8') as out:
         for ip in sorted(all_ipv6):
             out.write(ip + '\n')
     print(f"Wrote {len(all_ipv6)} IPv6 to {ALL_IPS_V6}")
 
-    # Write Domains
     with open(ALL_DOMAINS, 'w', encoding='utf-8') as out:
         for domain in sorted(all_domains):
             out.write(domain + '\n')
@@ -625,7 +595,7 @@ def run_geolookup_and_save():
             f.write(f"{ip}#{info}\n")
     print(f"Wrote {len(ipv6_results)} IPv6 entries to {ALL_WITH_COUNTRY_V6}")
 
-    # --- Domain GeoIP (解析域名对应的 IP 来查国家) ---
+    # --- Domain GeoIP ---
     domains = []
     if ALL_DOMAINS.exists():
         with open(ALL_DOMAINS, 'r', encoding='utf-8') as f:
@@ -641,7 +611,6 @@ def run_geolookup_and_save():
             domain = domain_line.split(':')[0].split('/')[0].strip()
             resolved = resolve_domain(domain)
 
-            # 用解析出的 IP 查询国家（优先 IPv4，其次 IPv6）
             lookup_ip = None
             if resolved['ipv4']:
                 lookup_ip = resolved['ipv4'][0]
@@ -671,7 +640,6 @@ def run_geolookup_and_save():
             f.write(f"{domain}#{info}\n")
     print(f"Wrote {len(domain_results)} domain entries to {ALL_WITH_COUNTRY_DOMAIN}")
 
-    # Save cache
     save_geo_cache(cache)
 
 
@@ -729,7 +697,6 @@ def filter_and_write(entries: list, allowed_codes: set,
                      out_allowed_ips: Path, out_blocked_ips: Path, out_unreachable_ips: Path,
                      out_allowed_info: Path, out_blocked_info: Path, out_unreachable_info: Path,
                      label: str):
-    """Filter entries by country code and write to output files."""
 
     allowed_ips = []
     blocked_ips = []
@@ -820,7 +787,7 @@ def run_filter_and_write():
 
     # --- Generate proxyip files ---
 
-    # IPv4 proxyip
+    # IPv4
     proxyip_v4 = sorted(set(ipv4_allowed + ipv4_blocked))
     with open(PROXYIP, 'w', encoding='utf-8') as f:
         for ip in proxyip_v4:
@@ -831,7 +798,7 @@ def run_filter_and_write():
         for line in proxyip_v4_info:
             f.write(line + '\n')
 
-    # IPv6 proxyip
+    # IPv6
     proxyip_v6 = sorted(set(ipv6_allowed + ipv6_blocked))
     with open(PROXYIP_V6, 'w', encoding='utf-8') as f:
         for ip in proxyip_v6:
@@ -842,7 +809,7 @@ def run_filter_and_write():
         for line in proxyip_v6_info:
             f.write(line + '\n')
 
-    # Domain proxyip
+    # Domain
     proxyip_domain = sorted(set(domain_allowed + domain_blocked))
     with open(PROXYIP_DOMAIN, 'w', encoding='utf-8') as f:
         for domain in proxyip_domain:
@@ -853,7 +820,7 @@ def run_filter_and_write():
         for line in proxyip_domain_info:
             f.write(line + '\n')
 
-    # Combined proxyip (IPv4 + IPv6)
+    # Combined (IPv4 + IPv6)
     all_proxy_ips = sorted(set(proxyip_v4 + proxyip_v6))
     with open(PROXYIP_WITH_COUNTRY, 'w', encoding='utf-8') as f:
         for line in sorted(set(proxyip_v4_info + proxyip_v6_info)):
@@ -891,10 +858,38 @@ def run_filter_and_write():
     print(f"    proxyip_with_country.txt         : {len(all_proxy_ips)}")
 
 
+def run_speedtest():
+    """Run speedtest.py after generation."""
+    speedtest_script = ROOT / 'speedtest.py'
+
+    # 如果当前目录没有，尝试 scripts/ 目录
+    if not speedtest_script.exists():
+        speedtest_script = ROOT / 'scripts' / 'speedtest.py'
+
+    if not speedtest_script.exists():
+        print(f"\n[SpeedTest] Warning: speedtest.py not found at {speedtest_script}")
+        print("  Skipping speed test. Place speedtest.py in repo root or scripts/ directory.")
+        return
+
+    print(f"\n[SpeedTest] Running {speedtest_script}...")
+    try:
+        result = subprocess.run(
+            [sys.executable, str(speedtest_script)],
+            capture_output=False,
+            text=True,
+            check=False
+        )
+        if result.returncode != 0:
+            print(f"[SpeedTest] Warning: speedtest.py exited with code {result.returncode}")
+    except Exception as e:
+        print(f"[SpeedTest] Error running speedtest.py: {e}")
+
+
 def main():
     run_collection()
     run_geolookup_and_save()
     run_filter_and_write()
+    run_speedtest()  # 自动运行测速
     print("\n=== All done ===")
 
 
