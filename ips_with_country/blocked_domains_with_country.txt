@@ -1,61 +1,52 @@
+131.youxuan.cf.090227.xyz#CA#Canada
 779776787#SI#Slovenia
-a.lma.de5.net#CA#Canada
-academy.mastercard.com:443#金融域名 | 万事达卡#CA#Canada
-anadoluefes.com:443#更多选择 | AnadoluEfes#CA#Canada
-api.gzcrtw.com#CA#Canada
+affirm.com:443#更多选择 | Affirm#CA#Canada
 bestcf.030101.xyz#CA#Canada
-blog.cloudflare.com:443#🇨🇦加拿大·CA Blog#US#美国
-bluehost.com:443#企业域名 | BlueHost#CA#Canada
+blog.646474.xyz#CA#Canada
+bpb.yousef.isegaro.com#NL#荷兰
 cdn.2020111.xyz#CA#Canada
-cdn.667891.xyz#CA#Canada
+cdnjs.com:443#官方域名 | CDNJS#CA#Canada
 cdns.doon.eu.org#CA#Canada
+cf.0sm.com#CA#Canada
 cf.877771.xyz#CA#Canada
 cf.877774.xyz#CA#Canada
 cf.877774.xyz:443#大佬维护 | QMS#CA#Canada
+cf.cloudflare.182682.xyz#CA#Canada
+cf.cooteep.com#CA#Canada
 cfip.1323123.xyz#CA#Canada
 cloudflare-ech.com:443#官方域名 | ECH#CA#Canada
-cloudflare-eth.com:443#官方域名 | Web3#CA#Canada
-cloudflare.182682.xyz:443#大佬维护 | WeTest#CA#Canada
+cloudflare.dev:443#官方域名 | Developers#CA#Canada
 cloudflare.net:443#官方域名 | Business#CA#Canada
 cm.cloudflare.byoip.top:443#按运营商 | 移动Byoip#CA#Canada
+columbia.edu:443#教育域名 | 哥伦比亚#CA#Canada
 ct.cloudflare.byoip.top:443#按运营商 | 电信Byoip#CA#Canada
 cu.877774.xyz:443#按运营商 | 联通QMS#CA#Canada
 cu.cloudflare.byoip.top:443#按运营商 | 联通Byoip#CA#Canada
-digitalocean.com:443#企业域名 | DigitalOcean#CA#Canada
 emerson.com:443#更多选择 | 艾默生#CA#Canada
 engage.cloudflareclient.com:443#官方域名 | WireGuard#CA#Canada
-glassdoor.com:443#企业域名 | Glassdoor#CA#Canada
 harley-davidson.com:443#更多选择 | 哈雷#CA#Canada
 hongkongairport.com:443#企业域名 | 香港机场#CA#Canada
 ikea.com:443#更多选择 | 宜家#CA#Canada
 investor.apple.com:443#更多选择 | Apple#CA#Canada
-jimdo.com:443#企业域名 | Jimdo#CA#Canada
-ln.edu.hk:443#教育域名 | 岭南大学#CA#Canada
 markmonitor.com:443#更多选择 | MarkMonitor#CA#Canada
-motorsport-id.porsche.com:443#更多选择 | 保时捷#CA#Canada
+mycareer.verizon.com:443#更多选择 | Verizon#CA#Canada
 nrt.xxxxxxxx.nyc.mn#CA#Canada
 nrtcfdns.zone.id#CA#Canada
 openai.com:443#企业域名 | OpenAI#CA#Canada
-ping.ctrl.li#CA#Canada
-polestar.com:443#更多选择 | 极星#CA#Canada
-r2.dev:443#官方域名 | R2#CA#Canada
 saas.sin.fan#CA#Canada
 saas.sin.fan:443#大佬维护 | MIYU#CA#Canada
 shopify.com:443#企业域名 | Shopify#CA#Canada
-static.cloudflareinsights.com:443#官方域名 | Analytics#CA#Canada
 staticdelivery.nexusmods.com:443#企业域名 | NexusMods#CA#Canada
 store.ubi.com:443#企业域名 | 育碧商城#CA#Canada
-tradepro.wealthmanagement.scotiabank.com:443#金融域名 | 丰业银行#CA#Canada
+usa.visa.com:443#金融域名 | VISA美国#CA#Canada
 visa.com:443#企业域名 | VISA#CA#Canada
-www.allianz.com:443#企业域名 | 安联集团#CA#Canada
-www.hyundai.com:443#更多选择 | 现代#CA#Canada
-www.nexusmods.com#CA#Canada
+w3.org:443#更多选择 | W3C万维#CA#Canada
+www.decathlon.com:443#🇨🇦加拿大·CA#CA#加拿大
+www.epicgames.com:443#更多选择 | Epicgames#CA#Canada
+www.nestle.com:443#企业域名 | 雀巢集团#CA#Canada
 www.ntu.edu.sg:443#教育域名 | 南洋理工#CA#Canada
-www.razer.com:443#更多选择 | 雷蛇#CA#Canada
-www.sage.com:443#更多选择 | Sage#CA#Canada
 www.speedtest.net:443#更多选择 | Ookla#CA#Canada
 www.visa.cn:443#金融域名 | VISA中国#CA#Canada
-www.visa.com.hk:443#金融域名 | VISA香港#CA#Canada
 www.wto.org:443#更多选择 | WTO世贸#CA#Canada
-www.zendesk.com:443#更多选择 | Zendesk#CA#Canada
+www.zendesk.com:443#🇨🇦加拿大·CA#CA#Canada
 yg1.ygkkk.dpdns.org:443#大佬维护 | YGKKK#CA#Canada
