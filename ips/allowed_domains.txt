@@ -13,7 +13,6 @@ b.lma.de5.net
 baota.us.kg
 bestcf.030101.xyz
 blog.646474.xyz
-blog.cloudflare.com:443
 bluehost.com:443
 bpb.yousef.isegaro.com
 cdn.2020111.xyz
@@ -116,7 +115,6 @@ www.razer.com:443
 www.researchgate.net:443
 www.sage.com:443
 www.speedtest.net:443
-www.udacity.com:443
 www.visa.cn:443
 www.visa.com.hk:443
 www.wto.org:443
