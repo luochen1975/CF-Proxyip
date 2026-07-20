@@ -197,12 +197,12 @@
 <a data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" href="/779776787/edgetunnel">edgetunnel</a>
 <a href="#start-of-content" data-skip-target-assigned="false" class="px-2 tmp-py-4 color-bg-accent-emphasis color-fg-on-emphasis show-on-focus js-skip-to-content">Skip to content</a>
 <a href="/signup?ref_cta=Sign+up&amp;ref_loc=header+logged+out&amp;ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E%2Fblob%2Fshow&amp;source=header-repo&amp;source_repo=779776787%2Fedgetunnel"
-<a tabindex="-1" id="item-1737c9cc-0feb-41e9-9233-dbad4789c617" href="/779776787/edgetunnel/pulse" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
-<a tabindex="-1" id="item-8b147385-bb94-4f2e-acd9-6a473f23941a" href="/779776787/edgetunnel/security" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
-<a tabindex="-1" id="item-ab6b2cec-ab59-4148-977e-6b7e6cb7cb71" href="/779776787/edgetunnel/pulls" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
-<a tabindex="-1" id="item-b4994f5e-ab3f-48f1-b265-87febd13410d" href="/779776787/edgetunnel/projects" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
-<a tabindex="-1" id="item-e1d218f0-c9bc-46b1-8967-2f9fcc515dbf" href="/779776787/edgetunnel/actions" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
-<a tabindex="-1" id="item-e312f131-4804-414d-a155-7fb0ffbe6508" href="/779776787/edgetunnel" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+<a tabindex="-1" id="item-13ec4c7c-ec49-4171-85f8-54d83da63491" href="/779776787/edgetunnel/security" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+<a tabindex="-1" id="item-1fd59751-0e31-40f0-85d5-cf9fd9284fda" href="/779776787/edgetunnel" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+<a tabindex="-1" id="item-2c01fec9-c59b-4274-a135-6772e8b6790e" href="/779776787/edgetunnel/pulls" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+<a tabindex="-1" id="item-3e35d6b4-af5d-4bf2-aa11-30027b3c39ee" href="/779776787/edgetunnel/pulse" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+<a tabindex="-1" id="item-5c34bc4c-b16e-4849-8288-48a1ff305d14" href="/779776787/edgetunnel/actions" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+<a tabindex="-1" id="item-bdb6d3e4-1d02-4be1-b8c3-d49848d1869f" href="/779776787/edgetunnel/projects" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
 <auto-check src="/search/custom_scopes/check_name" required>
 <body class="logged-out env-production page-responsive" style="word-wrap: break-word;" >
 <button
@@ -228,7 +228,7 @@
 <div class=" d-flex flex-wrap flex-items-center wb-break-word f3 text-normal">
 <div class="AppHeader-appearanceSettings">
 <div class="FormControl FormControl--fullWidth">
-<div class="FormControl-inlineValidation" id="validation-75c0cb95-3bb5-4df9-81b0-845439b75be6" hidden="hidden">
+<div class="FormControl-inlineValidation" id="validation-ff81598e-ed0f-440e-bdf7-b74e8e3c7962" hidden="hidden">
 <div class="HeaderMenu js-header-menu height-fit position-lg-relative d-lg-flex flex-column flex-auto top-0">
 <div class="HeaderMenu-toggle-bar rounded my-1"></div>
 <div class="HeaderMenu-toggle-bar rounded my-1"></div></span>
@@ -309,7 +309,7 @@
 <html
 <input
 <input name="include_email" id="include_email" aria-label="Include my email address so I can be contacted" class="form-control mr-2" type="checkbox">
-<input type="hidden" data-csrf="true" value="aMcNNlOCA2uHb+kEbGgwzG5t2J3NVgBIpKSrpfAKzuYaafKqyZZzdFoRPhsdwCxWFERyg0UiaRUfRulRghaMFg==" />
+<input type="hidden" data-csrf="true" value="zDByALpISWT/T3Nw3DQx9lsrJRAjLNvc4kdmLi5kGVPf64Rtmj7YEkfTrX0AQd3jrEIF6jJ7kp2pCiru1BKzhg==" />
 <input type="hidden" id="custom_scope_id" name="custom_scope_id" data-target="custom-scopes.customScopesIdField">
 <input type="hidden" name="type" class="js-site-search-type-field">
 <label for="custom_scope_name">Name</label>
@@ -327,7 +327,7 @@
 <li hidden="hidden" data-menu-item="i5insights-tab" data-targets="action-list.items" role="none" data-view-component="true" class="ActionListItem">
 <li>
 <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/4409.c8d8eb1cf315464a.module.css" />
-<link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/99788.c44b577376eeb6b5.module.css" />
+<link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/99788.527fe6d73b90aed5.module.css" />
 <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/app-runtime.eb25ec3f4ba9bbc6.module.css" />
 <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/appearance-settings.689ddb386a317f55.module.css" />
 <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/code-2e8b2d0c3572ac0b.css" />
@@ -360,8 +360,8 @@
 <meta data-hydrostats="publish">
 <meta http-equiv="x-pjax-csp-version" content="cb4cffb7c023f774818cf728eb860debf1fc8ecf88a20487b238da276df1eb7d" data-turbo-track="reload">
 <meta http-equiv="x-pjax-css-version" content="378e7cd0ac12327fadf845e2a6b070ea19a09285f525d3ad7bf65f1f431dc95b" data-turbo-track="reload">
-<meta http-equiv="x-pjax-js-version" content="7c1de870f4c0eff05971cd22970403a1239a98dc1a35e52a43594f23fc4d546f" data-turbo-track="reload">
-<meta http-equiv="x-pjax-version" content="110436db8c0d221899e7103f383b613995d1e09c2ed46a6ab874499267998f57" data-turbo-track="reload">
+<meta http-equiv="x-pjax-js-version" content="e5010f4d2748a3cbef86e1580413ff14701bd99f255268dfb4a2857c77e2cc7c" data-turbo-track="reload">
+<meta http-equiv="x-pjax-version" content="ca13e159d905b35d8058ae08fcdb883589b0af3321c676d11c2c5d2114cb0824" data-turbo-track="reload">
 <meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-turbo-transient="true" />
 <meta name="apple-itunes-app" content="app-id=1477376905, app-argument=https://github.com/779776787/edgetunnel/blob/main/public/cfip.txt" />
 <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
@@ -371,14 +371,14 @@
 <meta name="description" content="edgetunnel2 VLESS/Trojan 多功能面板. Contribute to 779776787/edgetunnel development by creating an account on GitHub.">
 <meta name="disable-turbo" content="false">
 <meta name="expected-hostname" content="github.com">
-<meta name="fetch-nonce" content="v2:32acd93d-d0e3-d6bb-4955-d6f968f67c6c">
+<meta name="fetch-nonce" content="v2:d673fb1c-4980-3361-49a1-2d62dc57ced1">
 <meta name="github-keyboard-shortcuts" content="repository,source-code,file-tree,copilot" data-turbo-transient="true" />
 <meta name="go-import" content="github.com/779776787/edgetunnel git https://github.com/779776787/edgetunnel.git">
 <meta name="google-site-verification" content="Apib7-x98H0j5cPqHWwSMm6dNU4GmODRoqxLiDzdx9I">
 <meta name="hostname" content="github.com">
 <meta name="hovercard-subject-tag" content="repository:1211574370" data-turbo-transient>
 <meta name="octolytics-url" content="https://collector.github.com/github/collect" />
-<meta name="release" content="e90635d4b07e4a20ff548df2e2bfea2179c6a3f3" data-turbo-track="reload">
+<meta name="release" content="7d23604c4a8ce0274b4c71bb2adbe6e1c9d5904f" data-turbo-track="reload">
 <meta name="route-action" content="show" data-turbo-transient>
 <meta name="route-controller" content="blob" data-turbo-transient>
 <meta name="route-pattern" content="/:user_id/:repository/blob/*name(/*path)" data-turbo-transient>
@@ -464,7 +464,7 @@
 <script crossorigin="anonymous" type="module" src="https://github.githubassets.com/assets/89415-812392e4104ab411.js" defer="defer"></script>
 <script crossorigin="anonymous" type="module" src="https://github.githubassets.com/assets/93986-f4c7538bab703c72.js" defer="defer"></script>
 <script crossorigin="anonymous" type="module" src="https://github.githubassets.com/assets/94128-2283bb00fc03e74a.js" defer="defer"></script>
-<script crossorigin="anonymous" type="module" src="https://github.githubassets.com/assets/99788-c63411bbbe2eb8b1.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="https://github.githubassets.com/assets/99788-233c270f2b93b8bf.js" defer="defer"></script>
 <script crossorigin="anonymous" type="module" src="https://github.githubassets.com/assets/99829-9afc122ab8cee792.js" defer="defer"></script>
 <script crossorigin="anonymous" type="module" src="https://github.githubassets.com/assets/app-foundation-1148b3375bce34af.js" defer="defer"></script>
 <script crossorigin="anonymous" type="module" src="https://github.githubassets.com/assets/app-runtime-010ea513b2f3b02f.js" defer="defer"></script>
@@ -473,7 +473,7 @@
 <script crossorigin="anonymous" type="module" src="https://github.githubassets.com/assets/catalyst-2b159a120cac7df3.js" defer="defer"></script>
 <script crossorigin="anonymous" type="module" src="https://github.githubassets.com/assets/code-menu-00b724bcbb8fa494.js" defer="defer"></script>
 <script crossorigin="anonymous" type="module" src="https://github.githubassets.com/assets/code-view-259598c4bdfc0633.js" defer="defer"></script>
-<script crossorigin="anonymous" type="module" src="https://github.githubassets.com/assets/element-registry-fd3e6729105ed648.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="https://github.githubassets.com/assets/element-registry-97bd559dc7814f42.js" defer="defer"></script>
 <script crossorigin="anonymous" type="module" src="https://github.githubassets.com/assets/environment-f3f12838044fcdcf.js" defer="defer"></script>
 <script crossorigin="anonymous" type="module" src="https://github.githubassets.com/assets/fetch-utilities-2806a89cc961108e.js" defer="defer"></script>
 <script crossorigin="anonymous" type="module" src="https://github.githubassets.com/assets/github-elements-9c0e90e6da2c718a.js" defer="defer"></script>
@@ -489,7 +489,7 @@
 <script crossorigin="anonymous" type="module" src="https://github.githubassets.com/assets/runtime-helpers-07d9b6c19e17ed0e.js" defer="defer"></script>
 <script crossorigin="anonymous" type="module" src="https://github.githubassets.com/assets/selector-observer-6cc59d6d6cb4ac45.js" defer="defer"></script>
 <script crossorigin="anonymous" type="module" src="https://github.githubassets.com/assets/sessions-ecd48f3a76a81b14.js" defer="defer"></script>
-<script crossorigin="anonymous" type="module" src="https://github.githubassets.com/assets/wp-runtime-3531914787603cc6.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="https://github.githubassets.com/assets/wp-runtime-fb0a9e2c080d407f.js" defer="defer"></script>
 <script type="application/json" data-target="react-partial.embeddedData">{"props":{"docsUrl":"https://docs.github.com/get-started/accessibility/keyboard-shortcuts"}}</script>
 <script type="application/json" data-target="react-partial.embeddedData">{"props":{"should_use_dotcom_links":true}}</script>
 <script type="application/json" data-target="react-partial.embeddedData">{"props":{}}</script>
@@ -630,7 +630,7 @@
 <title>edgetunnel/public/cfip.txt at main · 779776787/edgetunnel · GitHub</title>
 <turbo-frame id="repo-content-turbo-frame" target="_top" data-turbo-action="advance" class="">
 <ul
-<ul aria-labelledby="action-menu-dd18a788-2ced-4811-9923-2762efce57c6-button" id="action-menu-dd18a788-2ced-4811-9923-2762efce57c6-list" role="menu" data-view-component="true" class="ActionListWrap--inset ActionListWrap">
+<ul aria-labelledby="action-menu-4ba70b99-c612-42d9-9abb-9e93e0ddd033-button" id="action-menu-4ba70b99-c612-42d9-9abb-9e93e0ddd033-list" role="menu" data-view-component="true" class="ActionListWrap--inset ActionListWrap">
 <ul class="list-style-none d-flex flex-justify-center flex-wrap mb-2 mb-lg-0" aria-labelledby="sr-footer-heading">
 <ul class="pagehead-actions flex-shrink-0 d-none d-md-inline" style="padding: 2px 0;">
 <ul data-view-component="true" class="UnderlineNav-body list-style-none">
@@ -674,6 +674,7 @@ b.lma.de5.net
 bbs.alipansou.com
 bestcf.030101.xyz
 blog.646474.xyz
+blog.646474.xyz:443#🇺🇸美国·US blog.646474.xyz
 bluehost.com:443#企业域名 | BlueHost
 blur:query-builder#clearButtonBlur
 blur:query-builder#inputBlur
@@ -894,15 +895,18 @@ www.sage.com:443#更多选择 | Sage
 www.shopify.com
 www.shopify.com#Shopify官方
 www.speedtest.net:443#更多选择 | Ookla
+www.speedtest.net:443#🇺🇸美国·US
 www.swowd.com
+www.tpg.com:443#🇺🇸美国·US
+www.udacity.com:443#🇺🇸美国·US
 www.visa.cn#Visa中国
 www.visa.cn:443#金融域名 | VISA中国
 www.visa.com.hk:443#金融域名 | VISA香港
+www.whatismyip.net:443#🇺🇸美国·US Whatismyip
 www.wto.org:443#更多选择 | WTO世贸
 www.zendesk.com:443#更多选择 | Zendesk
-www.zendesk.com:443#🇨🇦加拿大·CA
 xn--b6gac.eu.org
 yd.hhhhh.eu.org:443#按运营商 | 移动WuYa
 yg1.ygkkk.dpdns.org:443#大佬维护 | YGKKK
-youxuan.cf.090227.xyz#节点更新时间：2026/7/20/16:14 | 更新间隔：每10分钟1次
+youxuan.cf.090227.xyz#节点更新时间：2026/7/20/21:22 | 更新间隔：每10分钟1次
 }

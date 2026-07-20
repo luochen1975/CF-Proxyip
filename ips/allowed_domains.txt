@@ -8,6 +8,7 @@ b.lma.de5.net
 bbs.alipansou.com
 bestcf.030101.xyz
 blog.646474.xyz
+blog.646474.xyz:443
 bluehost.com:443
 bpb.yousef.isegaro.com
 cdn.2020111.xyz
@@ -117,8 +118,11 @@ www.sage.com:443
 www.shopify.com
 www.speedtest.net:443
 www.swowd.com
+www.tpg.com:443
+www.udacity.com:443
 www.visa.cn:443
 www.visa.com.hk:443
+www.whatismyip.net:443
 www.wto.org:443
 www.zendesk.com:443
 xn--b6gac.eu.org
