@@ -9,7 +9,6 @@ b.lma.de5.net
 bbs.alipansou.com
 bestcf.030101.xyz
 blog.646474.xyz
-blog.646474.xyz:443
 bluehost.com:443
 bpb.yousef.isegaro.com
 cdn.2020111.xyz
@@ -32,7 +31,6 @@ cfip.1323123.xyz
 cfip.cfcdn.vip
 cfip.xxxxxxxx.tk
 cfvip.cf.3666888.xyz
-cfworkers.yyaan.top
 cloudflare-ech.com:443
 cloudflare-eth.com:443
 cloudflare-ip.mofashi.ltd
@@ -103,6 +101,7 @@ visa.com:443
 visit.honeywell.com:443
 w3.org:443
 wealthpartners.jpmorgan.com:443
+www.affirm.com:443
 www.allianz.com:443
 www.cf.090227.xyz:443
 www.epicgames.com:443
@@ -110,6 +109,7 @@ www.hyundai.com:443
 www.kia.com:443
 www.lego.com:443
 www.leics.police.uk
+www.mskcc.org:443
 www.nestle.com:443
 www.ntu.edu.sg:443
 www.ox.ac.uk:443
@@ -117,10 +117,8 @@ www.razer.com:443
 www.researchgate.net:443
 www.sage.com:443
 www.shopify.com
-www.shopify.com:443
 www.speedtest.net:443
 www.swowd.com
-www.udacity.com:443
 www.visa.cn:443
 www.visa.com.hk:443
 www.wto.org:443
