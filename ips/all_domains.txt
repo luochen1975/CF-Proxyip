@@ -3,19 +3,16 @@
 &copy; 2026 GitHub,&nbsp;Inc.
 --tab-size-preference: 4;
 /* Override primer focus outline color for marketing header dropdown links for better contrast */
-104.16.149.140 (US)
-104.16.152.53 (US)
-104.17.117.216 (US)
-104.17.161.184 (US)
-104.17.165.6 (US)
-104.17.180.196 (US)
-104.17.50.112 (US)
-104.17.99.238 (US)
-104.18.47.16 (US)
-104.19.38.122 (US)
-104.19.61.208 (US)
-108.162.192.217 (US)
-108.162.198.162 (US)
+104.17.105.2 (US)
+104.17.107.72 (US)
+104.17.108.64 (US)
+104.17.113.117 (US)
+104.17.114.243 (US)
+104.17.167.213 (US)
+104.17.50.122 (US)
+104.17.51.219 (US)
+104.18.46.252 (US)
+108.162.198.238 (US)
 129.150.53.218 (SG)
 129.151.198.3 (SE)
 129.153.203.62 (US)
@@ -91,13 +88,15 @@
 155.248.248.205 (IN)
 158.180.231.216 (IT)
 158.180.75.201 (KR)
-162.159.38.2 (US)
-162.159.39.141 (US)
-162.159.44.27 (US)
-162.159.45.185 (US)
-172.64.145.216 (US)
-172.64.52.188 (US)
-172.64.53.196 (US)
+162.159.38.31 (US)
+162.159.39.86 (US)
+162.159.42.180 (US)
+162.159.44.121 (US)
+162.159.45.152 (US)
+162.159.7.61 (US)
+172.64.147.150 (US)
+172.64.52.195 (US)
+172.64.53.213 (US)
 1749991941.bilibiliapp.cn
 192.9.180.162 (AU)
 193.122.58.158 (DE)
@@ -197,12 +196,12 @@
 <a data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" href="/779776787/edgetunnel">edgetunnel</a>
 <a href="#start-of-content" data-skip-target-assigned="false" class="px-2 tmp-py-4 color-bg-accent-emphasis color-fg-on-emphasis show-on-focus js-skip-to-content">Skip to content</a>
 <a href="/signup?ref_cta=Sign+up&amp;ref_loc=header+logged+out&amp;ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E%2Fblob%2Fshow&amp;source=header-repo&amp;source_repo=779776787%2Fedgetunnel"
-<a tabindex="-1" id="item-05b79ee6-3db4-4977-b8d4-94af3e0c03b1" href="/779776787/edgetunnel/pulls" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
-<a tabindex="-1" id="item-234deba9-a9fc-4eaf-a606-8b97f656b041" href="/779776787/edgetunnel/security" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
-<a tabindex="-1" id="item-312f3c69-8407-4215-b1fb-fe5fa8a5366c" href="/779776787/edgetunnel/projects" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
-<a tabindex="-1" id="item-a252023a-8011-4188-9366-ab33ae707375" href="/779776787/edgetunnel/pulse" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
-<a tabindex="-1" id="item-e8520c8d-f5fd-4e62-ab7d-1eba62a29d45" href="/779776787/edgetunnel/actions" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
-<a tabindex="-1" id="item-fe62e554-b198-42e3-b321-cb33a9af8e59" href="/779776787/edgetunnel" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+<a tabindex="-1" id="item-09611605-6745-410d-bb89-c907172ed655" href="/779776787/edgetunnel/actions" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+<a tabindex="-1" id="item-0a5dd4c5-9037-41b1-960e-1efcc2e96537" href="/779776787/edgetunnel" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+<a tabindex="-1" id="item-4fbddde5-3101-4abb-9508-642a5c7994a5" href="/779776787/edgetunnel/projects" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+<a tabindex="-1" id="item-99e6ef47-8a27-40e8-a65a-1e44008a4337" href="/779776787/edgetunnel/pulse" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+<a tabindex="-1" id="item-9fe23c98-645e-4a37-ad7b-2ba8d9b936fb" href="/779776787/edgetunnel/security" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+<a tabindex="-1" id="item-d6e08036-d1d2-4f96-b8ab-67a4ef0974e5" href="/779776787/edgetunnel/pulls" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
 <auto-check src="/search/custom_scopes/check_name" required>
 <body class="logged-out env-production page-responsive" style="word-wrap: break-word;" >
 <button
@@ -228,7 +227,7 @@
 <div class=" d-flex flex-wrap flex-items-center wb-break-word f3 text-normal">
 <div class="AppHeader-appearanceSettings">
 <div class="FormControl FormControl--fullWidth">
-<div class="FormControl-inlineValidation" id="validation-9e2d4e67-3c9d-460b-8b18-d860ec02d39e" hidden="hidden">
+<div class="FormControl-inlineValidation" id="validation-48f64350-1329-4434-8b7c-79cb04cfa219" hidden="hidden">
 <div class="HeaderMenu js-header-menu height-fit position-lg-relative d-lg-flex flex-column flex-auto top-0">
 <div class="HeaderMenu-toggle-bar rounded my-1"></div>
 <div class="HeaderMenu-toggle-bar rounded my-1"></div></span>
@@ -309,7 +308,7 @@
 <html
 <input
 <input name="include_email" id="include_email" aria-label="Include my email address so I can be contacted" class="form-control mr-2" type="checkbox">
-<input type="hidden" data-csrf="true" value="QCxfMNKF0BMCDaVM3XVxCGWEG7VFilvq6rnFACAojgoFZqOLIduZVG6jHHV/flhiYfdkLT1THVkttPp8mee2ww==" />
+<input type="hidden" data-csrf="true" value="x1tHCgspMorvW/HM7/K9MqxGElIdAAXpTfd+DNkzaRtPZfRffHO7bw6043jiqlCTLgNcrznKbFkdcPAfuh2QEA==" />
 <input type="hidden" id="custom_scope_id" name="custom_scope_id" data-target="custom-scopes.customScopesIdField">
 <input type="hidden" name="type" class="js-site-search-type-field">
 <label for="custom_scope_name">Name</label>
@@ -371,7 +370,7 @@
 <meta name="description" content="edgetunnel2 VLESS/Trojan 多功能面板. Contribute to 779776787/edgetunnel development by creating an account on GitHub.">
 <meta name="disable-turbo" content="false">
 <meta name="expected-hostname" content="github.com">
-<meta name="fetch-nonce" content="v2:0d2a06da-2af3-fb4d-851d-f5905e4b192b">
+<meta name="fetch-nonce" content="v2:4d6bdff5-04dc-4c5b-5ab0-978c2541fe86">
 <meta name="github-keyboard-shortcuts" content="repository,source-code,file-tree,copilot" data-turbo-transient="true" />
 <meta name="go-import" content="github.com/779776787/edgetunnel git https://github.com/779776787/edgetunnel.git">
 <meta name="google-site-verification" content="Apib7-x98H0j5cPqHWwSMm6dNU4GmODRoqxLiDzdx9I">
@@ -630,7 +629,7 @@
 <title>edgetunnel/public/cfip.txt at main · 779776787/edgetunnel · GitHub</title>
 <turbo-frame id="repo-content-turbo-frame" target="_top" data-turbo-action="advance" class="">
 <ul
-<ul aria-labelledby="action-menu-2f93cead-3abf-485f-8411-eac47821c3e7-button" id="action-menu-2f93cead-3abf-485f-8411-eac47821c3e7-list" role="menu" data-view-component="true" class="ActionListWrap--inset ActionListWrap">
+<ul aria-labelledby="action-menu-7068410e-3509-4f5e-9980-ded39aa6357d-button" id="action-menu-7068410e-3509-4f5e-9980-ded39aa6357d-list" role="menu" data-view-component="true" class="ActionListWrap--inset ActionListWrap">
 <ul class="list-style-none d-flex flex-justify-center flex-wrap mb-2 mb-lg-0" aria-labelledby="sr-footer-heading">
 <ul class="pagehead-actions flex-shrink-0 d-none d-md-inline" style="padding: 2px 0;">
 <ul data-view-component="true" class="UnderlineNav-body list-style-none">
@@ -878,7 +877,6 @@ visa.com:443#企业域名 | VISA
 visit.honeywell.com:443#更多选择 | 霍尼韦尔
 w3.org:443#更多选择 | W3C万维
 wealthpartners.jpmorgan.com:443#金融域名 | 摩根大通
-www.affirm.com:443#🇺🇸美国·US
 www.allianz.com:443#企业域名 | 安联集团
 www.cf.090227.xyz:443#三网自适应分流-www.cf.090227.xyz
 www.epicgames.com:443#更多选择 | Epicgames
@@ -886,7 +884,6 @@ www.hyundai.com:443#更多选择 | 现代
 www.kia.com:443#更多选择 | 起亚
 www.lego.com:443#更多选择 | 乐高
 www.leics.police.uk
-www.mskcc.org:443#🇺🇸美国·US
 www.nestle.com:443#企业域名 | 雀巢集团
 www.ntu.edu.sg:443#教育域名 | 南洋理工
 www.ox.ac.uk:443#教育域名 | 牛津大学
@@ -895,6 +892,7 @@ www.researchgate.net:443#教育域名 | ResearchGate
 www.sage.com:443#更多选择 | Sage
 www.shopify.com
 www.shopify.com#Shopify官方
+www.shopify.com:443#🇨🇦加拿大·CA Shopify官方
 www.speedtest.net:443#更多选择 | Ookla
 www.swowd.com
 www.visa.cn#Visa中国
@@ -905,5 +903,5 @@ www.zendesk.com:443#更多选择 | Zendesk
 xn--b6gac.eu.org
 yd.hhhhh.eu.org:443#按运营商 | 移动WuYa
 yg1.ygkkk.dpdns.org:443#大佬维护 | YGKKK
-youxuan.cf.090227.xyz#节点更新时间：2026/7/20/7:06 | 更新间隔：每10分钟1次
+youxuan.cf.090227.xyz#节点更新时间：2026/7/20/12:45 | 更新间隔：每10分钟1次
 }
