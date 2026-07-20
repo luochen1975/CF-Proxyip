@@ -1,5 +1,4 @@
 1749991941.bilibiliapp.cn
-777.ai7777777.xyz
 ProxyIP.HK.CMLiussss.net
 ProxyIP.JP.CMLiussss.net
 academy.mastercard.com:443
@@ -116,7 +115,6 @@ www.razer.com:443
 www.researchgate.net:443
 www.sage.com:443
 www.shopify.com
-www.shopify.com:443
 www.speedtest.net:443
 www.swowd.com
 www.visa.cn:443
