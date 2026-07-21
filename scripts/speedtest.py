@@ -5,6 +5,9 @@ Reads allowed_ips_with_country.txt, splits into groups of 500 entries,
 tests each group via TCP connection to port 443, sorts by latency,
 and generates numbered output files.
 
+Output format: IP#国家代码_国家名称_延迟ms
+Example: 104.17.146.60#US_美国_1.44ms
+
 Usage: python speedtest.py [input_file] [output_dir] [group_size] [concurrency] [timeout]
 """
 import sys
@@ -130,10 +133,11 @@ def main():
         all_results.extend(results)
 
         # Write group output file
+        # Format: IP#国家代码_国家名称_延迟ms
         output_file = output_dir / f"allowed_ips_with_country_speed{group_num}.txt"
         with open(output_file, 'w', encoding='utf-8') as f:
             for ip, code, name, latency in results:
-                f.write(f"{ip}#{code}#{name}#{latency}ms\n")
+                f.write(f"{ip}#{code}_{name}_{latency}ms\n")
 
         print(f"Wrote {len(results)} sorted entries to {output_file}")
 
