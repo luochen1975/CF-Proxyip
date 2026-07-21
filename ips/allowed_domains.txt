@@ -27,7 +27,6 @@ cf.tencentapp.cn
 cf.tencentapp.cn:443
 cfip.1323123.xyz
 cfip.cfcdn.vip
-cfip.xxxxxxxx.tk
 cfworkers.yyaan.top
 cloudflare-ech.com:443
 cloudflare-eth.com:443
