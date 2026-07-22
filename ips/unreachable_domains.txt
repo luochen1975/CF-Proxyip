@@ -3,29 +3,30 @@
 &copy; 2026 GitHub,&nbsp;Inc.
 --tab-size-preference: 4;
 /* Override primer focus outline color for marketing header dropdown links for better contrast */
-104.16.144.121 (US)
-104.16.149.139 (US)
-104.16.150.228 (US)
-104.17.101.241 (US)
-104.17.102.226 (US)
-104.17.106.109 (US)
-104.17.153.6 (US)
-104.17.154.119 (US)
-104.19.158.197 (US)
-108.162.198.118 (US)
+104.16.146.208 (US)
+104.17.106.178 (US)
+104.17.111.88 (US)
+104.17.157.80 (US)
+104.17.158.33 (US)
+104.17.166.231 (US)
+104.17.209.235 (US)
+104.19.44.11 (US)
+104.19.55.84 (US)
+104.19.62.59 (US)
+108.162.198.40 (US)
 144.217.164.29 (CA)
 146.19.49.251 (US)
 153.121.45.101 (JP)
 155.248.184.204 (JP)
-162.159.38.186 (US)
-162.159.39.31 (US)
-162.159.44.231 (US)
-162.159.45.135 (US)
-162.159.48.54 (US)
-162.159.62.85 (US)
-172.64.147.22 (US)
-172.64.52.115 (US)
-172.64.53.251 (US)
+162.159.38.32 (US)
+162.159.39.148 (US)
+162.159.41.130 (US)
+162.159.44.99 (US)
+162.159.45.57 (US)
+172.64.152.247 (US)
+172.64.229.93 (US)
+172.64.52.179 (US)
+172.64.53.63 (US)
 23.95.76.59 (CA)
 45.154.204.7 (CA)
 777.ai7777777.xyz
@@ -94,12 +95,12 @@
 <a data-pjax="
 <a href="
 <a href="/signup?ref_cta=Sign+up&amp;ref_loc=header+logged+out&amp;ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E%2Fblob%2Fshow&amp;source=header-repo&amp;source_repo=779776787%2Fedgetunnel"
-<a tabindex="-1" id="item-55f222dd-9ce3-4d34-90e7-9a37d4655cab" href="/779776787/edgetunnel/actions" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
-<a tabindex="-1" id="item-5f02fc39-d903-4647-9d5d-e33e3a4a245d" href="/779776787/edgetunnel/security" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
-<a tabindex="-1" id="item-a227a0e0-d74e-4654-976d-82ecc01ddee1" href="/779776787/edgetunnel/pulse" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
-<a tabindex="-1" id="item-a5f55da5-86b5-45db-9016-ce9bc1e7a114" href="/779776787/edgetunnel/pulls" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
-<a tabindex="-1" id="item-bfcbf2e3-c41f-4827-9439-ea1830eb70d0" href="/779776787/edgetunnel/projects" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
-<a tabindex="-1" id="item-d19f06fd-2357-473c-bba7-e81966c6ee2b" href="/779776787/edgetunnel" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+<a tabindex="-1" id="item-0ae325c1-0471-4488-9361-40e0e85390fc" href="/779776787/edgetunnel/pulls" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+<a tabindex="-1" id="item-0e671edc-95ee-4ef0-9e42-4c3f91388ec3" href="/779776787/edgetunnel" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+<a tabindex="-1" id="item-1892e47b-fef7-4d08-8bdd-643d728bf56c" href="/779776787/edgetunnel/actions" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+<a tabindex="-1" id="item-3ae636d5-f924-4284-9a2a-00f6b2df7f49" href="/779776787/edgetunnel/pulse" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+<a tabindex="-1" id="item-dbb8fb9b-89e7-40d7-a2fe-1611f44743d0" href="/779776787/edgetunnel/projects" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+<a tabindex="-1" id="item-fbf0658a-ef11-446f-9e74-e19811eda05f" href="/779776787/edgetunnel/security" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
 <auto-check src="/search/custom_scopes/check_name" required>
 <body class="logged-out env-production page-responsive" style="word-wrap: break-word;" >
 <button
@@ -125,7 +126,7 @@
 <div class=" d-flex flex-wrap flex-items-center wb-break-word f3 text-normal">
 <div class="AppHeader-appearanceSettings">
 <div class="FormControl FormControl--fullWidth">
-<div class="FormControl-inlineValidation" id="validation-3e6ee72b-2b63-49d0-a0df-d9a37c4b126f" hidden="hidden">
+<div class="FormControl-inlineValidation" id="validation-12094394-0067-4099-bedc-92bf6f2003b9" hidden="hidden">
 <div class="HeaderMenu js-header-menu height-fit position-lg-relative d-lg-flex flex-column flex-auto top-0">
 <div class="HeaderMenu-toggle-bar rounded my-1"></div>
 <div class="HeaderMenu-toggle-bar rounded my-1"></div></span>
@@ -206,7 +207,7 @@
 <html
 <input
 <input name="include_email" id="include_email" aria-label="Include my email address so I can be contacted" class="form-control mr-2" type="checkbox">
-<input type="hidden" data-csrf="true" value="7of2aQUQi9I0tuY80C6ps9gMhTQ+xZCHF3VIWMBi+4MLuPuL9gTeTbN9uTv+agwDbXqgmj9+tGJGWT1aVkN34A==" />
+<input type="hidden" data-csrf="true" value="qB3IJvrAxIknWlQ34bUEEYS4RjWNWXAgkj71iN70hnvRH9dNyEFFMJoMTQ2uuq9X5m/5r5pRGdISD43Nfwq7wQ==" />
 <input type="hidden" id="custom_scope_id" name="custom_scope_id" data-target="custom-scopes.customScopesIdField">
 <input type="hidden" name="type" class="js-site-search-type-field">
 <label for="custom_scope_name">Name</label>
@@ -226,14 +227,14 @@
 <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/4409.1516de9ed5ec1cba.module.css" />
 <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/99788.99e8d1df230f15ac.module.css" />
 <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/app-runtime.f5d0397a71a59372.module.css" />
-<link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/appearance-settings.21982d841b65b6d9.module.css" />
-<link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/code-2e8b2d0c3572ac0b.css" />
-<link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/code-view.1ac4cbb5326c130f.module.css" />
+<link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/appearance-settings.00e5bf9153ccee6e.module.css" />
+<link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/code-a5d20170108e1057.css" />
+<link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/code-view.3cf046202cfec109.module.css" />
 <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/github-dd65f23f346b226a.css" />
-<link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/global-e7276ff9ba0dc008.css" />
-<link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/keyboard-shortcuts-dialog.816bd20d494a9bd0.module.css" />
-<link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/marketing-navigation.b1fa7b0cf1c95464.module.css" />
-<link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/notifications-subscriptions-menu.9b11c9ff0446613b.module.css" />
+<link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/global-1832d803adebd2b4.css" />
+<link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/keyboard-shortcuts-dialog.48796a0a406c3f07.module.css" />
+<link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/marketing-navigation.9f0cc17ac9c6c45a.module.css" />
+<link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/notifications-subscriptions-menu.cdc1e0de173836c0.module.css" />
 <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/primer-bb3e7caff8347285.css" />
 <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/primer-primitives-ac2f4b33720c6312.css" />
 <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/primer-react-css.94de4865c8d0c6ed.module.css" />
@@ -267,7 +268,7 @@
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/46740-0a6e4901e467cc61.js" />
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/4706-4d3c62464fbdd35d.js" />
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/47278-5bde9117e40f98de.js" />
-<link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/47406-7666df4c77b449d9.js" />
+<link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/47406-66f0add8f3632668.js" />
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/4871-d4c66be5b6789608.js" />
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/53351-c7a0796f923dc77c.js" />
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/54050-d9d79abd130eb040.js" />
@@ -310,7 +311,7 @@
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/relative-time-element-dfbe05d051d2745a.js" />
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/runtime-helpers-b5a5a1cee32a4b87.js" />
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/selector-observer-31e911ea8e9046d3.js" />
-<link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/wp-runtime-b906158f2715996f.js" />
+<link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/wp-runtime-1efd04c851289a7a.js" />
 <link rel="alternate icon" class="js-site-favicon" type="image/png" href="https://github.githubassets.com/favicons/favicon.png">
 <link rel="assets" href="https://github.githubassets.com/">
 <link rel="dns-prefetch" href="https://avatars.githubusercontent.com">
@@ -328,9 +329,9 @@
 <meta charset="utf-8">
 <meta data-hydrostats="publish">
 <meta http-equiv="x-pjax-csp-version" content="cb4cffb7c023f774818cf728eb860debf1fc8ecf88a20487b238da276df1eb7d" data-turbo-track="reload">
-<meta http-equiv="x-pjax-css-version" content="378e7cd0ac12327fadf845e2a6b070ea19a09285f525d3ad7bf65f1f431dc95b" data-turbo-track="reload">
-<meta http-equiv="x-pjax-js-version" content="969ff9e74dfdb8c6005b9549cd5d4b367ffe20ba69031e1a0cfddaa5106944a2" data-turbo-track="reload">
-<meta http-equiv="x-pjax-version" content="a30807d5e967a06fc15feccbb39c88cbd6de4edc1689725fbb6a44e7e0011cd6" data-turbo-track="reload">
+<meta http-equiv="x-pjax-css-version" content="804f1b524c0a4d30eaedd5b261419bbc1b1ad0f7fd6a5ccb0f2e2202a4548b1d" data-turbo-track="reload">
+<meta http-equiv="x-pjax-js-version" content="7e86a727ba4abf81d0638c5ead57286c17d3b2706f57813445c4316d8e848673" data-turbo-track="reload">
+<meta http-equiv="x-pjax-version" content="f4ebf104c19943f60040e1cfc9a941fab2f55517e8fbc74f91eb6f97b279c243" data-turbo-track="reload">
 <meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-turbo-transient="true" />
 <meta name="apple-itunes-app" content="app-id=1477376905, app-argument=https://github.com/779776787/edgetunnel/blob/main/public/cfip.txt" />
 <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
@@ -340,14 +341,14 @@
 <meta name="description" content="edgetunnel2 VLESS/Trojan 多功能面板. Contribute to 779776787/edgetunnel development by creating an account on GitHub.">
 <meta name="disable-turbo" content="false">
 <meta name="expected-hostname" content="github.com">
-<meta name="fetch-nonce" content="v2:dce06311-bd62-5388-9ee5-be9b43baaa6b">
+<meta name="fetch-nonce" content="v2:3b40b68d-7ae7-5b6b-c649-70568cb37810">
 <meta name="github-keyboard-shortcuts" content="repository,source-code,file-tree,copilot" data-turbo-transient="true" />
 <meta name="go-import" content="github.com/779776787/edgetunnel git https://github.com/779776787/edgetunnel.git">
 <meta name="google-site-verification" content="Apib7-x98H0j5cPqHWwSMm6dNU4GmODRoqxLiDzdx9I">
 <meta name="hostname" content="github.com">
 <meta name="hovercard-subject-tag" content="repository:1211574370" data-turbo-transient>
 <meta name="octolytics-url" content="https://collector.github.com/github/collect" />
-<meta name="release" content="fa4da66e0ab40d3a24db059b9ddcf8a2f49202c4" data-turbo-track="reload">
+<meta name="release" content="f13d8ac548fb76838b3d703c7fe2100887547d0e" data-turbo-track="reload">
 <meta name="route-action" content="show" data-turbo-transient>
 <meta name="route-controller" content="blob" data-turbo-transient>
 <meta name="route-pattern" content="/:user_id/:repository/blob/*name(/*path)" data-turbo-transient>
@@ -376,15 +377,15 @@
 <react-app
 <react-partial
 <react-partial-anchor>
-<script crossorigin="anonymous" type="module" src="https://github.githubassets.com/assets/behaviors-b1e16451a6a0a4d6.js" defer="defer"></script>
-<script crossorigin="anonymous" type="module" src="https://github.githubassets.com/assets/code-menu-f533e0ba150b21b0.js" defer="defer"></script>
-<script crossorigin="anonymous" type="module" src="https://github.githubassets.com/assets/code-view-61e495c9e7c9879a.js" defer="defer"></script>
-<script crossorigin="anonymous" type="module" src="https://github.githubassets.com/assets/element-registry-54a3e9a3f8619ab1.js" defer="defer"></script>
-<script crossorigin="anonymous" type="module" src="https://github.githubassets.com/assets/environment-2f0e0c39b27ce925.js" defer="defer"></script>
-<script crossorigin="anonymous" type="module" src="https://github.githubassets.com/assets/github-elements-eab6fb65b506c02f.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="https://github.githubassets.com/assets/behaviors-f0d3e49490f4440d.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="https://github.githubassets.com/assets/code-menu-9ed525f63dabce33.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="https://github.githubassets.com/assets/code-view-d75e9aae1ec9770c.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="https://github.githubassets.com/assets/element-registry-d786ef722315c3d8.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="https://github.githubassets.com/assets/environment-19677b36f6a5e796.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="https://github.githubassets.com/assets/github-elements-710979aadc72319f.js" defer="defer"></script>
 <script crossorigin="anonymous" type="module" src="https://github.githubassets.com/assets/high-contrast-cookie-9d73b8ae1abef9dc.js"></script>
-<script crossorigin="anonymous" type="module" src="https://github.githubassets.com/assets/notifications-subscriptions-menu-7662d536cb62bab0.js" defer="defer"></script>
-<script crossorigin="anonymous" type="module" src="https://github.githubassets.com/assets/sessions-9bd4eac91e066c1f.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="https://github.githubassets.com/assets/notifications-subscriptions-menu-58ef1cf8bcaa6d6d.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="https://github.githubassets.com/assets/sessions-3d36f5714920e49e.js" defer="defer"></script>
 <script type="application/json" data-target="react-partial.embeddedData">{"props":{"docsUrl":"https://docs.github.com/get-started/accessibility/keyboard-shortcuts"}}</script>
 <script type="application/json" data-target="react-partial.embeddedData">{"props":{"should_use_dotcom_links":true}}</script>
 <script type="application/json" data-target="react-partial.embeddedData">{"props":{}}</script>
@@ -525,7 +526,7 @@
 <title>edgetunnel/public/cfip.txt at main · 779776787/edgetunnel · GitHub</title>
 <turbo-frame id="repo-content-turbo-frame" target="_top" data-turbo-action="advance" class="">
 <ul
-<ul aria-labelledby="action-menu-937fc838-5de1-4c15-9c36-b73b795520b2-button" id="action-menu-937fc838-5de1-4c15-9c36-b73b795520b2-list" role="menu" data-view-component="true" class="ActionListWrap--inset ActionListWrap">
+<ul aria-labelledby="action-menu-b9ac76c3-0194-4884-a1e4-bbf82f0e577d-button" id="action-menu-b9ac76c3-0194-4884-a1e4-bbf82f0e577d-list" role="menu" data-view-component="true" class="ActionListWrap--inset ActionListWrap">
 <ul class="list-style-none d-flex flex-justify-center flex-wrap mb-2 mb-lg-0" aria-labelledby="sr-footer-heading">
 <ul class="pagehead-actions flex-shrink-0 d-none d-md-inline" style="padding: 2px 0;">
 <ul data-view-component="true" class="UnderlineNav-body list-style-none">

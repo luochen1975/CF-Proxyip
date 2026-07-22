@@ -103,11 +103,13 @@ visa.com:443
 visit.honeywell.com:443
 w3.org:443
 wealthpartners.jpmorgan.com:443
+www.affirm.com:443
 www.allianz.com:443
 www.cf.090227.xyz:443
 www.decathlon.com:443
 www.epicgames.com:443
 www.hyundai.com:443
+www.jimdo.com:443
 www.kia.com:443
 www.lego.com:443
 www.nestle.com:443
@@ -118,9 +120,9 @@ www.researchgate.net:443
 www.sage.com:443
 www.speedtest.net:443
 www.swowd.com
+www.temu.com:443
 www.visa.cn:443
 www.visa.com.hk:443
-www.whatismyip.net:443
 www.wto.org:443
 www.zendesk.com:443
 xn--b6gac.eu.org
