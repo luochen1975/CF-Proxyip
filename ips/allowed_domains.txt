@@ -29,7 +29,6 @@ cf.tencentapp.cn
 cf.tencentapp.cn:443
 cfip.1323123.xyz
 cfip.cfcdn.vip
-cfip.xxxxxxxx.tk
 cfworkers.yyaan.top
 cloudflare-ech.com:443
 cloudflare-eth.com:443
@@ -106,10 +105,8 @@ wealthpartners.jpmorgan.com:443
 www.affirm.com:443
 www.allianz.com:443
 www.cf.090227.xyz:443
-www.decathlon.com:443
 www.epicgames.com:443
 www.hyundai.com:443
-www.jimdo.com:443
 www.kia.com:443
 www.lego.com:443
 www.nestle.com:443
@@ -120,9 +117,9 @@ www.researchgate.net:443
 www.sage.com:443
 www.speedtest.net:443
 www.swowd.com
-www.temu.com:443
 www.visa.cn:443
 www.visa.com.hk:443
+www.whatismyip.net:443
 www.wto.org:443
 www.zendesk.com:443
 xn--b6gac.eu.org
