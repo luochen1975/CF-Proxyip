@@ -27,8 +27,6 @@ cf.tencentapp.cn
 cf.tencentapp.cn:443
 cfip.1323123.xyz
 cfip.cfcdn.vip
-cfip.xxxxxxxx.tk
-cfworkers.yyaan.top
 chinwa.cf.090227.xyz
 cloudflare-ech.com:443
 cloudflare-eth.com:443
@@ -58,6 +56,7 @@ hfqek.cf.3666888.xyz
 hk443.018881.xyz
 homecare.stryker.com:443
 hongkongairport.com:443
+icook.tw:443
 ikea.com:443
 investor.apple.com:443
 jimdo.com:443
@@ -115,8 +114,10 @@ www.razer.com:443
 www.researchgate.net:443
 www.sage.com:443
 www.speedtest.net:443
+www.udacity.com:443
 www.visa.cn:443
 www.visa.com.hk:443
+www.whatismyip.net:443
 www.wto.org:443
 www.zendesk.com:443
 xn--b6gac.eu.org
