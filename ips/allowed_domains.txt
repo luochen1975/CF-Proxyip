@@ -27,7 +27,6 @@ cf.tencentapp.cn
 cf.tencentapp.cn:443
 cfip.1323123.xyz
 cfip.cfcdn.vip
-cfip.xxxxxxxx.tk
 cfworkers.yyaan.top
 chinwa.cf.090227.xyz
 cloudflare-ech.com:443
@@ -104,7 +103,6 @@ www.allianz.com:443
 www.cf.090227.xyz:443
 www.epicgames.com:443
 www.hyundai.com:443
-www.jimdo.com:443
 www.kia.com:443
 www.lego.com:443
 www.mfyx.cn
