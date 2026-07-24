@@ -115,6 +115,7 @@ www.researchgate.net:443
 www.sage.com:443
 www.speedtest.net:443
 www.swowd.com
+www.udacity.com:443
 www.visa.cn:443
 www.visa.com.hk:443
 www.wto.org:443
