@@ -28,7 +28,6 @@ cf.tencentapp.cn:443
 cfip.1323123.xyz
 cfip.cfcdn.vip
 cfip.xxxxxxxx.tk
-cfworkers.yyaan.top
 chinwa.cf.090227.xyz
 cloudflare-ech.com:443
 cloudflare-eth.com:443
@@ -101,7 +100,6 @@ visa.com:443
 visit.honeywell.com:443
 w3.org:443
 wealthpartners.jpmorgan.com:443
-www.affirm.com:443
 www.allianz.com:443
 www.cf.090227.xyz:443
 www.epicgames.com:443
