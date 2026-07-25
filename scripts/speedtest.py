@@ -2,19 +2,37 @@
 """
 Speed test script for CF-Proxyip.
 Reads allowed_ips_with_country.txt, splits into groups of 500 entries,
-tests each group via TCP connection to port 443, sorts by latency,
+tests each group via DIRECT TCP connection (no proxy) to port 443,
+sorts by latency (but does NOT show latency in output),
 and generates numbered output files.
 
-Output format: IP#国家代码_国家名称_延迟ms
-Example: 104.17.146.60#US_美国_1.44ms
+Output format: IP#国家代码_国家名称
+Example: 104.17.146.60#US_美国
 
 Usage: python speedtest.py [input_file] [output_dir] [group_size] [concurrency] [timeout]
 """
+import os
 import sys
 import socket
 import time
 import concurrent.futures
 from pathlib import Path
+
+# ========== 清除代理环境变量，确保直连测速 ==========
+PROXY_ENV_VARS = [
+    'HTTP_PROXY', 'HTTPS_PROXY', 'ALL_PROXY',
+    'http_proxy', 'https_proxy', 'all_proxy',
+    'SOCKS_PROXY', 'socks_proxy',
+    'NO_PROXY', 'no_proxy',
+]
+
+for var in PROXY_ENV_VARS:
+    if var in os.environ:
+        print(f"[ProxyClear] Removing {var}={os.environ[var]}")
+        del os.environ[var]
+
+os.environ['no_proxy'] = '*'
+# =====================================================
 
 DEFAULT_INPUT = Path('ips_with_country/allowed_ips_with_country.txt')
 DEFAULT_OUTPUT_DIR = Path('ips_with_country')
@@ -35,30 +53,47 @@ def parse_entry(line: str):
     return ip, country_code, country_name
 
 
-def test_latency(ip: str, port: int = 443, timeout: float = 3.0):
-    """Test TCP connection latency to ip:port. Returns latency_ms or None if failed."""
+def test_latency_direct(ip: str, port: int = 443, timeout: float = 3.0):
+    """
+    Test TCP connection latency to ip:port via DIRECT connection (no proxy).
+    Returns latency_ms or None if failed.
+    """
+    sock = None
     try:
+        addr_info = socket.getaddrinfo(ip, port, socket.AF_UNSPEC, socket.SOCK_STREAM)
+        if not addr_info:
+            return None
+
+        family, socktype, proto, canonname, sockaddr = addr_info[0]
+
         start = time.perf_counter()
-        sock = socket.create_connection((ip, port), timeout=timeout)
+        sock = socket.socket(family, socktype, proto)
+        sock.settimeout(timeout)
+        sock.connect(sockaddr)
         latency = (time.perf_counter() - start) * 1000
         sock.close()
         return round(latency, 2)
     except Exception:
+        if sock:
+            try:
+                sock.close()
+            except Exception:
+                pass
         return None
 
 
 def speed_test_group(entries: list, group_num: int, concurrency: int, timeout: float):
-    """Run speed test on a group of entries. Returns sorted list of (ip, code, name, latency_ms)."""
+    """Run speed test on a group of entries. Returns sorted list of (ip, code, name)."""
     total = len(entries)
-    print(f"\n[SpeedTest Group {group_num}] Testing {total} IPs (port 443, timeout {timeout}s, concurrency {concurrency})...")
+    print(f"\n[SpeedTest Group {group_num}] Testing {total} IPs DIRECT (no proxy, port 443, timeout {timeout}s, concurrency {concurrency})...")
 
-    results = []
+    results = []  # (ip, code, name, latency) - latency用于排序，不输出
     success_count = 0
     fail_count = 0
 
     def test_one(args):
         idx, ip, code, name = args
-        latency = test_latency(ip, port=443, timeout=timeout)
+        latency = test_latency_direct(ip, port=443, timeout=timeout)
         return idx, ip, code, name, latency
 
     with concurrent.futures.ThreadPoolExecutor(max_workers=concurrency) as executor:
@@ -71,23 +106,24 @@ def speed_test_group(entries: list, group_num: int, concurrency: int, timeout: f
             if latency is not None:
                 results.append((ip, code, name, latency))
                 success_count += 1
-                status = f"{latency}ms"
             else:
                 fail_count += 1
-                status = "TIMEOUT/FAIL"
 
             completed += 1
             if completed % 10 == 0 or completed == total:
                 print(f"  Progress: {completed}/{total} | Success: {success_count} | Failed: {fail_count}")
 
-    # Sort by latency (ascending)
+    # Sort by latency (ascending) - 按速度排序
     results.sort(key=lambda x: x[3])
+
+    # 去掉 latency，只保留 (ip, code, name)
+    output_results = [(ip, code, name) for ip, code, name, latency in results]
 
     print(f"[SpeedTest Group {group_num}] Complete: {success_count} reachable, {fail_count} failed")
     if results:
         print(f"  Fastest: {results[0][3]}ms, Slowest: {results[-1][3]}ms")
 
-    return results
+    return output_results
 
 
 def main():
@@ -110,6 +146,7 @@ def main():
                 entries.append((ip, code, name))
 
     print(f"[SpeedTest] Loaded {len(entries)} entries from {input_file}")
+    print(f"[SpeedTest] Mode: DIRECT (no proxy)")
 
     if not entries:
         print("No entries to test.")
@@ -133,11 +170,11 @@ def main():
         all_results.extend(results)
 
         # Write group output file
-        # Format: IP#国家代码_国家名称_延迟ms
+        # Format: IP#国家代码_国家名称（不显示速度）
         output_file = output_dir / f"allowed_ips_with_country_speed{group_num}.txt"
         with open(output_file, 'w', encoding='utf-8') as f:
-            for ip, code, name, latency in results:
-                f.write(f"{ip}#{code}_{name}_{latency}ms\n")
+            for ip, code, name in results:
+                f.write(f"{ip}#{code}_{name}\n")
 
         print(f"Wrote {len(results)} sorted entries to {output_file}")
 
@@ -146,9 +183,6 @@ def main():
     print(f"  Total entries: {len(entries)}")
     print(f"  Total groups: {total_groups}")
     print(f"  Total reachable: {len(all_results)}")
-    if all_results:
-        print(f"  Overall fastest: {min(r[3] for r in all_results)}ms")
-        print(f"  Overall slowest: {max(r[3] for r in all_results)}ms")
 
 
 if __name__ == '__main__':
