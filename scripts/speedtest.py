@@ -6,8 +6,8 @@ tests each group via DIRECT TCP connection (no proxy) to port 443,
 sorts by latency (but does NOT show latency in output),
 and generates numbered output files.
 
-Output format: IP#国家代码_国家名称
-Example: 104.17.146.60#US_美国
+Output format: IP#国家代码
+Example: 104.17.146.60#US
 
 Usage: python speedtest.py [input_file] [output_dir] [group_size] [concurrency] [timeout]
 """
@@ -170,11 +170,11 @@ def main():
         all_results.extend(results)
 
         # Write group output file
-        # Format: IP#国家代码_国家名称（不显示速度）
+        # Format: IP#国家代码（不显示速度，不显示国家名称）
         output_file = output_dir / f"allowed_ips_with_country_speed{group_num}.txt"
         with open(output_file, 'w', encoding='utf-8') as f:
             for ip, code, name in results:
-                f.write(f"{ip}#{code}_{name}\n")
+                f.write(f"{ip}#{code}\n")
 
         print(f"Wrote {len(results)} sorted entries to {output_file}")
 
