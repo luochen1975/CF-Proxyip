@@ -26,7 +26,6 @@ cf.tencentapp.cn
 cf.tencentapp.cn:443
 cfip.1323123.xyz
 cfip.cfcdn.vip
-cfip.xxxxxxxx.tk
 cfvip.cf.3666888.xyz
 cfworkers.yyaan.top
 cloudflare-ech.com:443
@@ -59,6 +58,7 @@ harley-davidson.com:443
 hk443.018881.xyz
 homecare.stryker.com:443
 hongkongairport.com:443
+icook.tw:443
 ikea.com:443
 investor.apple.com:443
 jimdo.com:443
@@ -102,6 +102,7 @@ w3.org:443
 wealthpartners.jpmorgan.com:443
 www.allianz.com:443
 www.cf.090227.xyz:443
+www.decathlon.com:443
 www.epicgames.com:443
 www.fastsoso.cn
 www.hyundai.com:443
@@ -127,4 +128,3 @@ youxuan.cf.090227.xyz
 youxuan.cf.636949.xyz
 yx.cf.090227.xyz
 yx.cfcdn.bbroot.com
-yx.cloudflare.182682.xyz:443
