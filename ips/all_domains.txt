@@ -3,30 +3,40 @@
 &copy; 2026 GitHub,&nbsp;Inc.
 --tab-size-preference: 4;
 /* Override primer focus outline color for marketing header dropdown links for better contrast */
-104.17.219.132 (US)
-104.19.149.199 (US)
-104.19.153.74 (US)
-104.19.156.45 (US)
-104.19.157.124 (US)
-104.19.158.88 (US)
-104.19.159.128 (US)
-104.19.53.250 (US)
-104.19.60.106 (US)
-108.162.192.175 (US)
-108.162.193.225 (US)
-108.162.198.56 (US)
+104.16.152.72 (US)
+104.16.159.60 (US)
+104.16.247.21 (US)
+104.16.249.109 (US)
+104.17.100.27 (US)
+104.17.117.212 (US)
+104.17.149.62 (US)
+104.17.23.40 (US)
+104.17.24.104 (US)
+104.18.42.104 (US)
+104.18.44.227 (US)
+104.19.147.61 (US)
+108.162.198.215 (US)
+108.162.198.93 (US)
 144.217.164.29 (CA)
 146.19.49.251 (US)
 153.121.45.101 (JP)
 155.248.184.204 (JP)
-162.159.34.197 (US)
-162.159.38.64 (US)
-162.159.39.116 (US)
-162.159.44.55 (US)
-162.159.45.5 (US)
-172.64.152.135 (US)
-172.64.52.63 (US)
-172.64.53.133 (US)
+162.159.38.114 (US)
+162.159.38.54 (US)
+162.159.39.195 (US)
+162.159.39.97 (US)
+162.159.41.230 (US)
+162.159.44.211 (US)
+162.159.44.223 (US)
+162.159.45.134 (US)
+162.159.45.65 (US)
+162.159.48.202 (US)
+162.159.8.121 (US)
+172.64.32.174 (US)
+172.64.52.113 (US)
+172.64.52.19 (US)
+172.64.53.145 (US)
+172.64.53.66 (US)
 23.95.76.59 (CA)
 4.cf.3666888.xyz
 45.154.204.7 (CA)
@@ -98,12 +108,12 @@
 <a data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" href="/779776787/edgetunnel">edgetunnel</a>
 <a href="#start-of-content" data-skip-target-assigned="false" class="px-2 tmp-py-4 color-bg-accent-emphasis color-fg-on-emphasis show-on-focus js-skip-to-content">Skip to content</a>
 <a href="/signup?ref_cta=Sign+up&amp;ref_loc=header+logged+out&amp;ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E%2Fblob%2Fshow&amp;source=header-repo&amp;source_repo=779776787%2Fedgetunnel"
-<a tabindex="-1" id="item-4fb7185e-c285-42b8-8a49-fbe444a3dc69" href="/779776787/edgetunnel/security" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
-<a tabindex="-1" id="item-5fb594dc-233f-4d3b-a543-062176ba0785" href="/779776787/edgetunnel/pulls" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
-<a tabindex="-1" id="item-96487ba8-d200-42ac-b20a-f85ba8b934cc" href="/779776787/edgetunnel" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
-<a tabindex="-1" id="item-c9a52b56-729b-4d09-bb0f-a6f75b032dc4" href="/779776787/edgetunnel/actions" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
-<a tabindex="-1" id="item-ef9ed989-c470-45a0-b6a3-fd527909eb22" href="/779776787/edgetunnel/pulse" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
-<a tabindex="-1" id="item-f3068fd9-0061-4f22-827a-be7aabdef2c4" href="/779776787/edgetunnel/projects" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+<a tabindex="-1" id="item-1dec16d6-e4a9-4074-aa47-b5fd39475871" href="/779776787/edgetunnel" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+<a tabindex="-1" id="item-6341dc9d-a2c8-434e-b39b-7195c2937cbf" href="/779776787/edgetunnel/pulls" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+<a tabindex="-1" id="item-6fec5969-0f25-40b2-aa82-d35f40a67834" href="/779776787/edgetunnel/actions" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+<a tabindex="-1" id="item-995a4368-b464-408f-929e-f44cd0ffeb38" href="/779776787/edgetunnel/security" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+<a tabindex="-1" id="item-b51a5d84-a8ce-453c-a84b-31b4a01435d9" href="/779776787/edgetunnel/projects" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+<a tabindex="-1" id="item-d7e00c0b-d9dc-4e41-b338-d9dbd1c74a3d" href="/779776787/edgetunnel/pulse" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
 <auto-check src="/search/custom_scopes/check_name" required>
 <body class="logged-out env-production page-responsive" style="word-wrap: break-word;" >
 <button
@@ -129,7 +139,7 @@
 <div class=" d-flex flex-wrap flex-items-center wb-break-word f3 text-normal">
 <div class="AppHeader-appearanceSettings">
 <div class="FormControl FormControl--fullWidth">
-<div class="FormControl-inlineValidation" id="validation-6ce696fd-524f-4024-b7ea-b04edc6e85f5" hidden="hidden">
+<div class="FormControl-inlineValidation" id="validation-48fdcadd-d98a-471b-8cd6-4024254e2fe1" hidden="hidden">
 <div class="HeaderMenu js-header-menu height-fit position-lg-relative d-lg-flex flex-column flex-auto top-0">
 <div class="HeaderMenu-toggle-bar rounded my-1"></div>
 <div class="HeaderMenu-toggle-bar rounded my-1"></div></span>
@@ -210,7 +220,7 @@
 <html
 <input
 <input name="include_email" id="include_email" aria-label="Include my email address so I can be contacted" class="form-control mr-2" type="checkbox">
-<input type="hidden" data-csrf="true" value="U9l96dQrxeXSXboGRMv7txYpxgzDpgVUVv4/FESY3JC/J5P0gMk9tTm8HBUjhSugiX87ody92hTHh3OMPG7gvg==" />
+<input type="hidden" data-csrf="true" value="Yzbz9gkjNm2QTeEygiXzLfzadapiVnEUTAOWOOvw+O3xl6Var2MFPqEHf7eLB/jWjzwuYcsA0Jpah3SZPvQIHg==" />
 <input type="hidden" id="custom_scope_id" name="custom_scope_id" data-target="custom-scopes.customScopesIdField">
 <input type="hidden" name="type" class="js-site-search-type-field">
 <label for="custom_scope_name">Name</label>
@@ -348,7 +358,7 @@
 <meta name="description" content="edgetunnel2 VLESS/Trojan 多功能面板. Contribute to 779776787/edgetunnel development by creating an account on GitHub.">
 <meta name="disable-turbo" content="false">
 <meta name="expected-hostname" content="github.com">
-<meta name="fetch-nonce" content="v2:daf66acf-3588-50d3-bee0-05aeb0c71aa0">
+<meta name="fetch-nonce" content="v2:d48445fa-1d89-7436-200b-b56479554c1a">
 <meta name="github-keyboard-shortcuts" content="repository,source-code,file-tree,copilot" data-turbo-transient="true" />
 <meta name="go-import" content="github.com/779776787/edgetunnel git https://github.com/779776787/edgetunnel.git">
 <meta name="google-site-verification" content="Apib7-x98H0j5cPqHWwSMm6dNU4GmODRoqxLiDzdx9I">
@@ -533,7 +543,7 @@
 <title>edgetunnel/public/cfip.txt at main · 779776787/edgetunnel · GitHub</title>
 <turbo-frame id="repo-content-turbo-frame" target="_top" data-turbo-action="advance" class="">
 <ul
-<ul aria-labelledby="action-menu-2911edd7-1269-45ed-b18f-2825add997c2-button" id="action-menu-2911edd7-1269-45ed-b18f-2825add997c2-list" role="menu" data-view-component="true" class="ActionListWrap--inset ActionListWrap">
+<ul aria-labelledby="action-menu-66c216be-873e-4b98-954c-862fcea6fe2e-button" id="action-menu-66c216be-873e-4b98-954c-862fcea6fe2e-list" role="menu" data-view-component="true" class="ActionListWrap--inset ActionListWrap">
 <ul class="list-style-none d-flex flex-justify-center flex-wrap mb-2 mb-lg-0" aria-labelledby="sr-footer-heading">
 <ul class="pagehead-actions flex-shrink-0 d-none d-md-inline" style="padding: 2px 0;">
 <ul data-view-component="true" class="UnderlineNav-body list-style-none">
@@ -786,7 +796,6 @@ www.fastsoso.cn
 www.hyundai.com:443#更多选择 | 现代
 www.kia.com:443#更多选择 | 起亚
 www.lego.com:443#更多选择 | 乐高
-www.mskcc.org:443#🇨🇦加拿大·CA
 www.nestle.com:443#企业域名 | 雀巢集团
 www.ntu.edu.sg:443#教育域名 | 南洋理工
 www.ox.ac.uk:443#教育域名 | 牛津大学
@@ -795,7 +804,6 @@ www.researchgate.net:443#教育域名 | ResearchGate
 www.sage.com:443#更多选择 | Sage
 www.shopify.com#Shopify官方
 www.speedtest.net:443#更多选择 | Ookla
-www.tpg.com:443#🇺🇸美国·US
 www.visa.cn#Visa中国
 www.visa.cn:443#金融域名 | VISA中国
 www.visa.com.hk:443#金融域名 | VISA香港
@@ -807,7 +815,7 @@ yg1.ygkkk.dpdns.org:443#大佬维护 | YGKKK
 yg2.ygkkk.dpdns.org
 yg8.ygkkk.dpdns.org
 youxuan.cf.090227.xyz
-youxuan.cf.090227.xyz#节点更新时间：2026/7/26/12:50 | 更新间隔：每10分钟1次
+youxuan.cf.090227.xyz#节点更新时间：2026/7/26/17:46 | 更新间隔：每10分钟1次
 youxuan.cf.636949.xyz
 yx.cf.090227.xyz
 yx.cfcdn.bbroot.com
