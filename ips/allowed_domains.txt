@@ -25,6 +25,7 @@ cf.blogluo.eu.org
 cf.cloudflare.182682.xyz
 cfip.1323123.xyz
 cfip.cfcdn.vip
+cfip.xxxxxxxx.tk
 cfworkers.yyaan.top
 chinwa.cf.090227.xyz
 cloudflare-ech.com:443
@@ -103,7 +104,6 @@ www.epicgames.com:443
 www.hyundai.com:443
 www.kia.com:443
 www.lego.com:443
-www.mskcc.org:443
 www.nestle.com:443
 www.ntu.edu.sg:443
 www.ox.ac.uk:443
@@ -111,6 +111,7 @@ www.razer.com:443
 www.researchgate.net:443
 www.sage.com:443
 www.speedtest.net:443
+www.temu.com:443
 www.visa.cn:443
 www.visa.com.hk:443
 www.wto.org:443
