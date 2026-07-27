@@ -8,6 +8,7 @@ api.gzcrtw.com
 auto.dolby.dpdns.org
 bestcf.030101.xyz
 blog.646474.xyz
+blog.cloudflare.com:443
 blog.raindew.576555.xyz
 bluehost.com:443
 bpb.yousef.isegaro.com
@@ -26,7 +27,6 @@ cf.cloudflare.182682.xyz
 cfip.1323123.xyz
 cfip.cfcdn.vip
 cfip.xxxxxxxx.tk
-cfworkers.yyaan.top
 chinwa.cf.090227.xyz
 cloudflare-ech.com:443
 cloudflare-eth.com:443
@@ -98,14 +98,12 @@ visit.honeywell.com:443
 w3.org:443
 wealthpartners.jpmorgan.com:443
 www.adbcardpay.xyz
-www.affirm.com:443
 www.allianz.com:443
 www.cf.090227.xyz:443
 www.epicgames.com:443
 www.hyundai.com:443
 www.kia.com:443
 www.lego.com:443
-www.mskcc.org:443
 www.nestle.com:443
 www.ntu.edu.sg:443
 www.ox.ac.uk:443
@@ -113,7 +111,6 @@ www.razer.com:443
 www.researchgate.net:443
 www.sage.com:443
 www.speedtest.net:443
-www.temu.com:443
 www.visa.cn:443
 www.visa.com.hk:443
 www.wto.org:443
