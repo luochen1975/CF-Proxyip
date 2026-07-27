@@ -3,31 +3,31 @@
 &copy; 2026 GitHub,&nbsp;Inc.
 --tab-size-preference: 4;
 /* Override primer focus outline color for marketing header dropdown links for better contrast */
-104.16.146.190 (US)
-104.17.101.234 (US)
-104.17.104.50 (US)
-104.17.168.168 (US)
-104.17.213.235 (US)
-104.17.214.12 (US)
-104.17.218.60 (US)
-104.17.53.229 (US)
-104.18.37.64 (US)
-104.19.44.1 (US)
-104.19.54.171 (US)
-108.162.198.199 (US)
+104.17.155.228 (US)
+104.17.157.142 (US)
+104.17.17.191 (US)
+104.17.172.27 (US)
+104.17.179.201 (US)
+104.17.208.83 (US)
+104.17.217.133 (US)
+104.17.48.26 (US)
+104.18.38.242 (US)
+104.18.40.132 (US)
+104.18.42.64 (US)
+108.162.198.135 (US)
 131.youxuan.cf.090227.xyz
 144.217.164.29 (CA)
 146.19.49.251 (US)
 153.121.45.101 (JP)
 155.248.184.204 (JP)
-162.159.38.124 (US)
-162.159.39.18 (US)
-162.159.44.45 (US)
-162.159.45.118 (US)
-162.159.49.21 (US)
-172.64.159.237 (US)
-172.64.52.253 (US)
-172.64.53.15 (US)
+162.159.38.154 (US)
+162.159.39.226 (US)
+162.159.44.229 (US)
+162.159.45.49 (US)
+162.159.62.46 (US)
+172.64.34.245 (US)
+172.64.52.27 (US)
+172.64.53.219 (US)
 1757760858.tencentapp.cn
 23.95.76.59 (CA)
 45.154.204.7 (CA)
@@ -98,12 +98,12 @@
 <a data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" href="/779776787/edgetunnel">edgetunnel</a>
 <a href="#start-of-content" data-skip-target-assigned="false" class="px-2 tmp-py-4 color-bg-accent-emphasis color-fg-on-emphasis show-on-focus js-skip-to-content">Skip to content</a>
 <a href="/signup?ref_cta=Sign+up&amp;ref_loc=header+logged+out&amp;ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E%2Fblob%2Fshow&amp;source=header-repo&amp;source_repo=779776787%2Fedgetunnel"
-<a tabindex="-1" id="item-24bf78a5-5827-4d56-af8c-e6b422047cbb" href="/779776787/edgetunnel/actions" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
-<a tabindex="-1" id="item-4c4ce871-6753-404e-8e66-cd0da61cf08d" href="/779776787/edgetunnel" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
-<a tabindex="-1" id="item-6fbec953-58cf-4ce7-8ef7-15ec32b50696" href="/779776787/edgetunnel/projects" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
-<a tabindex="-1" id="item-a906d110-76ff-4cc1-826d-51fd01dc08c7" href="/779776787/edgetunnel/pulls" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
-<a tabindex="-1" id="item-b4873ac3-b6ee-42e1-bd58-b8e88e83d360" href="/779776787/edgetunnel/pulse" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
-<a tabindex="-1" id="item-d6ee65d4-3b0d-4eec-81a9-db570eb6b7e5" href="/779776787/edgetunnel/security" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+<a tabindex="-1" id="item-0bd8182e-9a96-40a7-89c0-b9ceb1531054" href="/779776787/edgetunnel" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+<a tabindex="-1" id="item-88f6e9fe-dcf2-402d-bc0f-b7a3120ce68b" href="/779776787/edgetunnel/projects" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+<a tabindex="-1" id="item-9aa6e2d2-c24c-48b9-b33a-77cd02f9f75c" href="/779776787/edgetunnel/actions" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+<a tabindex="-1" id="item-a5c7a61a-236c-4087-bd33-f76a72c3b9eb" href="/779776787/edgetunnel/pulls" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+<a tabindex="-1" id="item-b3b57fce-6e86-427c-80a7-38996927b0ee" href="/779776787/edgetunnel/security" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+<a tabindex="-1" id="item-d89585c7-f6d2-4b81-b70f-57e057104c8f" href="/779776787/edgetunnel/pulse" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
 <auto-check src="/search/custom_scopes/check_name" required>
 <body class="logged-out env-production page-responsive" style="word-wrap: break-word;" >
 <button
@@ -129,7 +129,7 @@
 <div class=" d-flex flex-wrap flex-items-center wb-break-word f3 text-normal">
 <div class="AppHeader-appearanceSettings">
 <div class="FormControl FormControl--fullWidth">
-<div class="FormControl-inlineValidation" id="validation-40e658d2-7202-4272-bb5e-2e4236ea0a96" hidden="hidden">
+<div class="FormControl-inlineValidation" id="validation-466c8b01-9f8d-47a0-9f10-ae102c422879" hidden="hidden">
 <div class="HeaderMenu js-header-menu height-fit position-lg-relative d-lg-flex flex-column flex-auto top-0">
 <div class="HeaderMenu-toggle-bar rounded my-1"></div>
 <div class="HeaderMenu-toggle-bar rounded my-1"></div></span>
@@ -210,7 +210,7 @@
 <html
 <input
 <input name="include_email" id="include_email" aria-label="Include my email address so I can be contacted" class="form-control mr-2" type="checkbox">
-<input type="hidden" data-csrf="true" value="k1Qs4c9T6TBZERZm+M1v3GmaEUbvk1nU1F77H0UqZhxQTaO0pkyjN/A7HVJo1RH1q3bcmgWP7JR3CKERAeCXKg==" />
+<input type="hidden" data-csrf="true" value="sXmlaExczrhDn9Y2uSKm1v6HePdWnbOOKWkNapyxvulX0F6K6r+ewlWvLJLoutUTSElrKcCIichbWFWK808S3A==" />
 <input type="hidden" id="custom_scope_id" name="custom_scope_id" data-target="custom-scopes.customScopesIdField">
 <input type="hidden" name="type" class="js-site-search-type-field">
 <label for="custom_scope_name">Name</label>
@@ -348,7 +348,7 @@
 <meta name="description" content="edgetunnel2 VLESS/Trojan 多功能面板. Contribute to 779776787/edgetunnel development by creating an account on GitHub.">
 <meta name="disable-turbo" content="false">
 <meta name="expected-hostname" content="github.com">
-<meta name="fetch-nonce" content="v2:70bc56dc-8bc4-b98b-c2aa-a4227111d107">
+<meta name="fetch-nonce" content="v2:517da06c-8a61-b5eb-46cd-3b5c138b6cd7">
 <meta name="github-keyboard-shortcuts" content="repository,source-code,file-tree,copilot" data-turbo-transient="true" />
 <meta name="go-import" content="github.com/779776787/edgetunnel git https://github.com/779776787/edgetunnel.git">
 <meta name="google-site-verification" content="Apib7-x98H0j5cPqHWwSMm6dNU4GmODRoqxLiDzdx9I">
@@ -533,7 +533,7 @@
 <title>edgetunnel/public/cfip.txt at main · 779776787/edgetunnel · GitHub</title>
 <turbo-frame id="repo-content-turbo-frame" target="_top" data-turbo-action="advance" class="">
 <ul
-<ul aria-labelledby="action-menu-0af73c29-8d97-4407-8e20-48885b003fe4-button" id="action-menu-0af73c29-8d97-4407-8e20-48885b003fe4-list" role="menu" data-view-component="true" class="ActionListWrap--inset ActionListWrap">
+<ul aria-labelledby="action-menu-af33b2e4-d89d-4f33-a5c1-5421cae740d7-button" id="action-menu-af33b2e4-d89d-4f33-a5c1-5421cae740d7-list" role="menu" data-view-component="true" class="ActionListWrap--inset ActionListWrap">
 <ul class="list-style-none d-flex flex-justify-center flex-wrap mb-2 mb-lg-0" aria-labelledby="sr-footer-heading">
 <ul class="pagehead-actions flex-shrink-0 d-none d-md-inline" style="padding: 2px 0;">
 <ul data-view-component="true" class="UnderlineNav-body list-style-none">
@@ -782,12 +782,14 @@ visit.honeywell.com:443#更多选择 | 霍尼韦尔
 w3.org:443#更多选择 | W3C万维
 wealthpartners.jpmorgan.com:443#金融域名 | 摩根大通
 www.adbcardpay.xyz
+www.affirm.com:443#🇨🇦加拿大·CA
 www.allianz.com:443#企业域名 | 安联集团
 www.cf.090227.xyz:443#三网自适应分流-www.cf.090227.xyz
 www.epicgames.com:443#更多选择 | Epicgames
 www.hyundai.com:443#更多选择 | 现代
 www.kia.com:443#更多选择 | 起亚
 www.lego.com:443#更多选择 | 乐高
+www.mskcc.org:443#🇨🇦加拿大·CA
 www.nestle.com:443#企业域名 | 雀巢集团
 www.ntu.edu.sg:443#教育域名 | 南洋理工
 www.ox.ac.uk:443#教育域名 | 牛津大学
@@ -805,6 +807,6 @@ www.zendesk.com:443#更多选择 | Zendesk
 xn--b6gac.eu.org
 yd.hhhhh.eu.org:443#按运营商 | 移动WuYa
 yg1.ygkkk.dpdns.org:443#大佬维护 | YGKKK
-youxuan.cf.090227.xyz#节点更新时间：2026/7/27/9:19 | 更新间隔：每10分钟1次
+youxuan.cf.090227.xyz#节点更新时间：2026/7/27/13:01 | 更新间隔：每10分钟1次
 yx.cf.090227.xyz
 }
