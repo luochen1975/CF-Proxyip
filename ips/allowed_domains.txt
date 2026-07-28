@@ -5,12 +5,9 @@ ProxyIP.JP.CMLiussss.net
 a.lma.de5.net
 academy.mastercard.com:443
 affirm.com:443
-afn.ircf.space:443
 anadoluefes.com:443
-ask.ircf.space:443
 auto.dolby.dpdns.org
 bestcf.030101.xyz
-blog.646474.xyz:443
 blog.raindew.576555.xyz
 bluehost.com:443
 bpb.yousef.isegaro.com
@@ -29,7 +26,6 @@ cf.cloudflare.182682.xyz
 cf.cooteep.com
 cfip.1323123.xyz
 cfip.cfcdn.vip
-cfip.xxxxxxxx.tk
 cfworkers.yyaan.top
 cloudflare-ech.com:443
 cloudflare-eth.com:443
@@ -85,7 +81,6 @@ proxyip.sg.cmliussss.net
 proxyip.us.fxxk.dedyn.io
 qocu.cf.3666888.xyz
 r2.dev:443
-ryn.ircf.space:443
 saas.sin.fan
 saas.sin.fan:443
 serviceshub.samsclub.com:443
@@ -104,10 +99,10 @@ wealthpartners.jpmorgan.com:443
 www.akasantech.com
 www.allianz.com:443
 www.cf.090227.xyz:443
+www.decathlon.com:443
 www.epicgames.com:443
 www.galgamex.net
 www.hyundai.com:443
-www.jimdo.com:443
 www.kia.com:443
 www.lego.com:443
 www.nestle.com:443
@@ -117,7 +112,10 @@ www.razer.com:443
 www.researchgate.net:443
 www.sage.com:443
 www.shopify.com
+www.shopify.com:443
 www.speedtest.net:443
+www.tpg.com:443
+www.udacity.com:443
 www.visa.cn:443
 www.visa.com.hk:443
 www.wto.org:443
