@@ -5,6 +5,7 @@ academy.mastercard.com:443
 affirm.com:443
 anadoluefes.com:443
 bestcf.030101.xyz
+blog.cloudflare.com:443
 bluehost.com:443
 bpb.yousef.isegaro.com
 cdn.091224.xyz
@@ -103,6 +104,7 @@ www.cf.090227.xyz:443
 www.epicgames.com:443
 www.fastsoso.cn
 www.hyundai.com:443
+www.jimdo.com:443
 www.kia.com:443
 www.lego.com:443
 www.nestle.com:443
@@ -111,8 +113,8 @@ www.ox.ac.uk:443
 www.razer.com:443
 www.researchgate.net:443
 www.sage.com:443
+www.shopify.com:443
 www.speedtest.net:443
-www.tpg.com:443
 www.visa.cn:443
 www.visa.com.hk:443
 www.wto.org:443
