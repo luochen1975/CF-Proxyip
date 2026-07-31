@@ -7,6 +7,7 @@ anadoluefes.com:443
 api.gzcrtw.com
 baota.us.kg
 bestcf.030101.xyz
+blog.cloudflare.com:443
 bluehost.com:443
 bpb.yousef.isegaro.com
 cdn.091224.xyz
@@ -74,6 +75,7 @@ nrtcfdns.zone.id
 openai.com:443
 pages.dev:443
 polestar.com:443
+proxyip.aliyun.fxxk.dedyn.io
 proxyip.digitalocean.fxxk.dedyn.io
 proxyip.hk.fxxk.dedyn.io
 proxyip.jp.fxxk.dedyn.io
@@ -105,12 +107,14 @@ www.hyundai.com:443
 www.jimdo.com:443
 www.kia.com:443
 www.lego.com:443
+www.mskcc.org:443
 www.nestle.com:443
 www.ntu.edu.sg:443
 www.ox.ac.uk:443
 www.razer.com:443
 www.researchgate.net:443
 www.sage.com:443
+www.shopify.com:443
 www.speedtest.net:443
 www.visa.cn:443
 www.visa.com.hk:443
