@@ -51,7 +51,6 @@ emerson.com:443
 engage.cloudflareclient.com:443
 eteaf.cf.3666888.xyz
 fn.130519.xyz
-fnp.ircf.space:443
 gh-proxy.com
 glassdoor.com:443
 harley-davidson.com:443
@@ -82,7 +81,6 @@ proxyip.oracle.fxxk.dedyn.io
 proxyip.sg.cmliussss.net
 proxyip.us.fxxk.dedyn.io
 r2.dev:443
-ryn.ircf.space:443
 saas.sin.fan
 saas.sin.fan:443
 serviceshub.samsclub.com:443
@@ -104,6 +102,7 @@ www.cf.090227.xyz:443
 www.epicgames.com:443
 www.fastsoso.cn
 www.hyundai.com:443
+www.jimdo.com:443
 www.kia.com:443
 www.lego.com:443
 www.nestle.com:443
