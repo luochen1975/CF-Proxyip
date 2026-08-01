@@ -7,6 +7,7 @@ anadoluefes.com:443
 api.gzcrtw.com
 bbs.alipansou.com
 bestcf.030101.xyz
+blog.cloudflare.com:443
 blog.raindew.576555.xyz
 bluehost.com:443
 bpb.yousef.isegaro.com
@@ -113,6 +114,7 @@ www.researchgate.net:443
 www.sage.com:443
 www.speedtest.net:443
 www.swowd.com
+www.udacity.com:443
 www.visa.cn:443
 www.visa.com.hk:443
 www.wto.org:443
