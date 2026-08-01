@@ -7,7 +7,6 @@ anadoluefes.com:443
 api.gzcrtw.com
 bbs.alipansou.com
 bestcf.030101.xyz
-blog.646474.xyz:443
 blog.raindew.576555.xyz
 bluehost.com:443
 bpb.yousef.isegaro.com
@@ -28,6 +27,7 @@ cf.godns.cc
 cfip.1323123.xyz
 cfip.cfcdn.vip
 cfip.xxxxxxxx.tk
+cfworkers.yyaan.top
 chinwa.cf.090227.xyz
 cloudflare-ech.com:443
 cloudflare-eth.com:443
@@ -111,7 +111,6 @@ www.ox.ac.uk:443
 www.razer.com:443
 www.researchgate.net:443
 www.sage.com:443
-www.shopify.com:443
 www.speedtest.net:443
 www.swowd.com
 www.visa.cn:443
