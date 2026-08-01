@@ -26,7 +26,7 @@ cf.cloudflare.182682.xyz
 cf.godns.cc
 cfip.1323123.xyz
 cfip.cfcdn.vip
-cfworkers.yyaan.top
+cfip.xxxxxxxx.tk
 chinwa.cf.090227.xyz
 cloudflare-ech.com:443
 cloudflare-eth.com:443
@@ -110,8 +110,10 @@ www.ox.ac.uk:443
 www.razer.com:443
 www.researchgate.net:443
 www.sage.com:443
+www.shopify.com:443
 www.speedtest.net:443
 www.swowd.com
+www.udacity.com:443
 www.visa.cn:443
 www.visa.com.hk:443
 www.wto.org:443
