@@ -3,137 +3,32 @@
 &copy; 2026 GitHub,&nbsp;Inc.
 --tab-size-preference: 4;
 /* Override primer focus outline color for marketing header dropdown links for better contrast */
-104.18.86.57 (US)
-104.18.88.92 (US)
-104.18.89.55 (US)
-104.18.93.142 (US)
-108.162.198.92 (US)
-129.150.53.218 (SG)
-129.151.198.3 (SE)
-129.153.203.62 (US)
-129.154.202.229 (KR)
-129.158.198.241 (US)
-130.162.163.93 (GB)
-130.162.165.64 (GB)
-130.162.174.117 (GB)
-130.162.209.188 (DE)
-130.61.124.127 (DE)
-132.145.245.100 (DE)
-132.145.94.80 (KR)
-132.226.16.97 (KR)
-132.226.22.204 (KR)
-132.226.234.102 (KR)
-138.2.81.71 (SG)
-140.238.31.168 (KR)
-140.238.58.181 (JP)
-141.144.196.32 (NL)
-141.144.197.136 (NL)
-141.144.198.93 (NL)
-141.145.205.115 (FR)
-141.147.147.28 (JP)
-141.147.160.166 (JP)
-141.147.47.32 (DE)
-141.147.64.114 (GB)
-141.147.71.121 (GB)
-141.147.71.187 (GB)
-141.148.203.6 (IN)
-141.148.226.145 (NL)
-141.148.230.89 (NL)
-141.148.235.197 (NL)
-141.148.245.210 (NL)
-143.47.181.217 (NL)
-143.47.183.52 (NL)
-143.47.185.27 (NL)
-143.47.189.30 (NL)
-143.47.191.188 (NL)
-143.47.235.216 (GB)
-143.47.247.120 (GB)
-144.21.42.2 (NL)
-144.21.48.154 (GB)
+104.18.32.191 (US)
+104.18.91.162 (US)
+104.20.49.208 (US)
+104.20.56.65 (US)
+104.21.11.118 (US)
+104.21.204.57 (US)
+104.21.3.41 (US)
+104.24.155.220 (US)
+108.162.198.182 (US)
 144.217.164.29 (CA)
-144.22.252.124 (BR)
-144.24.140.37 (IN)
-144.24.174.149 (DE)
-144.24.88.177 (KR)
-146.56.110.3 (KR)
-146.56.96.206 (KR)
-150.136.87.192 (US)
-150.230.106.66 (JP)
-150.230.118.203 (GB)
-150.230.121.114 (GB)
-150.230.123.106 (GB)
-150.230.198.167 (JP)
-150.230.204.132 (JP)
-150.230.218.53 (JP)
-150.230.22.224 (NL)
-150.230.63.93 (JP)
-152.67.140.249 (GB)
-152.67.142.42 (GB)
-152.67.190.105 (IN)
-152.70.234.185 (KR)
-152.70.240.162 (KR)
-152.70.253.44 (KR)
-152.70.51.3 (NL)
-152.70.59.138 (NL)
 153.121.45.101 (JP)
-155.248.169.118 (JP)
-155.248.170.249 (JP)
-155.248.178.95 (JP)
-155.248.182.161 (JP)
 155.248.184.204 (JP)
-155.248.248.205 (IN)
-158.180.231.216 (IT)
-158.180.75.201 (KR)
-162.159.129.60 (US)
-162.159.130.33 (US)
-162.159.133.216 (US)
-162.159.135.67 (US)
-162.159.136.21 (US)
-162.159.157.155 (US)
-162.159.21.51 (US)
-162.159.38.194 (US)
-162.159.39.1 (US)
-162.159.44.60 (US)
-162.159.45.4 (US)
-162.159.61.121 (US)
-172.64.52.180 (US)
-172.64.53.85 (US)
-192.9.180.162 (AU)
-192.9.250.241 (US)
-193.122.58.158 (DE)
-193.123.166.233 (JP)
-193.123.254.142 (KR)
-193.123.35.178 (NL)
+162.159.11.62 (US)
+162.159.160.200 (US)
+162.159.36.198 (US)
+162.159.38.243 (US)
+162.159.39.69 (US)
+162.159.44.13 (US)
+162.159.45.34 (US)
+162.159.82.163 (US)
+162.159.91.238 (US)
+172.64.52.21 (US)
+172.64.53.146 (US)
 23.95.76.59 (CA)
 45.154.204.7 (CA)
-47.242.218.87 (HK)
-47.253.171.149 (US)
-47.254.86.133 (US)
-47.57.245.232 (HK)
-47.74.155.26 (SG)
 777.ai7777777.xyz
-8.212.12.98 (HK)
-8.212.14.90 (HK)
-8.212.65.162 (HK)
-8.217.168.149 (HK)
-8.218.70.238 (HK)
-8.219.153.31 (SG)
-8.219.228.81 (SG)
-8.219.236.218 (SG)
-8.219.243.132 (SG)
-8.219.245.214 (SG)
-8.219.254.1 (SG)
-8.219.255.49 (SG)
-8.219.63.79 (SG)
-8.219.97.248 (SG)
-8.220.134.136 (PH)
-8.222.139.227 (SG)
-8.222.165.104 (SG)
-8.222.169.19 (SG)
-8.222.213.251 (SG)
-8.222.219.140 (SG)
-8.222.223.112 (SG)
-8.222.255.80 (SG)
 92.223.63.23 (JP)
 92.223.63.5 (JP)
 92.223.63.6 (JP)
@@ -199,12 +94,12 @@
 <a data-pjax="
 <a href="
 <a href="/signup?ref_cta=Sign+up&amp;ref_loc=header+logged+out&amp;ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E%2Fblob%2Fshow&amp;source=header-repo&amp;source_repo=779776787%2Fedgetunnel"
-<a tabindex="-1" id="item-1da0ac62-e7a8-40c9-a7df-28e71227d33f" href="/779776787/edgetunnel/pulls" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
-<a tabindex="-1" id="item-27fe16b9-0026-4e10-ba9a-760196d95647" href="/779776787/edgetunnel/projects" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
-<a tabindex="-1" id="item-80c34813-7565-45ed-b2e9-c3eb043bbcad" href="/779776787/edgetunnel" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
-<a tabindex="-1" id="item-919f0b9a-52ef-4249-b8ca-adad40c159e5" href="/779776787/edgetunnel/security" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
-<a tabindex="-1" id="item-a0ab202d-2116-4943-818a-a01d4d118b87" href="/779776787/edgetunnel/pulse" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
-<a tabindex="-1" id="item-a9a70190-2727-4300-8481-97969958e55c" href="/779776787/edgetunnel/actions" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+<a tabindex="-1" id="item-08bcb5d6-2398-4a88-b649-a04a65d3a5cf" href="/779776787/edgetunnel/pulse" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+<a tabindex="-1" id="item-34e2adf4-2bff-45c5-b62b-47bdcb47e827" href="/779776787/edgetunnel/pulls" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+<a tabindex="-1" id="item-3bd9d30c-c05d-4c96-b496-4954a8d401ea" href="/779776787/edgetunnel" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+<a tabindex="-1" id="item-90f6a664-5a14-4f75-961f-f412e76bd39f" href="/779776787/edgetunnel/projects" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+<a tabindex="-1" id="item-9d3969b8-9aea-4a9e-b82c-143b542c0eca" href="/779776787/edgetunnel/security" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+<a tabindex="-1" id="item-ffd846ab-7776-48e6-9757-714c2eccdb01" href="/779776787/edgetunnel/actions" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
 <auto-check src="/search/custom_scopes/check_name" required>
 <body class="logged-out env-production page-responsive" style="word-wrap: break-word;" >
 <button
@@ -230,7 +125,7 @@
 <div class=" d-flex flex-wrap flex-items-center wb-break-word f3 text-normal">
 <div class="AppHeader-appearanceSettings">
 <div class="FormControl FormControl--fullWidth">
-<div class="FormControl-inlineValidation" id="validation-53daba6b-a33f-4ca2-bc7d-38f70fa0e02a" hidden="hidden">
+<div class="FormControl-inlineValidation" id="validation-0b7ce141-0c2b-4a67-bbb5-ecc0d55dbe39" hidden="hidden">
 <div class="HeaderMenu js-header-menu height-fit position-lg-relative d-lg-flex flex-column flex-auto top-0">
 <div class="HeaderMenu-toggle-bar rounded my-1"></div>
 <div class="HeaderMenu-toggle-bar rounded my-1"></div></span>
@@ -311,7 +206,7 @@
 <html
 <input
 <input name="include_email" id="include_email" aria-label="Include my email address so I can be contacted" class="form-control mr-2" type="checkbox">
-<input type="hidden" data-csrf="true" value="vPH9D1CWLBV7AfVQQ8ql4ZJH5wC1Pqi/b0nVAtDFxkqx5M6abRxCchVMRvnobFLJXHm5VQmNf9zpMk2NAOyUZg==" />
+<input type="hidden" data-csrf="true" value="Klna5rVEeNOQtwHtbUinz1YBSodrAAai07N3f45wOtHczTbpoh8MR1BUk8hLZZ7KTys7fSG4u5JaCrcQ4j0DZw==" />
 <input type="hidden" id="custom_scope_id" name="custom_scope_id" data-target="custom-scopes.customScopesIdField">
 <input type="hidden" name="type" class="js-site-search-type-field">
 <label for="custom_scope_name">Name</label>
@@ -458,7 +353,7 @@
 <meta name="description" content="edgetunnel2 VLESS/Trojan 多功能面板. Contribute to 779776787/edgetunnel development by creating an account on GitHub.">
 <meta name="disable-turbo" content="false">
 <meta name="expected-hostname" content="github.com">
-<meta name="fetch-nonce" content="v2:26bac880-dfff-5a64-983a-7df84358c6b5">
+<meta name="fetch-nonce" content="v2:1a0fc2c5-050b-658b-406e-3b93c1261fed">
 <meta name="github-keyboard-shortcuts" content="repository,source-code,file-tree,copilot" data-turbo-transient="true" />
 <meta name="go-import" content="github.com/779776787/edgetunnel git https://github.com/779776787/edgetunnel.git">
 <meta name="google-site-verification" content="Apib7-x98H0j5cPqHWwSMm6dNU4GmODRoqxLiDzdx9I">
@@ -643,7 +538,7 @@
 <title>edgetunnel/public/cfip.txt at main · 779776787/edgetunnel · GitHub</title>
 <turbo-frame id="repo-content-turbo-frame" target="_top" data-turbo-action="advance" class="">
 <ul
-<ul aria-labelledby="action-menu-5b6b9c34-99ee-479a-aa27-4f18018c9747-button" id="action-menu-5b6b9c34-99ee-479a-aa27-4f18018c9747-list" role="menu" data-view-component="true" class="ActionListWrap--inset ActionListWrap">
+<ul aria-labelledby="action-menu-1bf437bf-5be9-4a14-a125-35e759815987-button" id="action-menu-1bf437bf-5be9-4a14-a125-35e759815987-list" role="menu" data-view-component="true" class="ActionListWrap--inset ActionListWrap">
 <ul class="list-style-none d-flex flex-justify-center flex-wrap mb-2 mb-lg-0" aria-labelledby="sr-footer-heading">
 <ul class="pagehead-actions flex-shrink-0 d-none d-md-inline" style="padding: 2px 0;">
 <ul data-view-component="true" class="UnderlineNav-body list-style-none">
