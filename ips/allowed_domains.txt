@@ -7,6 +7,7 @@ affirm.com:443
 anadoluefes.com:443
 auto.dolby.dpdns.org
 bestcf.030101.xyz
+blog.646474.xyz:443
 blog.raindew.576555.xyz
 bluehost.com:443
 bpb.yousef.isegaro.com
@@ -99,12 +100,11 @@ visa.com:443
 visit.honeywell.com:443
 w3.org:443
 wealthpartners.jpmorgan.com:443
-www.affirm.com:443
 www.allianz.com:443
 www.cf.090227.xyz:443
-www.decathlon.com:443
 www.epicgames.com:443
 www.hyundai.com:443
+www.jimdo.com:443
 www.kia.com:443
 www.lego.com:443
 www.nestle.com:443
