@@ -7,7 +7,6 @@ affirm.com:443
 anadoluefes.com:443
 auto.dolby.dpdns.org
 bestcf.030101.xyz
-blog.646474.xyz:443
 blog.raindew.576555.xyz
 bluehost.com:443
 bpb.yousef.isegaro.com
@@ -18,6 +17,7 @@ cdn.ddeed.de
 cdn.jsdelivr.net:443
 cdnjs.com:443
 cdns.doon.eu.org
+cf.008500.xyz:443
 cf.090227.xyz:443
 cf.0sm.com
 cf.130519.xyz
@@ -104,7 +104,6 @@ www.allianz.com:443
 www.cf.090227.xyz:443
 www.epicgames.com:443
 www.hyundai.com:443
-www.jimdo.com:443
 www.kia.com:443
 www.lego.com:443
 www.nestle.com:443
@@ -114,6 +113,7 @@ www.razer.com:443
 www.researchgate.net:443
 www.sage.com:443
 www.speedtest.net:443
+www.tpg.com:443
 www.visa.cn:443
 www.visa.com.hk:443
 www.wto.org:443
