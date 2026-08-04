@@ -65,7 +65,6 @@ jimdo.com:443
 jp443.008882.xyz
 ln.edu.hk:443
 loreal.com:443
-lt.4.hhhhh.eu.org:443
 lt.hhhhh.eu.org:443
 markmonitor.com:443
 mclaren.com:443
@@ -108,7 +107,6 @@ www.epicgames.com:443
 www.hyundai.com:443
 www.kia.com:443
 www.lego.com:443
-www.mskcc.org:443
 www.nestle.com:443
 www.ntu.edu.sg:443
 www.ox.ac.uk:443
