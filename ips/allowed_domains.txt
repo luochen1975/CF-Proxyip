@@ -10,7 +10,6 @@ avido.cf.3666888.xyz
 bbs.alipansou.com
 bestcf.030101.xyz
 blog.646474.xyz
-blog.646474.xyz:443
 bluehost.com:443
 bpb.yousef.isegaro.com
 cdn.091224.xyz
