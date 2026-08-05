@@ -31,6 +31,7 @@ cf.neko.cloudd.eu.org
 cfip.1323123.xyz
 cfip.cfcdn.vip
 cfip.xxxxxxxx.tk
+cfworkers.yyaan.top
 cloudflare-ech.com:443
 cloudflare-eth.com:443
 cloudflare-ip.mofashi.ltd
