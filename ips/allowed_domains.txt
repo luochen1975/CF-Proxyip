@@ -28,7 +28,6 @@ cf.neko.cloudd.eu.org
 cf.yfjc.sbs
 cfip.1323123.xyz
 cfip.cfcdn.vip
-cfip.xxxxxxxx.tk
 cfvip.cf.3666888.xyz
 cfworkers.yyaan.top
 cloudflare-ech.com:443
@@ -77,7 +76,6 @@ op.chinwa.eu.cc
 openai.com:443
 pages.dev:443
 polestar.com:443
-proxyip.aliyun.fxxk.dedyn.io
 proxyip.digitalocean.fxxk.dedyn.io
 proxyip.hk.fxxk.dedyn.io
 proxyip.jp.fxxk.dedyn.io
@@ -116,6 +114,7 @@ www.researchgate.net:443
 www.sage.com:443
 www.shopify.com
 www.speedtest.net:443
+www.udacity.com:443
 www.visa.cn:443
 www.visa.com.hk:443
 www.wto.org:443
