@@ -4,6 +4,7 @@ academy.mastercard.com:443
 affirm.com:443
 anadoluefes.com:443
 bestcf.030101.xyz
+blog.646474.xyz:443
 bluehost.com:443
 bpb.yousef.isegaro.com
 cdn.2020111.xyz
@@ -19,6 +20,7 @@ cf.cloudflare.182682.xyz
 cfip.1323123.xyz
 cfip.cfcdn.vip
 cfip.xxxxxxxx.tk
+cfworkers.yyaan.top
 cloudflare-ech.com:443
 cloudflare-eth.com:443
 cloudflare-ip.mofashi.ltd
