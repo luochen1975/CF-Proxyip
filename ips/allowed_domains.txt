@@ -18,6 +18,7 @@ cf.877774.xyz:443
 cf.cloudflare.182682.xyz
 cfip.1323123.xyz
 cfip.cfcdn.vip
+cfip.xxxxxxxx.tk
 cfworkers.yyaan.top
 cloudflare-ech.com:443
 cloudflare-eth.com:443
@@ -84,7 +85,6 @@ visa.com:443
 visit.honeywell.com:443
 w3.org:443
 wealthpartners.jpmorgan.com:443
-www.affirm.com:443
 www.allianz.com:443
 www.cf.090227.xyz:443
 www.epicgames.com:443
@@ -97,6 +97,7 @@ www.ox.ac.uk:443
 www.razer.com:443
 www.researchgate.net:443
 www.sage.com:443
+www.shopify.com:443
 www.speedtest.net:443
 www.visa.cn:443
 www.visa.com.hk:443
