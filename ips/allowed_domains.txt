@@ -4,6 +4,7 @@ academy.mastercard.com:443
 affirm.com:443
 anadoluefes.com:443
 bestcf.030101.xyz
+blog.646474.xyz:443
 bluehost.com:443
 bpb.yousef.isegaro.com
 cdn.2020111.xyz
@@ -68,7 +69,6 @@ proxyip.hk.fxxk.dedyn.io
 proxyip.jp.fxxk.dedyn.io
 proxyip.oracle.fxxk.dedyn.io
 proxyip.sg.cmliussss.net
-proxyip.us.fxxk.dedyn.io
 r2.dev:443
 saas.sin.fan
 saas.sin.fan:443
@@ -91,14 +91,15 @@ www.epicgames.com:443
 www.hyundai.com:443
 www.kia.com:443
 www.lego.com:443
+www.mskcc.org:443
 www.nestle.com:443
 www.ntu.edu.sg:443
 www.ox.ac.uk:443
 www.razer.com:443
 www.researchgate.net:443
 www.sage.com:443
-www.shopify.com:443
 www.speedtest.net:443
+www.temu.com:443
 www.visa.cn:443
 www.visa.com.hk:443
 www.wto.org:443
