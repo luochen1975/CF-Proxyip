@@ -1,15 +1,14 @@
 &copy; 2026 GitHub,&nbsp;Inc.
 --tab-size-preference: 4;
 0o755
-104.16.107.215 (US)
-104.16.2.182 (US)
-104.18.146.193 (US)
-104.18.41.156 (US)
-104.19.82.113 (US)
-104.20.48.48 (US)
-104.20.49.211 (US)
-104.20.51.16 (US)
-104.20.57.243 (US)
+104.16.152.110 (US)
+104.17.112.178 (US)
+104.17.211.229 (US)
+104.17.214.58 (US)
+104.17.217.26 (US)
+104.17.55.155 (US)
+104.17.97.19 (US)
+104.17.99.25 (US)
 129.150.53.218 (SG)
 129.151.198.3 (SE)
 129.153.203.62 (US)
@@ -87,10 +86,11 @@
 155.248.248.205 (IN)
 158.180.231.216 (IT)
 158.180.75.201 (KR)
-162.159.160.103 (US)
-162.159.82.8 (US)
 168.138.165.174 (SG)
-172.64.229.27 (US)
+172.64.144.85 (US)
+172.64.153.26 (US)
+172.64.229.136 (US)
+172.64.229.164 (US)
 1749991941.bilibiliapp.cn
 192.9.180.162 (AU)
 192.9.250.241 (US)
@@ -176,12 +176,12 @@
 <a data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to docs&quot;,&quot;label&quot;:&quot;text:docs&quot;}" href="https://docs.github.com/" data-view-component="true" class="Link--secondary Link">Docs</a>
 <a data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" href="/0o755/edgetunnel">edgetunnel</a>
 <a href="#start-of-content" data-skip-target-assigned="false" class="px-2 tmp-py-4 color-bg-accent-emphasis color-fg-on-emphasis show-on-focus js-skip-to-content">Skip to content</a>
-<a tabindex="-1" id="item-44fea1d6-d232-4183-ba8b-f01fa66e7689" href="/0o755/edgetunnel/actions" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
-<a tabindex="-1" id="item-48a406d9-651b-484b-9b02-1c73fd080544" href="/0o755/edgetunnel/pulls" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
-<a tabindex="-1" id="item-94b14f0d-e3bc-47be-aff2-808f33d6373b" href="/0o755/edgetunnel/pulse" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
-<a tabindex="-1" id="item-e67bbb3c-0fa3-43ef-8663-9d7e02f567c9" href="/0o755/edgetunnel" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
-<a tabindex="-1" id="item-e86c3b7f-77a5-4b50-ab27-85f2c307ddf3" href="/0o755/edgetunnel/security" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
-<a tabindex="-1" id="item-ec0f2b8b-595c-4b03-ae5c-f30f6f7a1ae1" href="/0o755/edgetunnel/projects" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+<a tabindex="-1" id="item-0c5b15cc-7fdc-47e1-928c-1c9802ba0db9" href="/0o755/edgetunnel/projects" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+<a tabindex="-1" id="item-2b8ae515-3551-40da-8305-f3f9b5b9b971" href="/0o755/edgetunnel/pulse" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+<a tabindex="-1" id="item-4f5aebb1-e0b2-486c-a8f8-49d0b9f83347" href="/0o755/edgetunnel" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+<a tabindex="-1" id="item-79e09423-a5ac-4f1e-955c-d10f39e6e180" href="/0o755/edgetunnel/security" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+<a tabindex="-1" id="item-8cb367e5-bd8c-4c82-8732-5cb9cbdb58d7" href="/0o755/edgetunnel/actions" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+<a tabindex="-1" id="item-b4c848cc-6a26-4b78-8bf6-eb4401b5449c" href="/0o755/edgetunnel/pulls" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
 <body class="logged-out env-production page-responsive" style="word-wrap: break-word;" >
 <button
 <button autofocus class="flash-close js-flash-close" type="button" aria-label="Dismiss this message">
@@ -371,7 +371,7 @@
 <meta name="description" content="edgetunnel2 VLESS/Trojan 多功能面板. Contribute to 0o755/edgetunnel development by creating an account on GitHub.">
 <meta name="disable-turbo" content="false">
 <meta name="expected-hostname" content="github.com">
-<meta name="fetch-nonce" content="v2:b4448505-2a69-34e9-4a0e-13ba05faacd3">
+<meta name="fetch-nonce" content="v2:60cf35f5-3e46-d6c0-b0ee-523bfe3842d9">
 <meta name="github-keyboard-shortcuts" content="repository,source-code,file-tree,copilot" data-turbo-transient="true" />
 <meta name="go-import" content="github.com/0o755/edgetunnel git https://github.com/0o755/edgetunnel.git">
 <meta name="google-site-verification" content="Apib7-x98H0j5cPqHWwSMm6dNU4GmODRoqxLiDzdx9I">
@@ -462,7 +462,7 @@
 <template id="snippet-clipboard-copy-button-unpositioned">
 <title>edgetunnel/public/cfip.txt at main · 0o755/edgetunnel · GitHub</title>
 <turbo-frame id="repo-content-turbo-frame" target="_top" data-turbo-action="advance" class="">
-<ul aria-labelledby="action-menu-224c0a2a-e5c3-4bcf-88d3-c75f124a4af2-button" id="action-menu-224c0a2a-e5c3-4bcf-88d3-c75f124a4af2-list" role="menu" data-view-component="true" class="ActionListWrap--inset ActionListWrap">
+<ul aria-labelledby="action-menu-42adadcf-120b-42dc-ab4d-4e90da3dcda6-button" id="action-menu-42adadcf-120b-42dc-ab4d-4e90da3dcda6-list" role="menu" data-view-component="true" class="ActionListWrap--inset ActionListWrap">
 <ul class="list-style-none d-flex flex-justify-center flex-wrap mb-2 mb-lg-0" aria-labelledby="sr-footer-heading">
 <ul class="pagehead-actions flex-shrink-0 d-none d-md-inline" style="padding: 2px 0;">
 <ul data-view-component="true" class="UnderlineNav-body list-style-none">
@@ -545,7 +545,7 @@ data-attempted-ssr="false"
 data-attempted-ssr="true"
 data-color-mode="auto" data-light-theme="light" data-dark-theme="dark"
 data-commit-hovercards-enabled
-data-cookie-consent-required="true"
+data-cookie-consent-required="false"
 data-data-router-enabled="true"
 data-discussion-hovercards-enabled
 data-initial-cookie-consent-allowed=""
@@ -573,6 +573,7 @@ hongkongairport.com:443#企业域名 | 香港机场
 https://edt-aio-nav.pages.dev:443#大佬维护 | MingYu
 icook.hk#官方优选
 icook.tw#官方优选
+icook.tw:443#🇺🇸美国·US Tw优选
 ikea.com:443#更多选择 | 宜家
 img.856518.xyz
 initial-path="/0o755/edgetunnel/blob/main/public/cfip.txt"
@@ -639,6 +640,7 @@ wealthpartners.jpmorgan.com:443#金融域名 | 摩根大通
 www.adbcardpay.xyz
 www.allianz.com:443#企业域名 | 安联集团
 www.cf.090227.xyz:443#三网自适应分流-www.cf.090227.xyz
+www.decathlon.com:443#🇨🇦加拿大·CA
 www.epicgames.com:443#更多选择 | Epicgames
 www.hyundai.com:443#更多选择 | 现代
 www.kia.com:443#更多选择 | 起亚
@@ -658,10 +660,9 @@ www.visa.cn:443#金融域名 | VISA中国
 www.visa.com.hk:443#金融域名 | VISA香港
 www.wto.org:443#更多选择 | WTO世贸
 www.zendesk.com:443#更多选择 | Zendesk
-www.zendesk.com:443#🇺🇸美国·US
 xn--b6gac.eu.org
 yd.hhhhh.eu.org:443#按运营商 | 移动WuYa
 yg1.ygkkk.dpdns.org:443#大佬维护 | YGKKK
 yg11.ygkkk.dpdns.org
-youxuan.cf.090227.xyz#节点更新时间：2026/8/10/3:53 | 更新间隔：每10分钟1次
+youxuan.cf.090227.xyz#节点更新时间：2026/8/10/8:35 | 更新间隔：每10分钟1次
 }
