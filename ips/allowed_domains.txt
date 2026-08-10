@@ -68,6 +68,7 @@ ln.edu.hk:443
 loreal.com:443
 lt.hhhhh.eu.org:443
 markmonitor.com:443
+mci.ircf.space:443
 mclaren.com:443
 motorsport-id.porsche.com:443
 mycareer.verizon.com:443
@@ -115,7 +116,6 @@ www.ox.ac.uk:443
 www.razer.com:443
 www.researchgate.net:443
 www.sage.com:443
-www.shopify.com:443
 www.speedtest.net:443
 www.visa.cn:443
 www.visa.com.hk:443
