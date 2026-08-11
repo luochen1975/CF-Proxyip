@@ -8,9 +8,8 @@ auto.dolby.dpdns.org
 b3.cfyx.20237737.xyz
 bestcf.030101.xyz
 blog.646474.xyz
-blog.646474.xyz:443
+blog.cloudflare.com:443
 bluehost.com:443
-bp.1.hhhhh.eu.org:443
 bpb.yousef.isegaro.com
 cdn.091224.xyz
 cdn.2020111.xyz
@@ -26,7 +25,6 @@ cf.877774.xyz:443
 cf.cloudflare.182682.xyz
 cfip.1323123.xyz
 cfip.cfcdn.vip
-cfip.xxxxxxxx.tk
 cfworkers.yyaan.top
 cfyx.aliyun.20237737.xyz
 cloudflare-ech.com:443
@@ -49,7 +47,6 @@ cu.877774.xyz:443
 cu.cloudflare.byoip.top:443
 digitalocean.com:443
 doro.lol
-dx.1.hhhhh.eu.org:443
 dx.hhhhh.eu.org:443
 emerson.com:443
 engage.cloudflareclient.com:443
