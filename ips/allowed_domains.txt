@@ -27,7 +27,6 @@ cf.cooteep.com
 cfip.1323123.xyz
 cfip.cfcdn.vip
 cfip.xxxxxxxx.tk
-cfworkers.yyaan.top
 cloudflare-ech.com:443
 cloudflare-eth.com:443
 cloudflare-ip.mofashi.ltd
@@ -69,6 +68,7 @@ mclaren.com:443
 motorsport-id.porsche.com:443
 mycareer.verizon.com:443
 nrt.xxxxxxxx.nyc.mn
+nrtcfdns.zone.id
 openai.com:443
 pages.dev:443
 ping.ctrl.li
@@ -107,7 +107,6 @@ www.epicgames.com:443
 www.hyundai.com:443
 www.kia.com:443
 www.lego.com:443
-www.mskcc.org:443
 www.nestle.com:443
 www.ntu.edu.sg:443
 www.oopt.eu.cc
@@ -116,7 +115,9 @@ www.razer.com:443
 www.researchgate.net:443
 www.sage.com:443
 www.shopify.com
+www.shopify.com:443
 www.speedtest.net:443
+www.temu.com:443
 www.visa.cn:443
 www.visa.com.hk:443
 www.wto.org:443
