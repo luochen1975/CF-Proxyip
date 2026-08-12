@@ -119,7 +119,6 @@ www.shopify.com
 www.speedtest.net:443
 www.visa.cn:443
 www.visa.com.hk:443
-www.whatismyip.net:443
 www.wto.org:443
 www.zendesk.com:443
 xn--b6gac.eu.org
