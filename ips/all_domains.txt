@@ -1,16 +1,17 @@
 &copy; 2026 GitHub,&nbsp;Inc.
 --tab-size-preference: 4;
 0o755
-104.16.149.147 (US)
-104.16.242.127 (US)
-104.16.246.15 (US)
-104.16.251.198 (US)
-104.16.96.133 (US)
-104.17.159.172 (US)
-104.17.35.165 (US)
-104.17.98.182 (US)
-104.19.147.90 (US)
-104.21.88.239 (US)
+104.16.251.118 (US)
+104.17.152.216 (US)
+104.17.156.84 (US)
+104.17.176.78 (US)
+104.17.29.96 (US)
+104.17.49.53 (US)
+104.17.62.134 (US)
+104.19.144.26 (US)
+104.19.158.56 (US)
+104.19.226.227 (US)
+104.19.45.29 (US)
 129.150.53.218 (SG)
 129.151.198.3 (SE)
 129.153.203.62 (US)
@@ -89,10 +90,9 @@
 155.248.248.205 (IN)
 158.180.231.216 (IT)
 158.180.75.201 (KR)
-162.159.82.52 (US)
 168.138.165.174 (SG)
-172.64.154.156 (US)
-172.64.229.191 (US)
+172.64.152.121 (US)
+172.64.154.105 (US)
 1749991941.bilibiliapp.cn
 192.9.180.162 (AU)
 192.9.250.241 (US)
@@ -176,12 +176,12 @@
 <a data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to docs&quot;,&quot;label&quot;:&quot;text:docs&quot;}" href="https://docs.github.com/" data-view-component="true" class="Link--secondary Link">Docs</a>
 <a data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" href="/0o755/edgetunnel">edgetunnel</a>
 <a href="#start-of-content" data-skip-target-assigned="false" class="px-2 tmp-py-4 color-bg-accent-emphasis color-fg-on-emphasis show-on-focus js-skip-to-content">Skip to content</a>
-<a tabindex="-1" id="item-2e690942-1715-4fde-bd8c-3f341f774006" href="/0o755/edgetunnel/projects" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
-<a tabindex="-1" id="item-3b56a9f3-ba77-454d-9637-b5182e70b19c" href="/0o755/edgetunnel/security" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
-<a tabindex="-1" id="item-51710eb0-500a-4634-b8a5-78260f645879" href="/0o755/edgetunnel/actions" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
-<a tabindex="-1" id="item-5daa1c56-0c5b-4192-a1d3-0deb2a1c2a03" href="/0o755/edgetunnel/pulls" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
-<a tabindex="-1" id="item-ae733f84-5369-414a-ba12-251872623309" href="/0o755/edgetunnel" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
-<a tabindex="-1" id="item-e642750b-3922-4bde-bb87-d573a3bf8f54" href="/0o755/edgetunnel/pulse" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+<a tabindex="-1" id="item-376add5a-1f36-445b-a818-b39040d8530f" href="/0o755/edgetunnel/actions" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+<a tabindex="-1" id="item-524ce1aa-31b3-4bc4-b078-a7e357d6a411" href="/0o755/edgetunnel/pulse" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+<a tabindex="-1" id="item-8668c48a-45cb-4196-a399-da6c108c0011" href="/0o755/edgetunnel" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+<a tabindex="-1" id="item-98bc0ec7-1f33-4f04-85de-acb41d14c308" href="/0o755/edgetunnel/pulls" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+<a tabindex="-1" id="item-cf447987-36c8-417e-b8c3-c922123d4064" href="/0o755/edgetunnel/projects" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+<a tabindex="-1" id="item-d4c7d9e9-abdd-4b91-a80c-a3600a46dde9" href="/0o755/edgetunnel/security" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
 <body class="logged-out env-production page-responsive" style="word-wrap: break-word;" >
 <button
 <button autofocus class="flash-close js-flash-close" type="button" aria-label="Dismiss this message">
@@ -244,27 +244,28 @@
 <li hidden="hidden" data-menu-item="i5insights-tab" data-targets="action-list.items" role="none" data-view-component="true" class="ActionListItem">
 <li>
 <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/15071.ec210741e33d5011.module.css" />
-<link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/60092.e749e6cc81e0f69e.module.css" />
+<link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/21967.0851066ba75ab814.module.css" />
 <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/app-runtime.bed436009292e433.module.css" />
 <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/code-12d60eb17c94521c.css" />
-<link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/code-view.943c9aa60fe5701a.module.css" />
+<link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/code-view.44f6774aaa671f90.module.css" />
 <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/github-59fc16002818df36.css" />
 <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/global-9c67779f7c7b843b.css" />
-<link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/keyboard-shortcuts-dialog.b00bb205ad1a95dc.module.css" />
+<link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/keyboard-shortcuts-dialog.cba010f25ef960ce.module.css" />
 <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/lazy-react-partial-marketing-header.5d0e6fce08ff9c8d.module.css" />
-<link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/notifications-subscriptions-menu.749f164442e1041e.module.css" />
+<link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/notifications-subscriptions-menu.f8eabb3b14fcf9cf.module.css" />
 <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/primer-73a0e2225731ad3f.css" />
 <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/primer-primitives-9f1db623a2d85734.css" />
 <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/primer-react-brand-css.566b06f97d781cc2.module.css" />
-<link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/primer-react-css.d9a6dfacdd1cbc81.module.css" />
+<link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/primer-react-css.a9b2c3604bd72c37.module.css" />
 <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/react-core.698399596832c5c7.module.css" />
 <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/repository-3aa75d4cd2374bb7.css" />
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/11294-438be97a7ccfa6d8.js" />
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/13365-ed074e3b0d62ce5b.js" />
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/15071-7df77fe4261e8def.js" />
-<link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/16946-2337b8f0e64081a7.js" />
+<link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/16946-1c93f3aff7bc2087.js" />
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/20188-ccc8ccbf1e726b80.js" />
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/21880-b24d4bde9914fd6b.js" />
+<link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/21967-8ff0056d8cd41418.js" />
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/24360-79deb141ba3dfbc7.js" fetchpriority="low" />
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/24383-a0d18af3f92d963f.js" fetchpriority="low" />
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/26533-36c85461b011ffd5.js" />
@@ -281,7 +282,7 @@
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/3609-2a17d1c3e2ce7fe5.js" />
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/40039-24cfd6c5c8d82b2a.js" />
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/40062-8a0280342e37bc65.js" />
-<link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/42179-06f4866e8ee19668.js" fetchpriority="low" />
+<link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/42179-3431b8cbd631667c.js" fetchpriority="low" />
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/43403-3045f1fd875ce7b4.js" fetchpriority="low" />
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/437-e211f0d3b29f548a.js" />
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/43939-ca6041e0d13b6bf5.js" />
@@ -293,7 +294,6 @@
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/55240-de5499b5e0462c82.js" />
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/55887-99a4521199610050.js" />
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/58494-8fde42aa50c63758.js" />
-<link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/60092-25a7ff34c42bcee6.js" />
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/6065-7268903736fcd489.js" />
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/65390-8192b87a390f0f9d.js" />
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/65637-e357a8be37eda955.js" />
@@ -325,7 +325,7 @@
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/95685-4bba5b9eb357f56c.js" />
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/96305-2aea220328b24ac0.js" />
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/9739-18f0a7d6cdb8c8ea.js" fetchpriority="low" />
-<link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/97662-4cacc5f29e833c39.js" fetchpriority="low" />
+<link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/97662-6db1d7c9fb6988f7.js" fetchpriority="low" />
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/98944-e7414dc2340e0a21.js" />
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/app-foundation-33f393e599bf3cff.js" />
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/app-runtime-c75b74c6c9da072c.js" />
@@ -333,16 +333,16 @@
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/catalyst-fe76da6b29217672.js" />
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/fetch-utilities-13e6a2728cb8d6a4.js" />
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/hotkey-18e2cf4c6aadb3ff.js" />
-<link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/keyboard-shortcuts-dialog-fb0c546d6e9bc926.js" fetchpriority="low" />
+<link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/keyboard-shortcuts-dialog-e434f068eb8676a1.js" fetchpriority="low" />
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/lazy-react-partial-marketing-header-5d85541cfad64a0c.js" fetchpriority="low" />
-<link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/marketing-header-d002a0325752ee34.js" fetchpriority="low" />
-<link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/primer-react-f2be8bd603059e72.js" />
+<link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/marketing-header-3155d473face48ba.js" fetchpriority="low" />
+<link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/primer-react-39680fbff434c95b.js" />
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/react-core-0f882e6b7e600396.js" />
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/react-lib-1c1e7314c65e556e.js" />
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/relative-time-element-30f4d10f3776b4ac.js" />
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/runtime-helpers-b5a5a1cee32a4b87.js" />
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/selector-observer-31e911ea8e9046d3.js" />
-<link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/wp-runtime-0c2a204acb990fc1.js" />
+<link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/wp-runtime-578c645819ffc371.js" />
 <link rel="alternate icon" class="js-site-favicon" type="image/png" href="https://github.githubassets.com/favicons/favicon.png">
 <link rel="assets" href="https://github.githubassets.com/">
 <link rel="dns-prefetch" href="https://avatars.githubusercontent.com">
@@ -361,8 +361,8 @@
 <meta data-hydrostats="publish">
 <meta http-equiv="x-pjax-csp-version" content="2af6a6627810d190be616096b617c8f37a1419b9435f76190f0e0d7638222ac1" data-turbo-track="reload">
 <meta http-equiv="x-pjax-css-version" content="f4f50ea2eb36d55c9e044ee711de11fe7e5fde5894de0e48c79d4f0b69ce00ae" data-turbo-track="reload">
-<meta http-equiv="x-pjax-js-version" content="19d7f411128a2e725338c8aa3825d15079aa82f9eb669ee339f04876ac920213" data-turbo-track="reload">
-<meta http-equiv="x-pjax-version" content="7e94c90a1a2cfe0978752ee4eb9b453a7900a6cce5c0aaf4422134f12b295774" data-turbo-track="reload">
+<meta http-equiv="x-pjax-js-version" content="a36554e00bb7d6e207eb7fe7304c4fd5f72a57438e2cb202152fe57d876d4c9c" data-turbo-track="reload">
+<meta http-equiv="x-pjax-version" content="aa403478411691d7a8fee07c6778991e7a02beba6d59e0643a49da3f8263288b" data-turbo-track="reload">
 <meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-turbo-transient="true" />
 <meta name="apple-itunes-app" content="app-id=1477376905, app-argument=https://github.com/0o755/edgetunnel/blob/main/public/cfip.txt" />
 <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
@@ -372,14 +372,14 @@
 <meta name="description" content="edgetunnel2 VLESS/Trojan 多功能面板. Contribute to 0o755/edgetunnel development by creating an account on GitHub.">
 <meta name="disable-turbo" content="false">
 <meta name="expected-hostname" content="github.com">
-<meta name="fetch-nonce" content="v2:cc690c52-e7c4-25d4-b094-4b6822a35fa7">
+<meta name="fetch-nonce" content="v2:627a0346-08ba-82f7-f3dc-17b93664a936">
 <meta name="github-keyboard-shortcuts" content="repository,source-code,file-tree,copilot" data-turbo-transient="true" />
 <meta name="go-import" content="github.com/0o755/edgetunnel git https://github.com/0o755/edgetunnel.git">
 <meta name="google-site-verification" content="Apib7-x98H0j5cPqHWwSMm6dNU4GmODRoqxLiDzdx9I">
 <meta name="hostname" content="github.com">
 <meta name="hovercard-subject-tag" content="repository:1211574370" data-turbo-transient>
 <meta name="octolytics-url" content="https://collector.github.com/github/collect" />
-<meta name="release" content="c20c6090a80d9939c79caed738784a5195381058" data-turbo-track="reload">
+<meta name="release" content="c0ecfc5e79f5eb9027a389b73e46a02c1180eadb" data-turbo-track="reload">
 <meta name="route-action" content="show" data-turbo-transient>
 <meta name="route-controller" content="blob" data-turbo-transient>
 <meta name="route-pattern" content="/:user_id/:repository/blob/*name(/*path)" data-turbo-transient>
@@ -399,15 +399,15 @@
 <path d="M8 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3ZM1.5 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Zm13 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"></path>
 <react-app
 <react-partial
-<script crossorigin="anonymous" type="module" src="https://github.githubassets.com/assets/behaviors-cdeb0a6235bc6214.js" defer="defer"></script>
-<script crossorigin="anonymous" type="module" src="https://github.githubassets.com/assets/code-menu-ab4dceb7f47bb5a7.js" defer="defer"></script>
-<script crossorigin="anonymous" type="module" src="https://github.githubassets.com/assets/code-view-dbdc2ef561ac1531.js" defer="defer"></script>
-<script crossorigin="anonymous" type="module" src="https://github.githubassets.com/assets/element-registry-baaee1981487b052.js" defer="defer"></script>
-<script crossorigin="anonymous" type="module" src="https://github.githubassets.com/assets/environment-8aaa1a9e7dcfb97c.js" defer="defer"></script>
-<script crossorigin="anonymous" type="module" src="https://github.githubassets.com/assets/github-elements-0073d30d7c801fba.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="https://github.githubassets.com/assets/behaviors-408ba3137b227386.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="https://github.githubassets.com/assets/code-menu-e31f9f33a4875c2c.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="https://github.githubassets.com/assets/code-view-d6145ad74a70a8cf.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="https://github.githubassets.com/assets/element-registry-2c8e15dab596e9b7.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="https://github.githubassets.com/assets/environment-14f64c1cb5a7c5b7.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="https://github.githubassets.com/assets/github-elements-bd3ad2b9dbeee8c8.js" defer="defer"></script>
 <script crossorigin="anonymous" type="module" src="https://github.githubassets.com/assets/high-contrast-cookie-3b456c1efccae649.js"></script>
-<script crossorigin="anonymous" type="module" src="https://github.githubassets.com/assets/notifications-subscriptions-menu-14341c24324d70d3.js" defer="defer"></script>
-<script crossorigin="anonymous" type="module" src="https://github.githubassets.com/assets/wp-runtime-0c2a204acb990fc1.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="https://github.githubassets.com/assets/notifications-subscriptions-menu-57581ecf7e6287eb.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="https://github.githubassets.com/assets/wp-runtime-578c645819ffc371.js" defer="defer"></script>
 <script type="application/json" data-target="react-partial.embeddedData">{"props":{"docsUrl":"https://docs.github.com/get-started/accessibility/keyboard-shortcuts"}}</script>
 <span class="ActionListItem-visual ActionListItem-visual--leading">
 <span class="author flex-self-stretch" itemprop="author">
@@ -463,7 +463,7 @@
 <template id="snippet-clipboard-copy-button-unpositioned">
 <title>edgetunnel/public/cfip.txt at main · 0o755/edgetunnel · GitHub</title>
 <turbo-frame id="repo-content-turbo-frame" target="_top" data-turbo-action="advance" class="">
-<ul aria-labelledby="action-menu-cc4acd39-45d0-432f-bbd4-8db461d3a2cd-button" id="action-menu-cc4acd39-45d0-432f-bbd4-8db461d3a2cd-list" role="menu" data-view-component="true" class="ActionListWrap--inset ActionListWrap">
+<ul aria-labelledby="action-menu-f74f9265-c8b4-470b-af91-d88556013f35-button" id="action-menu-f74f9265-c8b4-470b-af91-d88556013f35-list" role="menu" data-view-component="true" class="ActionListWrap--inset ActionListWrap">
 <ul class="list-style-none d-flex flex-justify-center flex-wrap mb-2 mb-lg-0" aria-labelledby="sr-footer-heading">
 <ul class="pagehead-actions flex-shrink-0 d-none d-md-inline" style="padding: 2px 0;">
 <ul data-view-component="true" class="UnderlineNav-body list-style-none">
@@ -489,7 +489,7 @@ asia.877774.xyz#⚡ 亚洲极速
 auto.dolby.dpdns.org
 bestcf.030101.xyz
 blog.646474.xyz
-blog.cloudflare.com:443#🇨🇦加拿大·CA Blog
+blog.646474.xyz:443#🇨🇦加拿大·CA blog.646474.xyz
 blog.raindew.576555.xyz
 bluehost.com:443#企业域名 | BlueHost
 bpb.yousef.isegaro.com
@@ -656,16 +656,18 @@ www.razer.com:443#更多选择 | 雷蛇
 www.researchgate.net:443#教育域名 | ResearchGate
 www.sage.com:443#更多选择 | Sage
 www.shopify.com#Shopify官方
+www.shopify.com:443#🇨🇦加拿大·CA Shopify官方
 www.speedtest.net:443#更多选择 | Ookla
+www.speedtest.net:443#🇨🇦加拿大·CA
+www.udacity.com:443#🇨🇦加拿大·CA
 www.visa.cn#Visa中国
 www.visa.cn:443#金融域名 | VISA中国
 www.visa.com.hk:443#金融域名 | VISA香港
 www.wto.org:443#更多选择 | WTO世贸
 www.zendesk.com:443#更多选择 | Zendesk
-www.zendesk.com:443#🇨🇦加拿大·CA
 xn--b6gac.eu.org
 yd.hhhhh.eu.org:443#按运营商 | 移动WuYa
 yg1.ygkkk.dpdns.org:443#大佬维护 | YGKKK
 yg2.ygkkk.dpdns.org
-youxuan.cf.090227.xyz#节点更新时间：2026/8/13/15:58 | 更新间隔：每10分钟1次
+youxuan.cf.090227.xyz#节点更新时间：2026/8/13/20:32 | 更新间隔：每10分钟1次
 }
