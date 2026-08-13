@@ -30,6 +30,7 @@ cf.cooteep.com
 cf.neko.cloudflaree.eu.org
 cfip.1323123.xyz
 cfip.cfcdn.vip
+cfip.xxxxxxxx.tk
 cfplus.255520.xyz
 cfworkers.yyaan.top
 cloudflare-ech.com:443
@@ -49,6 +50,7 @@ ct.cloudflare.byoip.top:443
 cu.877774.xyz:443
 cu.cloudflare.byoip.top:443
 digitalocean.com:443
+dx.1.hhhhh.eu.org:443
 dx.hhhhh.eu.org:443
 emerson.com:443
 engage.cloudflareclient.com:443
@@ -100,16 +102,15 @@ visa.com:443
 visit.honeywell.com:443
 w3.org:443
 wealthpartners.jpmorgan.com:443
-www.affirm.com:443
 www.akasantech.com
 www.allianz.com:443
 www.cf.090227.xyz:443
 www.decathlon.com:443
 www.epicgames.com:443
 www.hyundai.com:443
+www.jimdo.com:443
 www.kia.com:443
 www.lego.com:443
-www.mskcc.org:443
 www.nestle.com:443
 www.ntu.edu.sg:443
 www.oopt.eu.cc
@@ -118,6 +119,8 @@ www.razer.com:443
 www.researchgate.net:443
 www.sage.com:443
 www.speedtest.net:443
+www.tpg.com:443
+www.udacity.com:443
 www.visa.cn:443
 www.visa.com.hk:443
 www.wto.org:443
