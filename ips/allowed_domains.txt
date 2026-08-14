@@ -7,7 +7,6 @@ ProxyIP.HK.CMLiussss.net
 ProxyIP.JP.CMLiussss.net
 academy.mastercard.com:443
 affirm.com:443
-afn.ircf.space:443
 anadoluefes.com:443
 auto.dolby.dpdns.org
 bestcf.030101.xyz
@@ -16,7 +15,6 @@ bluehost.com:443
 bpb.yousef.isegaro.com
 cdn.2020111.xyz
 cdn.204910.best
-cdn.667891.xyz
 cdn.jsdelivr.net:443
 cdnjs.com:443
 cdns.doon.eu.org
@@ -97,7 +95,6 @@ skk.moe:443
 static.cloudflareinsights.com:443
 staticdelivery.nexusmods.com:443
 store.ubi.com:443
-time.is:443
 tradepro.wealthmanagement.scotiabank.com:443
 usa.visa.com:443
 vip.cf.3666888.xyz
@@ -110,7 +107,6 @@ www.cf.090227.xyz:443
 www.epicgames.com:443
 www.fastsoso.cn
 www.hyundai.com:443
-www.jimdo.com:443
 www.kia.com:443
 www.lego.com:443
 www.nestle.com:443
@@ -120,6 +116,7 @@ www.razer.com:443
 www.researchgate.net:443
 www.sage.com:443
 www.speedtest.net:443
+www.tpg.com:443
 www.visa.cn:443
 www.visa.com.hk:443
 www.wto.org:443
