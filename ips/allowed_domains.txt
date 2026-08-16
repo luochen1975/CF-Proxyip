@@ -13,6 +13,7 @@ bluehost.com:443
 bpb.yousef.isegaro.com
 cdn.2020111.xyz
 cdn.204910.best
+cdn.667891.xyz
 cdn.cf.3666888.xyz
 cdn.jsdelivr.net:443
 cdnjs.com:443
@@ -108,7 +109,6 @@ www.fastsoso.cn
 www.hyundai.com:443
 www.kia.com:443
 www.lego.com:443
-www.mskcc.org:443
 www.nestle.com:443
 www.ntu.edu.sg:443
 www.ox.ac.uk:443
@@ -116,7 +116,6 @@ www.razer.com:443
 www.researchgate.net:443
 www.sage.com:443
 www.speedtest.net:443
-www.udacity.com:443
 www.visa.cn:443
 www.visa.com.hk:443
 www.wto.org:443
