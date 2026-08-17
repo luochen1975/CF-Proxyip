@@ -1,16 +1,16 @@
 &copy; 2026 GitHub,&nbsp;Inc.
 --tab-size-preference: 4;
 0o755
-1.cf.3666888.xyz
-104.16.155.222 (US)
-104.16.243.229 (US)
-104.17.123.148 (US)
-104.17.49.121 (US)
-104.17.50.216 (US)
-104.17.51.110 (US)
-104.19.149.9 (US)
-104.19.159.77 (US)
-123.cf.3666888.xyz
+104.16.158.250 (US)
+104.16.240.43 (US)
+104.17.112.186 (US)
+104.17.50.176 (US)
+104.17.51.115 (US)
+104.17.56.54 (US)
+104.17.62.87 (US)
+104.18.43.137 (US)
+104.19.145.191 (US)
+104.19.150.40 (US)
 129.150.53.218 (SG)
 129.153.203.62 (US)
 129.154.202.229 (KR)
@@ -86,11 +86,9 @@
 155.248.184.204 (JP)
 155.248.248.205 (IN)
 158.180.75.201 (KR)
+162.159.82.116 (US)
 168.138.165.174 (SG)
-172.64.152.100 (US)
-172.64.153.62 (US)
-172.64.156.237 (US)
-1749991941.bilibiliapp.cn
+172.64.229.139 (US)
 192.9.180.162 (AU)
 192.9.250.241 (US)
 193.122.110.150 (KR)
@@ -174,12 +172,12 @@
 <a data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to docs&quot;,&quot;label&quot;:&quot;text:docs&quot;}" href="https://docs.github.com/" data-view-component="true" class="Link--secondary Link">Docs</a>
 <a data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" href="/0o755/edgetunnel">edgetunnel</a>
 <a href="#start-of-content" data-skip-target-assigned="false" class="px-2 tmp-py-4 color-bg-accent-emphasis color-fg-on-emphasis show-on-focus js-skip-to-content">Skip to content</a>
-<a tabindex="-1" id="item-147a12d5-65c5-42c3-80e4-6394fa9e0d50" href="/0o755/edgetunnel/projects" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
-<a tabindex="-1" id="item-1f35f9e1-c4b9-4607-9b14-96edc2fb03f0" href="/0o755/edgetunnel/pulls" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
-<a tabindex="-1" id="item-315d9003-4bff-40a3-a3c3-a8bdcb0a682c" href="/0o755/edgetunnel/security" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
-<a tabindex="-1" id="item-3252fd4e-5346-4d32-8f99-78f1a3f4be87" href="/0o755/edgetunnel/actions" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
-<a tabindex="-1" id="item-890f7bdf-c598-4893-ae83-fbc779aa785f" href="/0o755/edgetunnel/pulse" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
-<a tabindex="-1" id="item-8975f2ab-fdcd-43d4-93e1-78976ad36d2d" href="/0o755/edgetunnel" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+<a tabindex="-1" id="item-3f91883c-f7e9-440d-8c7e-679cf5428392" href="/0o755/edgetunnel" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+<a tabindex="-1" id="item-65e9098c-c149-4cbf-bf8b-7b96d16225fd" href="/0o755/edgetunnel/pulse" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+<a tabindex="-1" id="item-8ce4b879-41cb-43b5-9188-52d3f43c44ef" href="/0o755/edgetunnel/projects" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+<a tabindex="-1" id="item-919466a6-341c-46d8-95c2-ba718b38ac92" href="/0o755/edgetunnel/actions" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+<a tabindex="-1" id="item-990323d8-aff3-46f2-ba2d-7015ea33691f" href="/0o755/edgetunnel/security" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+<a tabindex="-1" id="item-a9af6006-79d2-41ea-8940-369e1b672e6f" href="/0o755/edgetunnel/pulls" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
 <body class="logged-out env-production page-responsive" style="word-wrap: break-word;" >
 <button
 <button autofocus class="flash-close js-flash-close" type="button" aria-label="Dismiss this message">
@@ -245,12 +243,12 @@
 <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/72373.7baee174bc994f21.module.css" />
 <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/app-runtime.bed436009292e433.module.css" />
 <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/code-12d60eb17c94521c.css" />
-<link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/code-view.b4d01ea031feb687.module.css" />
+<link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/code-view.14aec734ab119365.module.css" />
 <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/github-59fc16002818df36.css" />
-<link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/global-558303a14f5c5e97.css" />
-<link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/keyboard-shortcuts-dialog.84f7cbb9102f5a8e.module.css" />
-<link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/marketing-header.33a0146331d41b57.module.css" />
-<link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/notifications-subscriptions-menu.6c916a7fdb4f4c17.module.css" />
+<link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/global-40545dae31d83dc7.css" />
+<link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/keyboard-shortcuts-dialog.b795edac87a56dc7.module.css" />
+<link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/marketing-header.5ba3ee45b1a5db50.module.css" />
+<link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/notifications-subscriptions-menu.1ab90bcbffeaa95c.module.css" />
 <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/primer-73a0e2225731ad3f.css" />
 <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/primer-primitives-9f1db623a2d85734.css" />
 <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/primer-react-brand-css.566b06f97d781cc2.module.css" />
@@ -283,7 +281,7 @@
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/43563-7a5be9cb74278dc0.js" />
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/437-e211f0d3b29f548a.js" />
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/46740-0a6e4901e467cc61.js" />
-<link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/47406-bb6ed5c0447cd8ee.js" />
+<link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/47406-be9d0d3f87bc4d3d.js" />
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/47752-4f493c9457c343d6.js" />
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/50841-f6411d024525940b.js" />
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/54266-a243da4179a94260.js" fetchpriority="low" />
@@ -331,15 +329,15 @@
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/catalyst-fe76da6b29217672.js" />
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/fetch-utilities-13e6a2728cb8d6a4.js" />
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/hotkey-18e2cf4c6aadb3ff.js" />
-<link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/keyboard-shortcuts-dialog-319892b1bc1ad44d.js" fetchpriority="low" />
-<link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/marketing-header-9971dcc5410cf121.js" fetchpriority="low" />
+<link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/keyboard-shortcuts-dialog-c9523a06a63b31e5.js" fetchpriority="low" />
+<link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/marketing-header-866784df6f0194f5.js" fetchpriority="low" />
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/primer-react-3e63dd60f91fc3ba.js" />
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/react-core-e6bc1d5f4c29bd44.js" />
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/react-lib-1c1e7314c65e556e.js" />
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/relative-time-element-30f4d10f3776b4ac.js" />
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/runtime-helpers-b5a5a1cee32a4b87.js" />
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/selector-observer-31e911ea8e9046d3.js" />
-<link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/wp-runtime-cd9e0a1f87058ab6.js" />
+<link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/wp-runtime-19e8dcb286d84a2f.js" />
 <link rel="alternate icon" class="js-site-favicon" type="image/png" href="https://github.githubassets.com/favicons/favicon.png">
 <link rel="assets" href="https://github.githubassets.com/">
 <link rel="dns-prefetch" href="https://avatars.githubusercontent.com">
@@ -357,9 +355,9 @@
 <meta charset="utf-8">
 <meta data-hydrostats="publish">
 <meta http-equiv="x-pjax-csp-version" content="2af6a6627810d190be616096b617c8f37a1419b9435f76190f0e0d7638222ac1" data-turbo-track="reload">
-<meta http-equiv="x-pjax-css-version" content="d345c9bc0d1191b8ccc275c8727ed4903b4c0208f994a2264be65d18c5c024f2" data-turbo-track="reload">
-<meta http-equiv="x-pjax-js-version" content="f314f0d81fb0df256e0b613ff4e3b292f0df84d716b5c7414a1a8799584ab1b1" data-turbo-track="reload">
-<meta http-equiv="x-pjax-version" content="2cedcaa4dca4fffe910f8b7b33886e897eca95f31b7e837ef24fe22961d637d6" data-turbo-track="reload">
+<meta http-equiv="x-pjax-css-version" content="cd09f19ca3308d1d43f249ab9e666d0bcf44e5f89b5a4d218a6df7ed9692d1b4" data-turbo-track="reload">
+<meta http-equiv="x-pjax-js-version" content="71684d43b027d004b03cc74d0409c09a0bfc7d16aa49005e2b575335820d15a7" data-turbo-track="reload">
+<meta http-equiv="x-pjax-version" content="5526f003cb6185817ad14eca130d198c34ef0ba860a1c70a442f1017eed60d36" data-turbo-track="reload">
 <meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-turbo-transient="true" />
 <meta name="apple-itunes-app" content="app-id=1477376905, app-argument=https://github.com/0o755/edgetunnel/blob/main/public/cfip.txt" />
 <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
@@ -369,14 +367,14 @@
 <meta name="description" content="edgetunnel2 VLESS/Trojan 多功能面板. Contribute to 0o755/edgetunnel development by creating an account on GitHub.">
 <meta name="disable-turbo" content="false">
 <meta name="expected-hostname" content="github.com">
-<meta name="fetch-nonce" content="v2:475c44f8-b9ad-ecad-1b66-359c4713ec75">
+<meta name="fetch-nonce" content="v2:3d8cb352-103f-a5cb-d706-7f74ddc29b22">
 <meta name="github-keyboard-shortcuts" content="repository,source-code,file-tree,copilot" data-turbo-transient="true" />
 <meta name="go-import" content="github.com/0o755/edgetunnel git https://github.com/0o755/edgetunnel.git">
 <meta name="google-site-verification" content="Apib7-x98H0j5cPqHWwSMm6dNU4GmODRoqxLiDzdx9I">
 <meta name="hostname" content="github.com">
 <meta name="hovercard-subject-tag" content="repository:1211574370" data-turbo-transient>
 <meta name="octolytics-url" content="https://collector.github.com/github/collect" />
-<meta name="release" content="dd08a28eb4294b246c1f2a7218d4c116ee5286d4" data-turbo-track="reload">
+<meta name="release" content="828a02342ea6a7dd5e4c791ae401ab351d84d66f" data-turbo-track="reload">
 <meta name="route-action" content="show" data-turbo-transient>
 <meta name="route-controller" content="blob" data-turbo-transient>
 <meta name="route-pattern" content="/:user_id/:repository/blob/*name(/*path)" data-turbo-transient>
@@ -396,15 +394,15 @@
 <path d="M8 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3ZM1.5 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Zm13 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"></path>
 <react-app
 <react-partial
-<script crossorigin="anonymous" type="module" src="https://github.githubassets.com/assets/behaviors-bbe463d0be963873.js" defer="defer"></script>
-<script crossorigin="anonymous" type="module" src="https://github.githubassets.com/assets/code-menu-ca22f1fc62ed99a3.js" defer="defer"></script>
-<script crossorigin="anonymous" type="module" src="https://github.githubassets.com/assets/code-view-c1c97360dd4eca14.js" defer="defer"></script>
-<script crossorigin="anonymous" type="module" src="https://github.githubassets.com/assets/element-registry-6ee313ba71ab66b4.js" defer="defer"></script>
-<script crossorigin="anonymous" type="module" src="https://github.githubassets.com/assets/environment-df81227d724abe95.js" defer="defer"></script>
-<script crossorigin="anonymous" type="module" src="https://github.githubassets.com/assets/github-elements-fd4d6c381bbd040e.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="https://github.githubassets.com/assets/behaviors-8f02652b86b91339.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="https://github.githubassets.com/assets/code-menu-9431e397b4d8fe75.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="https://github.githubassets.com/assets/code-view-414c21487c2e8489.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="https://github.githubassets.com/assets/element-registry-7a92c32565ec0a53.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="https://github.githubassets.com/assets/environment-72daf138a5fb053c.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="https://github.githubassets.com/assets/github-elements-75e09e5f5eee7c0f.js" defer="defer"></script>
 <script crossorigin="anonymous" type="module" src="https://github.githubassets.com/assets/high-contrast-cookie-3b456c1efccae649.js"></script>
-<script crossorigin="anonymous" type="module" src="https://github.githubassets.com/assets/notifications-subscriptions-menu-0d226fe329356bb3.js" defer="defer"></script>
-<script crossorigin="anonymous" type="module" src="https://github.githubassets.com/assets/wp-runtime-cd9e0a1f87058ab6.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="https://github.githubassets.com/assets/notifications-subscriptions-menu-d7b3590123a8244b.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="https://github.githubassets.com/assets/wp-runtime-19e8dcb286d84a2f.js" defer="defer"></script>
 <script type="application/json" data-target="react-partial.embeddedData">{"props":{"docsUrl":"https://docs.github.com/get-started/accessibility/keyboard-shortcuts"}}</script>
 <span class="ActionListItem-visual ActionListItem-visual--leading">
 <span class="author flex-self-stretch" itemprop="author">
@@ -460,7 +458,7 @@
 <template id="snippet-clipboard-copy-button-unpositioned">
 <title>edgetunnel/public/cfip.txt at main · 0o755/edgetunnel · GitHub</title>
 <turbo-frame id="repo-content-turbo-frame" target="_top" data-turbo-action="advance" class="">
-<ul aria-labelledby="action-menu-4d4e36a6-73be-4d7b-9010-f716acaadc0e-button" id="action-menu-4d4e36a6-73be-4d7b-9010-f716acaadc0e-list" role="menu" data-view-component="true" class="ActionListWrap--inset ActionListWrap">
+<ul aria-labelledby="action-menu-cde0ac86-eac3-4aae-a9d1-7d0bac74407c-button" id="action-menu-cde0ac86-eac3-4aae-a9d1-7d0bac74407c-list" role="menu" data-view-component="true" class="ActionListWrap--inset ActionListWrap">
 <ul class="list-style-none d-flex flex-justify-center flex-wrap mb-2 mb-lg-0" aria-labelledby="sr-footer-heading">
 <ul class="pagehead-actions flex-shrink-0 d-none d-md-inline" style="padding: 2px 0;">
 <ul data-view-component="true" class="UnderlineNav-body list-style-none">
@@ -483,15 +481,11 @@ affirm.com:443#更多选择 | Affirm
 anadoluefes.com:443#更多选择 | AnadoluEfes
 app-name="code-view"
 asia.877774.xyz#⚡ 亚洲极速
-avido.cf.3666888.xyz
 bestcf.030101.xyz
 blog.cloudflare.com:443#🇨🇦加拿大·CA Blog
 bluehost.com:443#企业域名 | BlueHost
 bpb.yousef.isegaro.com
-c.lma.de5.net
 cdn.2020111.xyz
-cdn.204910.best
-cdn.ddeed.de
 cdn.jsdelivr.net:443#更多选择 | jsDelivr
 cdnjs.com:443#官方域名 | CDNJS
 cdns.doon.eu.org
@@ -501,13 +495,9 @@ cf.877771.xyz
 cf.877774.xyz
 cf.877774.xyz:443#大佬维护 | QMS
 cf.900501.xyz
-cf.blogluo.eu.org
 cf.cloudflare.182682.xyz
-cf.cooteep.com
-cf.i0.du0.org
 cf.tencentapp.cn
 cf.tencentapp.cn:443#大佬维护 | KTFF
-cf1s.cf.3666888.xyz
 cfip.1323123.xyz
 cfip.cfcdn.vip
 cfip.xxxxxxxx.tk
@@ -527,7 +517,6 @@ cm.cloudflare.byoip.top:443#按运营商 | 移动Byoip
 cmcc.090227.xyz:443#移动分流-cmcc.090227.xyz
 cmcc.877774.xyz#⚡ 移动极速
 cmcc.877774.xyz:443#按运营商 | 移动QMS
-coke.cf.3666888.xyz
 columbia.edu:443#教育域名 | 哥伦比亚
 ct.090227.xyz:443#电信分流-ct.090227.xyz
 ct.877774.xyz#⚡ 电信极速
@@ -557,14 +546,12 @@ data-ssr="false"
 data-ssr="true"
 digitalocean.com:443#企业域名 | DigitalOcean
 dx.hhhhh.eu.org:443#按运营商 | 电信WuYa
-edgeone.gh-proxy.org
 emerson.com:443#更多选择 | 艾默生
 engage.cloudflareclient.com:443#官方域名 | WireGuard
 eur.877774.xyz#⚡ 欧洲极速
 fn.130519.xyz
 forked from <a data-hovercard-type="repository" data-hovercard-url="/cmliu/edgetunnel/hovercard" class="Link--inTextBlock" href="/cmliu/edgetunnel">cmliu/edgetunnel</a>
 freeyx.cloudflare88.eu.org
-fw8je9.cf.3666888.xyz
 glassdoor.com:443#企业域名 | Glassdoor
 harley-davidson.com:443#更多选择 | 哈雷
 hk.onecf.eu.org
@@ -575,7 +562,6 @@ https://edt-aio-nav.pages.dev:443#大佬维护 | MingYu
 icook.hk#官方优选
 icook.tw#官方优选
 ikea.com:443#更多选择 | 宜家
-img.856518.xyz
 initial-path="/0o755/edgetunnel/blob/main/public/cfip.txt"
 investor.apple.com:443#更多选择 | Apple
 ips.meizitu.net
@@ -601,7 +587,6 @@ openai.com:443#企业域名 | OpenAI
 pages.dev:443#官方域名 | Pages
 partial-name="keyboard-shortcuts-dialog"
 partial-name="marketing-header"
-play.mc.js.cool
 polestar.com:443#更多选择 | 极星
 pre, code {
 proxyip.aliyun.fxxk.dedyn.io
@@ -615,7 +600,6 @@ proxyip.us.fxxk.dedyn.io
 r2.dev:443#官方域名 | R2
 saas.sin.fan
 saas.sin.fan:443#大佬维护 | MIYU
-sanwang.cf.3666888.xyz
 serviceshub.samsclub.com:443#企业域名 | 山姆会员
 sg.onecf.eu.org
 shopify.com:443#企业域名 | Shopify
@@ -629,25 +613,22 @@ store.ubi.com:443#企业域名 | 育碧商城
 style="display: block; min-height: calc(100vh - 64px);"
 tab-size: var(--tab-size-preference);
 tencentapp.cn
-test.509666.xyz
 time.is#官方优选
 tradepro.wealthmanagement.scotiabank.com:443#金融域名 | 丰业银行
 type="button"
 us.onecf.eu.org
 usa.visa.com:443#金融域名 | VISA美国
-vip.cf.3666888.xyz
 visa.com:443#企业域名 | VISA
 visit.honeywell.com:443#更多选择 | 霍尼韦尔
 w3.org:443#更多选择 | W3C万维
 wealthpartners.jpmorgan.com:443#金融域名 | 摩根大通
-www.affirm.com:443#🇨🇦加拿大·CA
+www.affirm.com:443#🇺🇸美国·US
 www.allianz.com:443#企业域名 | 安联集团
 www.cf.090227.xyz:443#三网自适应分流-www.cf.090227.xyz
 www.epicgames.com:443#更多选择 | Epicgames
 www.hyundai.com:443#更多选择 | 现代
 www.kia.com:443#更多选择 | 起亚
 www.lego.com:443#更多选择 | 乐高
-www.mskcc.org:443#🇨🇦加拿大·CA
 www.nestle.com:443#企业域名 | 雀巢集团
 www.ntu.edu.sg:443#教育域名 | 南洋理工
 www.ox.ac.uk:443#教育域名 | 牛津大学
@@ -664,5 +645,5 @@ www.zendesk.com:443#更多选择 | Zendesk
 xn--b6gac.eu.org
 yd.hhhhh.eu.org:443#按运营商 | 移动WuYa
 yg1.ygkkk.dpdns.org:443#大佬维护 | YGKKK
-youxuan.cf.090227.xyz#节点更新时间：2026/8/17/19:46 | 更新间隔：每10分钟1次
+youxuan.cf.090227.xyz#节点更新时间：2026/8/18/4:00 | 更新间隔：每10分钟1次
 }
