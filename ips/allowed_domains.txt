@@ -15,6 +15,7 @@ blog.cloudflare.com:443
 bluehost.com:443
 bpb.yousef.isegaro.com
 cdn.2020111.xyz
+cdn.667891.xyz
 cdn.jsdelivr.net:443
 cdnjs.com:443
 cdns.doon.eu.org
@@ -61,6 +62,7 @@ hfqek.cf.3666888.xyz
 hk443.018881.xyz
 homecare.stryker.com:443
 hongkongairport.com:443
+icook.tw:443
 ikea.com:443
 investor.apple.com:443
 jimdo.com:443
@@ -102,13 +104,13 @@ visa.com:443
 visit.honeywell.com:443
 w3.org:443
 wealthpartners.jpmorgan.com:443
-www.affirm.com:443
 www.allianz.com:443
 www.cf.090227.xyz:443
 www.epicgames.com:443
 www.hyundai.com:443
 www.kia.com:443
 www.lego.com:443
+www.mskcc.org:443
 www.nestle.com:443
 www.ntu.edu.sg:443
 www.oopt.eu.cc
