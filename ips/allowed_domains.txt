@@ -9,7 +9,6 @@ anadoluefes.com:443
 api.gzcrtw.com
 bbs.alipansou.com
 bestcf.030101.xyz
-blog.646474.xyz:443
 bluehost.com:443
 bpb.yousef.isegaro.com
 c.lma.de5.net
@@ -30,6 +29,7 @@ cf.cloudflare.182682.xyz
 cf.cooteep.com
 cfip.1323123.xyz
 cfip.cfcdn.vip
+cfip.xxxxxxxx.tk
 cfvip.cf.3666888.xyz
 cfworkers.yyaan.top
 cloudflare-ech.com:443
@@ -60,7 +60,6 @@ harley-davidson.com:443
 hk443.018881.xyz
 homecare.stryker.com:443
 hongkongairport.com:443
-icook.tw:443
 ikea.com:443
 img.856518.xyz
 investor.apple.com:443
@@ -105,6 +104,7 @@ w3.org:443
 wealthpartners.jpmorgan.com:443
 www.allianz.com:443
 www.cf.090227.xyz:443
+www.decathlon.com:443
 www.epicgames.com:443
 www.hyundai.com:443
 www.kia.com:443
@@ -116,8 +116,8 @@ www.ox.ac.uk:443
 www.razer.com:443
 www.researchgate.net:443
 www.sage.com:443
-www.shopify.com:443
 www.speedtest.net:443
+www.temu.com:443
 www.visa.cn:443
 www.visa.com.hk:443
 www.wto.org:443
