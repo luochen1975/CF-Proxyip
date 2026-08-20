@@ -8,12 +8,11 @@ anadoluefes.com:443
 avido.cf.3666888.xyz
 bbs.alipansou.com
 bestcf.030101.xyz
-blog.646474.xyz:443
-blog.cloudflare.com:443
 bluehost.com:443
 bpb.yousef.isegaro.com
 cdn.091224.xyz
 cdn.2020111.xyz
+cdn.667891.xyz
 cdn.jsdelivr.net:443
 cdnjs.com:443
 cdns.doon.eu.org
@@ -28,7 +27,6 @@ cf.cloudflare.182682.xyz
 cf.godns.cc
 cfip.1323123.xyz
 cfip.cfcdn.vip
-cfip.xxxxxxxx.tk
 cfworkers.yyaan.top
 cfyx.aliyun.20237737.xyz
 cloudflare-ech.com:443
@@ -108,10 +106,8 @@ www.cf.090227.xyz:443
 www.epicgames.com:443
 www.fastsoso.cn
 www.hyundai.com:443
-www.jimdo.com:443
 www.kia.com:443
 www.lego.com:443
-www.mskcc.org:443
 www.nestle.com:443
 www.ntu.edu.sg:443
 www.oopt.eu.cc
@@ -119,8 +115,9 @@ www.ox.ac.uk:443
 www.razer.com:443
 www.researchgate.net:443
 www.sage.com:443
+www.shopify.com:443
 www.speedtest.net:443
-www.temu.com:443
+www.udacity.com:443
 www.visa.com.hk:443
 www.wto.org:443
 www.zendesk.com:443
