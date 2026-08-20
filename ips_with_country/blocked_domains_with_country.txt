@@ -1,2 +1,1 @@
-proxyip.aliyun.fxxk.dedyn.io#GB#英国
 www.visa.cn:443#金融域名 | VISA中国#CN#中国
