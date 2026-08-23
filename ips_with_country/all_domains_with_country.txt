@@ -1,16 +1,17 @@
 &copy; 2026 GitHub,&nbsp;Inc.#不可达
 --tab-size-preference: 4;#不可达
 0o755#不可达
-104.16.249.182 (US)#不可达
-104.17.145.231 (US)#不可达
-104.17.178.7 (US)#不可达
-104.17.51.85 (US)#不可达
-104.17.54.108 (US)#不可达
-104.17.60.56 (US)#不可达
-104.18.35.138 (US)#不可达
-104.19.146.235 (US)#不可达
-104.19.156.155 (US)#不可达
-104.19.61.19 (US)#不可达
+104.16.154.253 (US)#不可达
+104.16.158.23 (US)#不可达
+104.17.156.123 (US)#不可达
+104.17.176.120 (US)#不可达
+104.17.182.175 (US)#不可达
+104.18.32.154 (US)#不可达
+104.18.43.158 (US)#不可达
+104.19.145.249 (US)#不可达
+104.19.147.107 (US)#不可达
+104.19.151.88 (US)#不可达
+104.19.154.43 (US)#不可达
 129.150.53.218 (SG)#不可达
 129.151.198.3 (SE)#不可达
 129.153.203.62 (US)#不可达
@@ -21,7 +22,7 @@
 130.162.174.117 (GB)#不可达
 130.162.209.188 (DE)#不可达
 130.61.124.127 (DE)#不可达
-131.youxuan.cf.090227.xyz#US#美国
+131.youxuan.cf.090227.xyz#CA#Canada
 132.145.245.100 (DE)#不可达
 132.145.94.80 (KR)#不可达
 132.226.16.97 (KR)#不可达
@@ -88,7 +89,6 @@
 158.180.231.216 (IT)#不可达
 158.180.75.201 (KR)#不可达
 168.138.165.174 (SG)#不可达
-172.64.229.8 (US)#不可达
 192.9.180.162 (AU)#不可达
 192.9.250.241 (US)#不可达
 193.122.58.158 (DE)#不可达
@@ -171,12 +171,12 @@
 <a data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to docs&quot;,&quot;label&quot;:&quot;text:docs&quot;}" href="https://docs.github.com/" data-view-component="true" class="Link--secondary Link">Docs</a>#不可达
 <a data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" href="/0o755/edgetunnel">edgetunnel</a>#不可达
 <a href="#start-of-content" data-skip-target-assigned="false" class="px-2 tmp-py-4 color-bg-accent-emphasis color-fg-on-emphasis show-on-focus js-skip-to-content">Skip to content</a>#不可达
-<a tabindex="-1" id="item-206bf596-1c2c-4066-9858-f1ddaf211b20" href="/0o755/edgetunnel/actions" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">#不可达
-<a tabindex="-1" id="item-40e8b7d1-e1a8-4257-875f-7c90b7a662be" href="/0o755/edgetunnel" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">#不可达
-<a tabindex="-1" id="item-5e213fc1-388d-4d31-9979-61eda43b94fa" href="/0o755/edgetunnel/pulls" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">#不可达
-<a tabindex="-1" id="item-97d69bd4-e1ec-4514-b351-fcb7ed482001" href="/0o755/edgetunnel/security" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">#不可达
-<a tabindex="-1" id="item-a193ff7d-8a98-43b3-a171-71c336615e19" href="/0o755/edgetunnel/pulse" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">#不可达
-<a tabindex="-1" id="item-d67dee26-1e85-49e0-a20b-c1d2c84b079c" href="/0o755/edgetunnel/projects" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">#不可达
+<a tabindex="-1" id="item-044e6bdf-e9d6-41bc-b8ba-b644085d0dd4" href="/0o755/edgetunnel/projects" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">#不可达
+<a tabindex="-1" id="item-7224d066-93ea-44bf-9f2a-f5a633379aaf" href="/0o755/edgetunnel/pulse" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">#不可达
+<a tabindex="-1" id="item-783ce284-792a-4ca0-b011-55c61853eaab" href="/0o755/edgetunnel" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">#不可达
+<a tabindex="-1" id="item-7efdfff3-0d7c-46e8-bc32-119cb10cce05" href="/0o755/edgetunnel/security" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">#不可达
+<a tabindex="-1" id="item-c8a2a24a-8fb3-4c09-9e0a-3dda19c36bad" href="/0o755/edgetunnel/pulls" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">#不可达
+<a tabindex="-1" id="item-e9e54595-0701-47c9-8272-a16484d36b30" href="/0o755/edgetunnel/actions" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">#不可达
 <body class="logged-out env-production page-responsive" style="word-wrap: break-word;" >#不可达
 <button#不可达
 <button autofocus class="flash-close js-flash-close" type="button" aria-label="Dismiss this message">#不可达
@@ -372,7 +372,7 @@
 <meta name="description" content="edgetunnel2 VLESS/Trojan 多功能面板. Contribute to 0o755/edgetunnel development by creating an account on GitHub.">#不可达
 <meta name="disable-turbo" content="false">#不可达
 <meta name="expected-hostname" content="github.com">#不可达
-<meta name="fetch-nonce" content="v2:9357be4e-cefe-8ce2-9cfa-7ca765284cc3">#不可达
+<meta name="fetch-nonce" content="v2:7ab1cce3-f34c-1f68-2b12-04e05ff7b2ce">#不可达
 <meta name="github-keyboard-shortcuts" content="repository,source-code,file-tree,copilot" data-turbo-transient="true" />#不可达
 <meta name="go-import" content="github.com/0o755/edgetunnel git https://github.com/0o755/edgetunnel.git">#不可达
 <meta name="google-site-verification" content="Apib7-x98H0j5cPqHWwSMm6dNU4GmODRoqxLiDzdx9I">#不可达
@@ -463,7 +463,7 @@
 <template id="snippet-clipboard-copy-button-unpositioned">#不可达
 <title>edgetunnel/public/cfip.txt at main · 0o755/edgetunnel · GitHub</title>#不可达
 <turbo-frame id="repo-content-turbo-frame" target="_top" data-turbo-action="advance" class="">#不可达
-<ul aria-labelledby="action-menu-f0a7faac-192a-46f2-9246-e55fec284428-button" id="action-menu-f0a7faac-192a-46f2-9246-e55fec284428-list" role="menu" data-view-component="true" class="ActionListWrap--inset ActionListWrap">#不可达
+<ul aria-labelledby="action-menu-c8fcbc0a-634e-492e-84ce-eab98896ca05-button" id="action-menu-c8fcbc0a-634e-492e-84ce-eab98896ca05-list" role="menu" data-view-component="true" class="ActionListWrap--inset ActionListWrap">#不可达
 <ul class="list-style-none d-flex flex-justify-center flex-wrap mb-2 mb-lg-0" aria-labelledby="sr-footer-heading">#不可达
 <ul class="pagehead-actions flex-shrink-0 d-none d-md-inline" style="padding: 2px 0;">#不可达
 <ul data-view-component="true" class="UnderlineNav-body list-style-none">#不可达
@@ -476,14 +476,13 @@ Insights#不可达
 Manage cookies#不可达
 Projects#不可达
 ProxyIP.HK.CMLiussss.net#HK#香港
-ProxyIP.JP.CMLiussss.net#SG#新加坡
+ProxyIP.JP.CMLiussss.net#JP#日本
 Pull requests#不可达
 Security and quality#不可达
 Star#不可达
 You can’t perform that action at this time.#不可达
 academy.mastercard.com:443#金融域名 | 万事达卡#CA#Canada
-affirm.com:443#更多选择 | Affirm#CA#Canada
-afn.ircf.space:443#🇺🇸美国·US#US#美国
+affirm.com:443#更多选择 | Affirm#US#美国
 anadoluefes.com:443#更多选择 | AnadoluEfes#US#美国
 app-name="code-view"#不可达
 asia.877774.xyz#⚡ 亚洲极速#不可达
@@ -491,28 +490,28 @@ b3.cfyx.20237737.xyz#CA#Canada
 bestcf.030101.xyz#US#美国
 blog.646474.xyz#US#美国
 blog.raindew.576555.xyz#CA#Canada
-bluehost.com:443#企业域名 | BlueHost#CA#Canada
+bluehost.com:443#企业域名 | BlueHost#US#美国
 bpb.yousef.isegaro.com#DE#德国
 c.lma.de5.net#US#美国
 cdn.2020111.xyz#CA#Canada
-cdn.2x.nz#CA#Canada
+cdn.2x.nz#US#美国
 cdn.jsdelivr.net:443#更多选择 | jsDelivr#US#美国
-cdnjs.com:443#官方域名 | CDNJS#US#美国
+cdnjs.com:443#官方域名 | CDNJS#CA#Canada
 cdns.doon.eu.org#CA#Canada
-cf.090227.xyz:443#大佬维护 | CMLiu#CA#Canada
-cf.0sm.com#US#美国
-cf.877771.xyz#US#美国
+cf.090227.xyz:443#大佬维护 | CMLiu#US#美国
+cf.0sm.com#CA#Canada
+cf.877771.xyz#CA#Canada
 cf.877774.xyz#CA#Canada
 cf.877774.xyz:443#大佬维护 | QMS#CA#Canada
 cf.900501.xyz#不可达
-cf.cloudflare.182682.xyz#US#美国
+cf.cloudflare.182682.xyz#CA#Canada
 cf.tencentapp.cn#不可达
 cf.tencentapp.cn:443#大佬维护 | KTFF#不可达
 cfip.1323123.xyz#CA#Canada
 cfip.cfcdn.vip#US#United States
 cfip.xxxxxxxx.tk#CA#Canada
 cfsaas.080112.xyz#不可达
-cfworkers.yyaan.top#SG#新加坡
+cfworkers.yyaan.top#PH#菲律宾
 cfyx.aliyun.20237737.xyz#CA#Canada
 cfyx.qdqqd.com#US#美国
 chinwa.cf.090227.xyz#CA#Canada
@@ -520,10 +519,10 @@ class="Link--secondary underline-on-hover border-0 p-0 color-bg-transparent text
 class="Link--secondary underline-on-hover border-0 p-0 color-bg-transparent"#不可达
 class="application-main "#不可达
 cloudflare-dl.byoip.top#不可达
-cloudflare-ech.com:443#官方域名 | ECH#CA#Canada
-cloudflare-eth.com:443#官方域名 | Web3#US#美国
+cloudflare-ech.com:443#官方域名 | ECH#US#美国
+cloudflare-eth.com:443#官方域名 | Web3#CA#Canada
 cloudflare-ip.mofashi.ltd#US#美国
-cloudflare.182682.xyz#US#美国
+cloudflare.182682.xyz#CA#Canada
 cloudflare.182682.xyz:443#大佬维护 | WeTest#CA#Canada
 cloudflare.dev:443#官方域名 | Developers#US#美国
 cloudflare.net:443#官方域名 | Business#CA#Canada
@@ -531,8 +530,8 @@ cm.cloudflare.byoip.top:443#按运营商 | 移动Byoip#CA#Canada
 cmcc.090227.xyz:443#移动分流-cmcc.090227.xyz#US#美国
 cmcc.877774.xyz#⚡ 移动极速#不可达
 cmcc.877774.xyz:443#按运营商 | 移动QMS#US#美国
-columbia.edu:443#教育域名 | 哥伦比亚#CA#Canada
-ct.090227.xyz:443#电信分流-ct.090227.xyz#CA#Canada
+columbia.edu:443#教育域名 | 哥伦比亚#US#美国
+ct.090227.xyz:443#电信分流-ct.090227.xyz#US#美国
 ct.877774.xyz#⚡ 电信极速#不可达
 ct.877774.xyz:443#按运营商 | 电信QMS#US#美国
 ct.cloudflare.byoip.top:443#按运营商 | 电信Byoip#CA#Canada
@@ -559,40 +558,38 @@ data-project-hovercards-enabled#不可达
 data-react-profiling="false"#不可达
 data-ssr="false"#不可达
 data-ssr="true"#不可达
-digitalocean.com:443#企业域名 | DigitalOcean#US#美国
+digitalocean.com:443#企业域名 | DigitalOcean#CA#Canada
 dx.hhhhh.eu.org:443#按运营商 | 电信WuYa#US#美国
 emerson.com:443#更多选择 | 艾默生#US#美国
 engage.cloudflareclient.com:443#官方域名 | WireGuard#CA#Canada
 eur.877774.xyz#⚡ 欧洲极速#不可达
-fn.130519.xyz#CA#Canada
+fn.130519.xyz#US#美国
 forked from <a data-hovercard-type="repository" data-hovercard-url="/cmliu/edgetunnel/hovercard" class="Link--inTextBlock" href="/cmliu/edgetunnel">cmliu/edgetunnel</a>#不可达
 freeyx.cloudflare88.eu.org#不可达
 g.lma.de5.net#CA#Canada
 glassdoor.com:443#企业域名 | Glassdoor#US#美国
-harley-davidson.com:443#更多选择 | 哈雷#US#美国
-hk.cf.3666888.xyz#CA#Canada
+harley-davidson.com:443#更多选择 | 哈雷#CA#Canada
+hk.cf.3666888.xyz#US#美国
 hk.onecf.eu.org#不可达
 hk443.018881.xyz#HK#香港
 homecare.stryker.com:443#更多选择 | 史赛克#US#United States
-hongkongairport.com:443#企业域名 | 香港机场#US#美国
+hongkongairport.com:443#企业域名 | 香港机场#CA#Canada
 https://edt-aio-nav.pages.dev:443#大佬维护 | MingYu#不可达
 icook.hk#官方优选#不可达
 icook.tw#官方优选#不可达
-ikea.com:443#更多选择 | 宜家#US#美国
+ikea.com:443#更多选择 | 宜家#CA#Canada
 initial-path="/0o755/edgetunnel/blob/main/public/cfip.txt"#不可达
 investor.apple.com:443#更多选择 | Apple#CA#Canada
 ips.meizitu.net#不可达
-itarmy.com.ua:443#🇺🇸美国·US Itarmy#US#美国
 jimdo.com:443#企业域名 | Jimdo#CA#Canada
 jp.isnow.pp.ua#不可达
 jp.onecf.eu.org#不可达
 jp443.008882.xyz#HK#香港
 lang="en"#不可达
-ln.edu.hk:443#教育域名 | 岭南大学#US#美国
+ln.edu.hk:443#教育域名 | 岭南大学#CA#Canada
 loreal.com:443#更多选择 | 欧莱雅#US#美国
-lt.1.hhhhh.eu.org:443#🇺🇸美国·US#US#美国
 lt.hhhhh.eu.org:443#按运营商 | 联通WuYa#US#美国
-markmonitor.com:443#更多选择 | MarkMonitor#CA#Canada
+markmonitor.com:443#更多选择 | MarkMonitor#US#美国
 mclaren.com:443#更多选择 | 迈凯伦#CA#Canada
 mfa.gov.ua#乌克兰外交部#不可达
 motorsport-id.porsche.com:443#更多选择 | 保时捷#US#美国
@@ -603,29 +600,29 @@ nl.onecf.eu.org#不可达
 nrt.xxxxxxxx.nyc.mn#US#美国
 nrtcfdns.zone.id#US#美国
 openai.com:443#企业域名 | OpenAI#CA#Canada
-pages.dev:443#官方域名 | Pages#CA#Canada
+pages.dev:443#官方域名 | Pages#US#美国
 partial-name="keyboard-shortcuts-dialog"#不可达
 partial-name="marketing-header"#不可达
-polestar.com:443#更多选择 | 极星#CA#Canada
+polestar.com:443#更多选择 | 极星#US#美国
 pre, code {#不可达
 proxyip.aliyun.fxxk.dedyn.io#US#美国
 proxyip.digitalocean.fxxk.dedyn.io#US#美国
 proxyip.hk.fxxk.dedyn.io#HK#香港
-proxyip.jp.fxxk.dedyn.io#SG#新加坡
+proxyip.jp.fxxk.dedyn.io#JP#日本
 proxyip.oracle.fxxk.dedyn.io#US#美国
 proxyip.sg.cmliussss.net#SG#新加坡
 proxyip.sg.fxxk.dedyn.io#不可达
-proxyip.us.fxxk.dedyn.io#US#United States
-r2.dev:443#官方域名 | R2#US#美国
+proxyip.us.fxxk.dedyn.io#US#美国
+r2.dev:443#官方域名 | R2#CA#Canada
 saas.sin.fan#CA#Canada
 saas.sin.fan:443#大佬维护 | MIYU#CA#Canada
-serviceshub.samsclub.com:443#企业域名 | 山姆会员#CA#Canada
+serviceshub.samsclub.com:443#企业域名 | 山姆会员#US#美国
 sg.onecf.eu.org#不可达
 shopify.com:443#企业域名 | Shopify#CA#Canada
 sjc.o00o.ooo#US#美国
-skk.moe:443#大佬维护 | Sukka#CA#Canada
+skk.moe:443#大佬维护 | Sukka#US#美国
 so.360832.xyz#US#美国
-static.cloudflareinsights.com:443#官方域名 | Analytics#US#美国
+static.cloudflareinsights.com:443#官方域名 | Analytics#CA#Canada
 staticdelivery.nexusmods.com#NexusMods#不可达
 staticdelivery.nexusmods.com:443#企业域名 | NexusMods#CA#Canada
 store.ubi.com#Ubisoft#不可达
@@ -641,36 +638,37 @@ us.onecf.eu.org#不可达
 usa.visa.com:443#金融域名 | VISA美国#CA#Canada
 visa.com:443#企业域名 | VISA#CA#Canada
 visit.honeywell.com:443#更多选择 | 霍尼韦尔#US#美国
-w3.org:443#更多选择 | W3C万维#US#美国
+w3.org:443#更多选择 | W3C万维#CA#Canada
 wealthpartners.jpmorgan.com:443#金融域名 | 摩根大通#US#美国
-www.affirm.com:443#🇺🇸美国·US#US#美国
 www.allianz.com:443#企业域名 | 安联集团#CA#Canada
-www.cf.090227.xyz:443#三网自适应分流-www.cf.090227.xyz#CA#Canada
+www.cf.090227.xyz:443#三网自适应分流-www.cf.090227.xyz#US#美国
+www.decathlon.com:443#🇨🇦加拿大·CA#CA#加拿大
 www.epicgames.com:443#更多选择 | Epicgames#US#美国
 www.hyundai.com:443#更多选择 | 现代#US#美国
-www.kia.com:443#更多选择 | 起亚#US#美国
+www.kia.com:443#更多选择 | 起亚#CA#Canada
 www.lego.com:443#更多选择 | 乐高#CA#Canada
+www.mskcc.org:443#🇨🇦加拿大·CA#US#美国
 www.nestle.com:443#企业域名 | 雀巢集团#US#美国
 www.ntu.edu.sg:443#教育域名 | 南洋理工#CA#Canada
-www.oopt.eu.cc#US#美国
+www.oopt.eu.cc#CA#Canada
 www.ox.ac.uk:443#教育域名 | 牛津大学#CA#Canada
-www.razer.com:443#更多选择 | 雷蛇#CA#Canada
-www.researchgate.net:443#教育域名 | ResearchGate#US#美国
+www.razer.com:443#更多选择 | 雷蛇#US#美国
+www.researchgate.net:443#教育域名 | ResearchGate#CA#Canada
 www.sage.com:443#更多选择 | Sage#CA#Canada
 www.shopify.com#Shopify官方#不可达
+www.shopify.com:443#🇨🇦加拿大·CA Shopify官方#US#美国
 www.speedtest.net:443#更多选择 | Ookla#CA#Canada
 www.visa.cn#Visa中国#不可达
 www.visa.cn:443#金融域名 | VISA中国#CN#中国
 www.visa.com.hk:443#金融域名 | VISA香港#US#美国
 www.wto.org:443#更多选择 | WTO世贸#CA#Canada
 www.zendesk.com:443#更多选择 | Zendesk#CA#Canada
-www.zendesk.com:443#🇨🇦加拿大·CA#US#美国
 xn--b6gac.eu.org#US#美国
 yd.hhhhh.eu.org:443#按运营商 | 移动WuYa#US#美国
 yg1.ygkkk.dpdns.org:443#大佬维护 | YGKKK#CA#Canada
-yg4.ygkkk.dpdns.org#US#美国
+yg4.ygkkk.dpdns.org#CA#Canada
 yg8.ygkkk.dpdns.org#CA#Canada
 youxuan.cf.090227.xyz#CA#Canada
-youxuan.cf.090227.xyz#节点更新时间：2026/8/23/12:06 | 更新间隔：每10分钟1次#不可达
+youxuan.cf.090227.xyz#节点更新时间：2026/8/23/16:02 | 更新间隔：每10分钟1次#不可达
 yx.cf.090227.xyz#US#美国
 }#不可达

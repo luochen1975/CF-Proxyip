@@ -3,7 +3,6 @@ ProxyIP.HK.CMLiussss.net
 ProxyIP.JP.CMLiussss.net
 academy.mastercard.com:443
 affirm.com:443
-afn.ircf.space:443
 anadoluefes.com:443
 b3.cfyx.20237737.xyz
 bestcf.030101.xyz
@@ -26,7 +25,6 @@ cf.cloudflare.182682.xyz
 cfip.1323123.xyz
 cfip.cfcdn.vip
 cfip.xxxxxxxx.tk
-cfworkers.yyaan.top
 cfyx.aliyun.20237737.xyz
 cfyx.qdqqd.com
 chinwa.cf.090227.xyz
@@ -61,12 +59,10 @@ homecare.stryker.com:443
 hongkongairport.com:443
 ikea.com:443
 investor.apple.com:443
-itarmy.com.ua:443
 jimdo.com:443
 jp443.008882.xyz
 ln.edu.hk:443
 loreal.com:443
-lt.1.hhhhh.eu.org:443
 lt.hhhhh.eu.org:443
 markmonitor.com:443
 mclaren.com:443
@@ -102,13 +98,14 @@ visa.com:443
 visit.honeywell.com:443
 w3.org:443
 wealthpartners.jpmorgan.com:443
-www.affirm.com:443
 www.allianz.com:443
 www.cf.090227.xyz:443
+www.decathlon.com:443
 www.epicgames.com:443
 www.hyundai.com:443
 www.kia.com:443
 www.lego.com:443
+www.mskcc.org:443
 www.nestle.com:443
 www.ntu.edu.sg:443
 www.oopt.eu.cc
@@ -116,6 +113,7 @@ www.ox.ac.uk:443
 www.razer.com:443
 www.researchgate.net:443
 www.sage.com:443
+www.shopify.com:443
 www.speedtest.net:443
 www.visa.com.hk:443
 www.wto.org:443
