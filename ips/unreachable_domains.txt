@@ -6,7 +6,7 @@
 104.17.112.55 (US)
 104.17.124.219 (US)
 104.17.148.86 (US)
-104.18.44.21 (US)
+104.18.33.57 (US)
 104.18.45.216 (US)
 104.19.146.203 (US)
 104.25.242.177 (US)
@@ -88,7 +88,6 @@
 168.138.165.174 (SG)
 172.64.144.109 (US)
 172.64.145.45 (US)
-172.64.229.38 (US)
 192.9.180.162 (AU)
 192.9.250.241 (US)
 193.122.58.158 (DE)
@@ -171,12 +170,12 @@
 <a data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to docs&quot;,&quot;label&quot;:&quot;text:docs&quot;}" href="https://docs.github.com/" data-view-component="true" class="Link--secondary Link">Docs</a>
 <a data-pjax="
 <a href="
-<a tabindex="-1" id="item-06d749cb-b9c5-4b0c-b65d-e842626b5b60" href="/0o755/edgetunnel" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
-<a tabindex="-1" id="item-65c4b292-798b-42d1-8c5f-c4e0c7413719" href="/0o755/edgetunnel/projects" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
-<a tabindex="-1" id="item-996753a3-7679-478e-bf5e-c4fd0f70fdc8" href="/0o755/edgetunnel/pulse" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
-<a tabindex="-1" id="item-9dd5e973-a53d-4861-ae20-b1f9a7e3495d" href="/0o755/edgetunnel/actions" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
-<a tabindex="-1" id="item-b7ebd9d1-1e6e-42de-99fe-acabac916cbd" href="/0o755/edgetunnel/security" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
-<a tabindex="-1" id="item-ec711e52-a980-4fb5-becf-d8f02645c212" href="/0o755/edgetunnel/pulls" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+<a tabindex="-1" id="item-0edfca19-ad33-4d87-ae0a-346f050af43b" href="/0o755/edgetunnel/pulse" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+<a tabindex="-1" id="item-1219b481-e633-4166-a6f7-2abd9edda70b" href="/0o755/edgetunnel/actions" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+<a tabindex="-1" id="item-1baa65fb-4c8a-4d09-8a49-44448434aed7" href="/0o755/edgetunnel" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+<a tabindex="-1" id="item-1f65c168-939e-48df-843a-e5615c92e983" href="/0o755/edgetunnel/security" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+<a tabindex="-1" id="item-6f5257bc-0b0e-45d3-a624-59dda7ed4811" href="/0o755/edgetunnel/pulls" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+<a tabindex="-1" id="item-ad134617-3c7b-4dfe-a10d-b0e7d4efc1e0" href="/0o755/edgetunnel/projects" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
 <body class="logged-out env-production page-responsive" style="word-wrap: break-word;" >
 <button
 <button autofocus class="flash-close js-flash-close" type="button" aria-label="Dismiss this message">
@@ -372,7 +371,7 @@
 <meta name="description" content="edgetunnel2 VLESS/Trojan 多功能面板. Contribute to 0o755/edgetunnel development by creating an account on GitHub.">
 <meta name="disable-turbo" content="false">
 <meta name="expected-hostname" content="github.com">
-<meta name="fetch-nonce" content="v2:31ca5452-3f75-a9c6-35e6-11a6d2853db3">
+<meta name="fetch-nonce" content="v2:1977e621-a4f5-5c3a-418d-9a53992449b1">
 <meta name="github-keyboard-shortcuts" content="repository,source-code,file-tree,copilot" data-turbo-transient="true" />
 <meta name="go-import" content="github.com/0o755/edgetunnel git https://github.com/0o755/edgetunnel.git">
 <meta name="google-site-verification" content="Apib7-x98H0j5cPqHWwSMm6dNU4GmODRoqxLiDzdx9I">
@@ -463,7 +462,7 @@
 <template id="snippet-clipboard-copy-button-unpositioned">
 <title>edgetunnel/public/cfip.txt at main · 0o755/edgetunnel · GitHub</title>
 <turbo-frame id="repo-content-turbo-frame" target="_top" data-turbo-action="advance" class="">
-<ul aria-labelledby="action-menu-a381ca3b-89b4-4a6d-a21a-75d40e8bf9da-button" id="action-menu-a381ca3b-89b4-4a6d-a21a-75d40e8bf9da-list" role="menu" data-view-component="true" class="ActionListWrap--inset ActionListWrap">
+<ul aria-labelledby="action-menu-b1f23398-59d5-4697-9c7a-bce27430a943-button" id="action-menu-b1f23398-59d5-4697-9c7a-bce27430a943-list" role="menu" data-view-component="true" class="ActionListWrap--inset ActionListWrap">
 <ul class="list-style-none d-flex flex-justify-center flex-wrap mb-2 mb-lg-0" aria-labelledby="sr-footer-heading">
 <ul class="pagehead-actions flex-shrink-0 d-none d-md-inline" style="padding: 2px 0;">
 <ul data-view-component="true" class="UnderlineNav-body list-style-none">
