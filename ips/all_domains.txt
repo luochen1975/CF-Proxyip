@@ -6,7 +6,6 @@
 104.17.112.55 (US)
 104.17.124.219 (US)
 104.17.148.86 (US)
-104.18.33.57 (US)
 104.18.45.216 (US)
 104.19.146.203 (US)
 104.25.242.177 (US)
@@ -89,6 +88,7 @@
 168.138.165.174 (SG)
 172.64.144.109 (US)
 172.64.145.45 (US)
+172.64.229.57 (US)
 192.9.180.162 (AU)
 192.9.250.241 (US)
 193.122.58.158 (DE)
@@ -171,12 +171,12 @@
 <a data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to docs&quot;,&quot;label&quot;:&quot;text:docs&quot;}" href="https://docs.github.com/" data-view-component="true" class="Link--secondary Link">Docs</a>
 <a data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" href="/0o755/edgetunnel">edgetunnel</a>
 <a href="#start-of-content" data-skip-target-assigned="false" class="px-2 tmp-py-4 color-bg-accent-emphasis color-fg-on-emphasis show-on-focus js-skip-to-content">Skip to content</a>
-<a tabindex="-1" id="item-0edfca19-ad33-4d87-ae0a-346f050af43b" href="/0o755/edgetunnel/pulse" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
-<a tabindex="-1" id="item-1219b481-e633-4166-a6f7-2abd9edda70b" href="/0o755/edgetunnel/actions" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
-<a tabindex="-1" id="item-1baa65fb-4c8a-4d09-8a49-44448434aed7" href="/0o755/edgetunnel" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
-<a tabindex="-1" id="item-1f65c168-939e-48df-843a-e5615c92e983" href="/0o755/edgetunnel/security" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
-<a tabindex="-1" id="item-6f5257bc-0b0e-45d3-a624-59dda7ed4811" href="/0o755/edgetunnel/pulls" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
-<a tabindex="-1" id="item-ad134617-3c7b-4dfe-a10d-b0e7d4efc1e0" href="/0o755/edgetunnel/projects" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+<a tabindex="-1" id="item-1bb64de1-ae0c-4d89-a2a6-c4d1f0b81747" href="/0o755/edgetunnel/projects" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+<a tabindex="-1" id="item-73569011-272e-4ef2-ab21-28296ee25f07" href="/0o755/edgetunnel/security" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+<a tabindex="-1" id="item-9981648e-940d-4824-9b3a-596957161435" href="/0o755/edgetunnel" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+<a tabindex="-1" id="item-9a21ee7a-0875-4eff-81a3-4ce0f1cb9987" href="/0o755/edgetunnel/pulse" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+<a tabindex="-1" id="item-c8d8c4b7-7f0c-42c0-a529-531f8683b0ec" href="/0o755/edgetunnel/pulls" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+<a tabindex="-1" id="item-ebf13471-b9b2-493f-bbaa-cbf697ca9ee3" href="/0o755/edgetunnel/actions" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
 <body class="logged-out env-production page-responsive" style="word-wrap: break-word;" >
 <button
 <button autofocus class="flash-close js-flash-close" type="button" aria-label="Dismiss this message">
@@ -372,7 +372,7 @@
 <meta name="description" content="edgetunnel2 VLESS/Trojan 多功能面板. Contribute to 0o755/edgetunnel development by creating an account on GitHub.">
 <meta name="disable-turbo" content="false">
 <meta name="expected-hostname" content="github.com">
-<meta name="fetch-nonce" content="v2:1977e621-a4f5-5c3a-418d-9a53992449b1">
+<meta name="fetch-nonce" content="v2:cdec310d-a6b0-8057-5193-d7777fa87df0">
 <meta name="github-keyboard-shortcuts" content="repository,source-code,file-tree,copilot" data-turbo-transient="true" />
 <meta name="go-import" content="github.com/0o755/edgetunnel git https://github.com/0o755/edgetunnel.git">
 <meta name="google-site-verification" content="Apib7-x98H0j5cPqHWwSMm6dNU4GmODRoqxLiDzdx9I">
@@ -463,7 +463,7 @@
 <template id="snippet-clipboard-copy-button-unpositioned">
 <title>edgetunnel/public/cfip.txt at main · 0o755/edgetunnel · GitHub</title>
 <turbo-frame id="repo-content-turbo-frame" target="_top" data-turbo-action="advance" class="">
-<ul aria-labelledby="action-menu-b1f23398-59d5-4697-9c7a-bce27430a943-button" id="action-menu-b1f23398-59d5-4697-9c7a-bce27430a943-list" role="menu" data-view-component="true" class="ActionListWrap--inset ActionListWrap">
+<ul aria-labelledby="action-menu-7d63c8a4-f451-4581-a3c2-450f6fa9bc24-button" id="action-menu-7d63c8a4-f451-4581-a3c2-450f6fa9bc24-list" role="menu" data-view-component="true" class="ActionListWrap--inset ActionListWrap">
 <ul class="list-style-none d-flex flex-justify-center flex-wrap mb-2 mb-lg-0" aria-labelledby="sr-footer-heading">
 <ul class="pagehead-actions flex-shrink-0 d-none d-md-inline" style="padding: 2px 0;">
 <ul data-view-component="true" class="UnderlineNav-body list-style-none">
@@ -486,7 +486,6 @@ affirm.com:443#更多选择 | Affirm
 anadoluefes.com:443#更多选择 | AnadoluEfes
 app-name="code-view"
 asia.877774.xyz#⚡ 亚洲极速
-ask.ircf.space:443#🇺🇸美国·US
 b3.cfyx.20237737.xyz
 bestcf.030101.xyz
 blog.raindew.576555.xyz
@@ -640,8 +639,10 @@ visa.com:443#企业域名 | VISA
 visit.honeywell.com:443#更多选择 | 霍尼韦尔
 w3.org:443#更多选择 | W3C万维
 wealthpartners.jpmorgan.com:443#金融域名 | 摩根大通
+www.affirm.com:443#🏴未知·UN
 www.allianz.com:443#企业域名 | 安联集团
 www.cf.090227.xyz:443#三网自适应分流-www.cf.090227.xyz
+www.decathlon.com:443#🇨🇦加拿大·CA
 www.epicgames.com:443#更多选择 | Epicgames
 www.hyundai.com:443#更多选择 | 现代
 www.kia.com:443#更多选择 | 起亚
@@ -668,6 +669,6 @@ yg1.ygkkk.dpdns.org:443#大佬维护 | YGKKK
 yg4.ygkkk.dpdns.org
 yg8.ygkkk.dpdns.org
 youxuan.cf.090227.xyz
-youxuan.cf.090227.xyz#节点更新时间：2026/8/24/12:11 | 更新间隔：每10分钟1次
+youxuan.cf.090227.xyz#节点更新时间：2026/8/24/16:09 | 更新间隔：每10分钟1次
 yx.cf.090227.xyz
 }
