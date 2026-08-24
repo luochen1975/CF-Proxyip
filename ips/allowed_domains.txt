@@ -24,7 +24,6 @@ cf.877774.xyz:443
 cf.cloudflare.182682.xyz
 cfip.1323123.xyz
 cfip.cfcdn.vip
-cfip.xxxxxxxx.tk
 cfworkers.yyaan.top
 cfyx.aliyun.20237737.xyz
 cfyx.qdqqd.com
@@ -48,6 +47,7 @@ cu.cloudflare.byoip.top:443
 d.lma.de5.net
 digitalocean.com:443
 dx.hhhhh.eu.org:443
+dx.mmhh.eu.cc:443
 emerson.com:443
 engage.cloudflareclient.com:443
 fn.130519.xyz
@@ -103,10 +103,8 @@ www.allianz.com:443
 www.cf.090227.xyz:443
 www.epicgames.com:443
 www.hyundai.com:443
-www.jimdo.com:443
 www.kia.com:443
 www.lego.com:443
-www.mskcc.org:443
 www.nestle.com:443
 www.ntu.edu.sg:443
 www.oopt.eu.cc
@@ -115,8 +113,8 @@ www.razer.com:443
 www.researchgate.net:443
 www.sage.com:443
 www.speedtest.net:443
+www.udacity.com:443
 www.visa.com.hk:443
-www.whatismyip.net:443
 www.wto.org:443
 www.zendesk.com:443
 xn--b6gac.eu.org
