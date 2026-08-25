@@ -117,7 +117,6 @@ www.sage.com:443
 www.speedtest.net:443
 www.visa.com.hk:443
 www.vmware.com
-www.whatismyip.net:443
 www.wto.org:443
 www.zendesk.com:443
 xn--b6gac.eu.org
