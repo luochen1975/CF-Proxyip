@@ -11,7 +11,6 @@ affirm.com:443
 anadoluefes.com:443
 avido.cf.3666888.xyz
 bestcf.030101.xyz
-blog.cloudflare.com:443
 bluehost.com:443
 bpb.yousef.isegaro.com
 cdn.2020111.xyz
@@ -62,7 +61,6 @@ harley-davidson.com:443
 hk443.018881.xyz
 homecare.stryker.com:443
 hongkongairport.com:443
-icook.tw:443
 ikea.com:443
 investor.apple.com:443
 jimdo.com:443
@@ -75,7 +73,6 @@ markmonitor.com:443
 mclaren.com:443
 motorsport-id.porsche.com:443
 mycareer.verizon.com:443
-nrt.xxxxxxxx.nyc.mn
 openai.com:443
 pages.dev:443
 polestar.com:443
@@ -107,9 +104,9 @@ w3.org:443
 wealthpartners.jpmorgan.com:443
 www.allianz.com:443
 www.cf.090227.xyz:443
+www.decathlon.com:443
 www.epicgames.com:443
 www.hyundai.com:443
-www.jimdo.com:443
 www.kia.com:443
 www.lego.com:443
 www.mfyx.cn
@@ -120,9 +117,8 @@ www.razer.com:443
 www.researchgate.net:443
 www.sage.com:443
 www.speedtest.net:443
-www.udacity.com:443
+www.temu.com:443
 www.visa.com.hk:443
-www.whatismyip.net:443
 www.wto.org:443
 www.zendesk.com:443
 xn--b6gac.eu.org
