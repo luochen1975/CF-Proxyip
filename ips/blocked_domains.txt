@@ -1,2 +1,2 @@
-cfip.xxxxxxxx.tk
+nrtcfdns.zone.id
 www.visa.cn:443
