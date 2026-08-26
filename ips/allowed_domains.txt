@@ -8,9 +8,8 @@ ProxyIP.JP.CMLiussss.net
 academy.mastercard.com:443
 adnjv.cf.3666888.xyz
 affirm.com:443
-afn.ircf.space:443
 anadoluefes.com:443
-arx.ircf.space:443
+ask.ircf.space:443
 avido.cf.3666888.xyz
 bestcf.030101.xyz
 bluehost.com:443
@@ -32,7 +31,6 @@ cf.cloudflare.182682.xyz
 cf1s.cf.3666888.xyz
 cfip.1323123.xyz
 cfip.cfcdn.vip
-cfip.xxxxxxxx.tk
 cfworkers.yyaan.top
 cloudflare-ech.com:443
 cloudflare-eth.com:443
@@ -51,12 +49,14 @@ ct.877774.xyz:443
 ct.cloudflare.byoip.top:443
 cu.877774.xyz:443
 cu.cloudflare.byoip.top:443
+dbn.ircf.space:443
 digitalocean.com:443
 dx.hhhhh.eu.org:443
 emerson.com:443
 engage.cloudflareclient.com:443
 f.lma.de5.net
 fn.130519.xyz
+fnp.ircf.space:443
 fw8je9.cf.3666888.xyz
 glassdoor.com:443
 harley-davidson.com:443
@@ -110,7 +110,6 @@ www.allianz.com:443
 www.cf.090227.xyz:443
 www.epicgames.com:443
 www.hyundai.com:443
-www.jimdo.com:443
 www.kia.com:443
 www.lego.com:443
 www.mfyx.cn
@@ -120,7 +119,6 @@ www.ox.ac.uk:443
 www.razer.com:443
 www.researchgate.net:443
 www.sage.com:443
-www.shopify.com:443
 www.speedtest.net:443
 www.visa.com.hk:443
 www.wto.org:443
@@ -128,4 +126,4 @@ www.zendesk.com:443
 xn--b6gac.eu.org
 yd.hhhhh.eu.org:443
 yg1.ygkkk.dpdns.org:443
-yg11.ygkkk.dpdns.org:443
+yg13.ygkkk.dpdns.org:443
