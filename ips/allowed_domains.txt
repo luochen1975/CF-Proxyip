@@ -26,7 +26,6 @@ cf.cloudflare.182682.xyz
 cf.neko.cloudflaree.eu.org
 cfip.1323123.xyz
 cfip.cfcdn.vip
-cfip.xxxxxxxx.tk
 cfvip.cf.3666888.xyz
 cfworkers.yyaan.top
 cloudflare-ech.com:443
@@ -105,6 +104,7 @@ www.cf.090227.xyz:443
 www.epicgames.com:443
 www.galgamex.net
 www.hyundai.com:443
+www.jimdo.com:443
 www.kia.com:443
 www.lego.com:443
 www.mfyx.cn
@@ -116,8 +116,8 @@ www.researchgate.net:443
 www.sage.com:443
 www.shopify.com
 www.speedtest.net:443
-www.tpg.com:443
 www.visa.com.hk:443
+www.whatismyip.net:443
 www.wto.org:443
 www.zendesk.com:443
 xn--b6gac.eu.org
