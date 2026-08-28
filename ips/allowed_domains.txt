@@ -11,6 +11,8 @@ academy.mastercard.com:443
 adnjv.cf.3666888.xyz
 affirm.com:443
 anadoluefes.com:443
+arx.ircf.space:443
+ask.ircf.space:443
 bestcf.030101.xyz
 bluehost.com:443
 bpb.yousef.isegaro.com
@@ -75,6 +77,8 @@ markmonitor.com:443
 mclaren.com:443
 motorsport-id.porsche.com:443
 mycareer.verizon.com:443
+nrt.xxxxxxxx.nyc.mn
+nrtcfdns.zone.id
 openai.com:443
 pages.dev:443
 polestar.com:443
@@ -118,6 +122,7 @@ www.sage.com:443
 www.speedtest.net:443
 www.udacity.com:443
 www.visa.com.hk:443
+www.whatismyip.net:443
 www.wto.org:443
 www.zendesk.com:443
 xn--b6gac.eu.org
