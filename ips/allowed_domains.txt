@@ -30,6 +30,7 @@ cf.neko.cloudd.eu.org
 cf.neko.cloudflaree.eu.org
 cfip.1323123.xyz
 cfip.cfcdn.vip
+cfip.xxxxxxxx.tk
 cfvip.cf.3666888.xyz
 cfworkers.yyaan.top
 cloudflare-dl.byoip.top
