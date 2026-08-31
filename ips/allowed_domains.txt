@@ -6,6 +6,7 @@ affirm.com:443
 anadoluefes.com:443
 avido.cf.3666888.xyz
 bestcf.030101.xyz
+blog.cloudflare.com:443
 bluehost.com:443
 bpb.yousef.isegaro.com
 cdn.2020111.xyz
@@ -52,6 +53,7 @@ engage.cloudflareclient.com:443
 eteaf.cf.3666888.xyz
 f.lma.de5.net
 fn.130519.xyz
+fnp.ircf.space:443
 glassdoor.com:443
 harley-davidson.com:443
 hk443.018881.xyz
@@ -66,6 +68,7 @@ ln.edu.hk:443
 loreal.com:443
 lt.hhhhh.eu.org:443
 markmonitor.com:443
+mci.ircf.space:443
 mclaren.com:443
 motorsport-id.porsche.com:443
 mycareer.verizon.com:443
@@ -84,6 +87,7 @@ proxyip.oracle.fxxk.dedyn.io
 proxyip.sg.cmliussss.net
 proxyip.us.fxxk.dedyn.io
 r2.dev:443
+ryn.ircf.space:443
 saas.sin.fan
 saas.sin.fan:443
 sanwang.cf.3666888.xyz
@@ -104,6 +108,7 @@ wealthpartners.jpmorgan.com:443
 www.allianz.com:443
 www.cf.090227.xyz:443
 www.dbs.com.sg
+www.decathlon.com:443
 www.epicgames.com:443
 www.hyundai.com:443
 www.kia.com:443
