@@ -24,6 +24,7 @@ cf.92555.xyz
 cf.cloudflare.182682.xyz
 cfip.1323123.xyz
 cfip.cfcdn.vip
+cfip.xxxxxxxx.tk
 cfvip.cf.3666888.xyz
 cfworkers.yyaan.top
 cloudflare-ech.com:443
@@ -115,7 +116,6 @@ www.razer.com:443
 www.researchgate.net:443
 www.sage.com:443
 www.speedtest.net:443
-www.temu.com:443
 www.visa.com.hk:443
 www.wto.org:443
 www.zendesk.com:443
