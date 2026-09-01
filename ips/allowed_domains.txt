@@ -8,7 +8,6 @@ anadoluefes.com:443
 avido.cf.3666888.xyz
 bestcf.030101.xyz
 bluehost.com:443
-bp.hhhhh.eu.org:443
 bpb.yousef.isegaro.com
 cdn.2020111.xyz
 cdn.jsdelivr.net:443
@@ -17,7 +16,6 @@ cdns.doon.eu.org
 cf-ip-site.vov.moe
 cf.090227.xyz:443
 cf.0sm.com
-cf.130519.xyz:443
 cf.877771.xyz
 cf.877774.xyz
 cf.877774.xyz:443
@@ -111,6 +109,7 @@ www.epicgames.com:443
 www.hyundai.com:443
 www.kia.com:443
 www.lego.com:443
+www.mskcc.org:443
 www.nestle.com:443
 www.ntu.edu.sg:443
 www.ox.ac.uk:443
@@ -118,7 +117,9 @@ www.razer.com:443
 www.researchgate.net:443
 www.sage.com:443
 www.speedtest.net:443
+www.udacity.com:443
 www.visa.com.hk:443
+www.whatismyip.net:443
 www.wto.org:443
 www.xflash.vip
 www.zendesk.com:443
@@ -126,4 +127,3 @@ xn--b6gac.eu.org
 yd.hhhhh.eu.org:443
 yg1.ygkkk.dpdns.org:443
 youxuan.cf.3666888.xyz
-yx.cloudflare.182682.xyz:443
