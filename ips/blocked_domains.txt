@@ -1,2 +1,2 @@
-proxyip.aliyun.fxxk.dedyn.io
+cfip.xxxxxxxx.tk
 www.visa.cn:443
