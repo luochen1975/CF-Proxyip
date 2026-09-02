@@ -54,10 +54,10 @@ harley-davidson.com:443
 hk443.018881.xyz
 homecare.stryker.com:443
 hongkongairport.com:443
-icook.tw:443
 ikankeji.com
 ikea.com:443
 investor.apple.com:443
+ipv4.ircf.space:443
 jimdo.com:443
 jp.cf.3666888.xyz
 jp443.008882.xyz
@@ -85,6 +85,7 @@ proxyip.us.fxxk.dedyn.io
 r2.dev:443
 saas.sin.fan
 saas.sin.fan:443
+sbn.ircf.space:443
 serviceshub.samsclub.com:443
 shopify.com:443
 sjc.o00o.ooo
@@ -106,8 +107,10 @@ www.carousell.sg
 www.cf.090227.xyz:443
 www.epicgames.com:443
 www.hyundai.com:443
+www.jimdo.com:443
 www.kia.com:443
 www.lego.com:443
+www.mskcc.org:443
 www.nestle.com:443
 www.ntu.edu.sg:443
 www.ox.ac.uk:443
@@ -118,6 +121,7 @@ www.shopify.com
 www.speedtest.net:443
 www.udacity.com
 www.visa.com.hk:443
+www.whatismyip.net:443
 www.wto.org:443
 www.zendesk.com:443
 xn--b6gac.eu.org
