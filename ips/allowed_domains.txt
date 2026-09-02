@@ -9,6 +9,7 @@ anadoluefes.com:443
 apt.ircf.space:443
 bestcf.030101.xyz
 bluehost.com:443
+bp.2.hhhhh.eu.org:443
 bpb.yousef.isegaro.com
 cdn.2020111.xyz
 cdn.jsdelivr.net:443
@@ -50,6 +51,8 @@ emerson.com:443
 engage.cloudflareclient.com:443
 fk.hshwk.org
 fn.130519.xyz
+fnp.ircf.space:443
+fnv.ircf.space:443
 glassdoor.com:443
 harley-davidson.com:443
 hk443.018881.xyz
@@ -75,7 +78,6 @@ nrtcfdns.zone.id
 openai.com:443
 pages.dev:443
 polestar.com:443
-proxyip.aliyun.fxxk.dedyn.io
 proxyip.digitalocean.fxxk.dedyn.io
 proxyip.hk.fxxk.dedyn.io
 proxyip.jp.fxxk.dedyn.io
@@ -108,7 +110,6 @@ www.epicgames.com:443
 www.hyundai.com:443
 www.kia.com:443
 www.lego.com:443
-www.mskcc.org:443
 www.nestle.com:443
 www.ntu.edu.sg:443
 www.ox.ac.uk:443
@@ -116,9 +117,7 @@ www.razer.com:443
 www.researchgate.net:443
 www.sage.com:443
 www.shopify.com
-www.shopify.com:443
 www.speedtest.net:443
-www.tpg.com:443
 www.udacity.com
 www.visa.com.hk:443
 www.wto.org:443
@@ -126,3 +125,4 @@ www.zendesk.com:443
 xn--b6gac.eu.org
 yd.hhhhh.eu.org:443
 yg1.ygkkk.dpdns.org:443
+yg10.ygkkk.dpdns.org:443
