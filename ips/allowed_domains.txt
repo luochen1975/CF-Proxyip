@@ -6,6 +6,7 @@ academy.mastercard.com:443
 adnjv.cf.3666888.xyz
 affirm.com:443
 anadoluefes.com:443
+apt.ircf.space:443
 bestcf.030101.xyz
 bluehost.com:443
 bpb.yousef.isegaro.com
@@ -57,7 +58,6 @@ hongkongairport.com:443
 ikankeji.com
 ikea.com:443
 investor.apple.com:443
-ipv4.ircf.space:443
 jimdo.com:443
 jp.cf.3666888.xyz
 jp443.008882.xyz
@@ -85,7 +85,6 @@ proxyip.us.fxxk.dedyn.io
 r2.dev:443
 saas.sin.fan
 saas.sin.fan:443
-sbn.ircf.space:443
 serviceshub.samsclub.com:443
 shopify.com:443
 sjc.o00o.ooo
@@ -107,7 +106,6 @@ www.carousell.sg
 www.cf.090227.xyz:443
 www.epicgames.com:443
 www.hyundai.com:443
-www.jimdo.com:443
 www.kia.com:443
 www.lego.com:443
 www.mskcc.org:443
@@ -118,10 +116,11 @@ www.razer.com:443
 www.researchgate.net:443
 www.sage.com:443
 www.shopify.com
+www.shopify.com:443
 www.speedtest.net:443
+www.tpg.com:443
 www.udacity.com
 www.visa.com.hk:443
-www.whatismyip.net:443
 www.wto.org:443
 www.zendesk.com:443
 xn--b6gac.eu.org
