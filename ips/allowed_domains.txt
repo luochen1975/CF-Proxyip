@@ -29,6 +29,7 @@ cf.cloudflare.182682.xyz
 cf.duun.eu.cc
 cfip.1323123.xyz
 cfip.cfcdn.vip
+cfip.xxxxxxxx.tk
 cfvip.cf.3666888.xyz
 cfworkers.yyaan.top
 cloudflare-ech.com:443
@@ -105,7 +106,6 @@ w3.org:443
 wealthpartners.jpmorgan.com:443
 www.allianz.com:443
 www.cf.090227.xyz:443
-www.decathlon.com:443
 www.epicgames.com:443
 www.hyundai.com:443
 www.kia.com:443
@@ -118,7 +118,6 @@ www.researchgate.net:443
 www.sage.com:443
 www.sloomb.com
 www.speedtest.net:443
-www.udacity.com:443
 www.visa.com.hk:443
 www.wto.org:443
 www.zendesk.com:443
