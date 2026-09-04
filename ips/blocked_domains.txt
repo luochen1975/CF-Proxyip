@@ -1,2 +1,3 @@
-cfip.xxxxxxxx.tk
+www.affirm.com:443
 www.visa.cn:443
+www.whatismyip.net:443
