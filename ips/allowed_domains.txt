@@ -117,6 +117,7 @@ www.razer.com:443
 www.researchgate.net:443
 www.sage.com:443
 www.speedtest.net:443
+www.tpg.com:443
 www.udacity.com
 www.visa.com.hk:443
 www.wto.org:443
