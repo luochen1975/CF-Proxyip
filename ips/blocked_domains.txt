@@ -1,2 +1,1 @@
-www.affirm.com:443
 www.visa.cn:443
