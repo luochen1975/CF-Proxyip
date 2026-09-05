@@ -10,6 +10,7 @@ academy.mastercard.com:443
 affirm.com:443
 anadoluefes.com:443
 bestcf.030101.xyz
+blog.cloudflare.com:443
 bluehost.com:443
 bpb.yousef.isegaro.com
 cdn.2020111.xyz
@@ -29,6 +30,7 @@ cf.cloudflare.182682.xyz
 cf1s.cf.3666888.xyz
 cfip.1323123.xyz
 cfip.cfcdn.vip
+cfip.xxxxxxxx.tk
 cfworkers.yyaan.top
 cloudflare-ech.com:443
 cloudflare-eth.com:443
@@ -104,6 +106,7 @@ wealthpartners.jpmorgan.com:443
 www.090902.xyz
 www.allianz.com:443
 www.cf.090227.xyz:443
+www.decathlon.com:443
 www.epicgames.com:443
 www.hyundai.com:443
 www.kia.com:443
@@ -116,9 +119,7 @@ www.razer.com:443
 www.researchgate.net:443
 www.sage.com:443
 www.speedtest.net:443
-www.tpg.com:443
 www.udacity.com
-www.udacity.com:443
 www.visa.com.hk:443
 www.wto.org:443
 www.zendesk.com:443
