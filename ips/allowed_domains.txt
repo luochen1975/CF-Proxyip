@@ -60,10 +60,10 @@ hk.cf.3666888.xyz
 hk443.018881.xyz
 homecare.stryker.com:443
 hongkongairport.com:443
+icook.tw:443
 ikankeji.com
 ikea.com:443
 investor.apple.com:443
-itarmy.com.ua:443
 jimdo.com:443
 jp443.008882.xyz
 keji.cf.3666888.xyz
@@ -125,4 +125,3 @@ www.zendesk.com:443
 xn--b6gac.eu.org
 yd.hhhhh.eu.org:443
 yg1.ygkkk.dpdns.org:443
-yg11.ygkkk.dpdns.org:443

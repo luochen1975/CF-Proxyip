@@ -1,16 +1,14 @@
 &copy; 2026 GitHub,&nbsp;Inc.#不可达
 --tab-size-preference: 4;#不可达
 0o755#不可达
-104.17.104.63 (US)#不可达
-104.17.153.98 (US)#不可达
-104.17.210.142 (US)#不可达
-104.19.35.241 (US)#不可达
-104.19.37.216 (US)#不可达
-104.19.42.91 (US)#不可达
-104.19.48.128 (US)#不可达
-104.19.54.143 (US)#不可达
-104.19.58.110 (US)#不可达
-104.19.63.133 (US)#不可达
+104.16.145.112 (US)#不可达
+104.17.158.83 (US)#不可达
+104.17.169.197 (US)#不可达
+104.17.222.250 (US)#不可达
+104.19.146.72 (US)#不可达
+104.19.151.24 (US)#不可达
+104.19.152.230 (US)#不可达
+104.19.158.15 (US)#不可达
 129.150.53.218 (SG)#不可达
 129.151.198.3 (SE)#不可达
 129.153.203.62 (US)#不可达
@@ -29,7 +27,6 @@
 132.226.234.102 (KR)#不可达
 138.2.81.71 (SG)#不可达
 140.238.31.168 (KR)#不可达
-140.238.58.181 (JP)#不可达
 141.144.196.32 (NL)#不可达
 141.144.197.136 (NL)#不可达
 141.144.198.93 (NL)#不可达
@@ -92,9 +89,11 @@
 155.248.182.161 (JP)#不可达
 155.248.184.204 (JP)#不可达
 155.248.248.205 (IN)#不可达
-158.180.231.216 (IT)#不可达
 168.138.165.174 (SG)#不可达
-172.64.229.72 (US)#不可达
+172.64.144.78 (US)#不可达
+172.64.147.218 (US)#不可达
+172.64.149.214 (US)#不可达
+172.64.229.213 (US)#不可达
 192.9.180.162 (AU)#不可达
 192.9.250.241 (US)#不可达
 193.122.58.158 (DE)#不可达
@@ -178,12 +177,12 @@
 <a data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to docs&quot;,&quot;label&quot;:&quot;text:docs&quot;}" href="https://docs.github.com/" data-view-component="true" class="Link--secondary Link">Docs</a>#不可达
 <a data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" href="/0o755/edgetunnel">edgetunnel</a>#不可达
 <a href="#start-of-content" data-skip-target-assigned="false" class="px-2 tmp-py-4 color-bg-accent-emphasis color-fg-on-emphasis show-on-focus js-skip-to-content">Skip to content</a>#不可达
-<a tabindex="-1" id="item-1a3b4459-828d-4c14-8f33-13f500d6acdd" href="/0o755/edgetunnel/pulls" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">#不可达
-<a tabindex="-1" id="item-2dcab690-a144-411b-81f4-b7c78f07d7e8" href="/0o755/edgetunnel/actions" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">#不可达
-<a tabindex="-1" id="item-59257935-fcfb-4c16-93e9-fddad5030abc" href="/0o755/edgetunnel/security" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">#不可达
-<a tabindex="-1" id="item-63e0bdae-c879-4c9e-8c6a-fe6fc3b2b42c" href="/0o755/edgetunnel/projects" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">#不可达
-<a tabindex="-1" id="item-7be85d29-4324-429d-8847-121ac0f03b26" href="/0o755/edgetunnel" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">#不可达
-<a tabindex="-1" id="item-dcdcd901-52f1-4980-b1f9-0ae9fd8a13f6" href="/0o755/edgetunnel/pulse" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">#不可达
+<a tabindex="-1" id="item-2aa9c6c5-9c86-4812-b6a5-a043bddf19e7" href="/0o755/edgetunnel/pulls" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">#不可达
+<a tabindex="-1" id="item-447ca566-6ea1-4d83-b655-ba78a68d3006" href="/0o755/edgetunnel/security" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">#不可达
+<a tabindex="-1" id="item-5ec49f97-7cd4-4beb-9af3-ff4df63e3afd" href="/0o755/edgetunnel/projects" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">#不可达
+<a tabindex="-1" id="item-849c9a82-7ecd-48b7-8727-ff941d50f276" href="/0o755/edgetunnel" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">#不可达
+<a tabindex="-1" id="item-a4d46569-34a0-4fe7-ae4a-b05ff416399b" href="/0o755/edgetunnel/actions" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">#不可达
+<a tabindex="-1" id="item-dc48d9c5-5c7d-49fa-a921-9baffcac5fb9" href="/0o755/edgetunnel/pulse" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">#不可达
 <body class="logged-out env-production page-responsive" style="word-wrap: break-word;" >#不可达
 <button autofocus class="flash-close js-flash-close" type="button" aria-label="Dismiss this message">#不可达
 <button class="Box-btn-octicon m-0 btn-octicon position-absolute right-0 top-0" type="button" aria-label="Close dialog" data-close-dialog>#不可达
@@ -381,7 +380,7 @@
 <meta name="description" content="edgetunnel2 VLESS/Trojan 多功能面板. Contribute to 0o755/edgetunnel development by creating an account on GitHub.">#不可达
 <meta name="disable-turbo" content="false">#不可达
 <meta name="expected-hostname" content="github.com">#不可达
-<meta name="fetch-nonce" content="v2:c654c124-f1f4-e43b-7446-6961e9f5cd9f">#不可达
+<meta name="fetch-nonce" content="v2:a00bc0de-e7dd-9505-8f51-e4bb8da6d188">#不可达
 <meta name="github-keyboard-shortcuts" content="repository,source-code,file-tree,copilot" data-turbo-transient="true" />#不可达
 <meta name="go-import" content="github.com/0o755/edgetunnel git https://github.com/0o755/edgetunnel.git">#不可达
 <meta name="google-site-verification" content="Apib7-x98H0j5cPqHWwSMm6dNU4GmODRoqxLiDzdx9I">#不可达
@@ -397,7 +396,7 @@
 <meta name="turbo-body-classes" content="logged-out env-production page-responsive">#不可达
 <meta name="turbo-cache-control" content="no-cache" data-turbo-transient>#不可达
 <meta name="turbo-cache-control" content="no-preview" data-turbo-transient="">#不可达
-<meta name="ui-target" content="full">#不可达
+<meta name="ui-target" content="canary-1">#不可达
 <meta name="user-login" content="">#不可达
 <meta name="viewport" content="width=device-width">#不可达
 <meta property="fb:app_id" content="1401488693436528">#不可达
@@ -471,7 +470,7 @@
 <template id="snippet-clipboard-copy-button-unpositioned">#不可达
 <title>edgetunnel/public/cfip.txt at main · 0o755/edgetunnel · GitHub</title>#不可达
 <turbo-frame id="repo-content-turbo-frame" target="_top" data-turbo-action="advance" class="">#不可达
-<ul aria-labelledby="action-menu-c3d10c31-98d7-4a08-8657-acbab7327442-button" id="action-menu-c3d10c31-98d7-4a08-8657-acbab7327442-list" role="menu" data-view-component="true" class="ActionListWrap--inset ActionListWrap">#不可达
+<ul aria-labelledby="action-menu-ad48bbac-1cf8-4da2-9908-250fed1b122f-button" id="action-menu-ad48bbac-1cf8-4da2-9908-250fed1b122f-list" role="menu" data-view-component="true" class="ActionListWrap--inset ActionListWrap">#不可达
 <ul class="list-style-none d-flex flex-justify-center flex-wrap mb-2 mb-lg-0" aria-labelledby="sr-footer-heading">#不可达
 <ul class="pagehead-actions flex-shrink-0 d-none d-md-inline" style="padding: 2px 0;">#不可达
 <ul data-view-component="true" class="UnderlineNav-body list-style-none">#不可达
@@ -549,5 +548,5 @@ type="button"#不可达
 us.onecf.eu.org#不可达
 www.shopify.com#Shopify官方#不可达
 www.visa.cn#Visa中国#不可达
-youxuan.cf.090227.xyz#节点更新时间：2026/9/6/8:02 | 更新间隔：每10分钟1次#不可达
+youxuan.cf.090227.xyz#节点更新时间：2026/9/6/12:28 | 更新间隔：每10分钟1次#不可达
 }#不可达
