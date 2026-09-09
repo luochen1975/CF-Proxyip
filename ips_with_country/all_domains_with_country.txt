@@ -1,17 +1,22 @@
+&copy; 2023-<span id="year"></span> <span>Mingyu</span> |#Unknown#不可达
 &copy; 2026 GitHub,&nbsp;Inc.#不可达
+(function() {#Unknown#不可达
 --tab-size-preference: 4;#不可达
+/* 添加左右 padding */#Unknown#不可达
+// 获取包含占位符的元素，并替换内容#Unknown#不可达
 0o755#不可达
-10.cf.3666888.xyz#CA#Canada
-104.17.103.139 (US)#不可达
-104.17.104.7 (US)#不可达
-104.17.166.50 (US)#不可达
-104.17.176.164 (US)#不可达
-104.17.96.148 (US)#不可达
-104.17.97.238 (US)#不可达
-104.17.99.137 (US)#不可达
-104.18.45.40 (US)#不可达
-104.18.46.44 (US)#不可达
-123.cf.3666888.xyz#CA#Canada
+10.cf.3666888.xyz#US#美国
+104.16.157.178 (US)#不可达
+104.16.158.243 (US)#不可达
+104.17.105.242 (US)#不可达
+104.17.122.62 (US)#不可达
+104.17.123.148 (US)#不可达
+104.17.159.106 (US)#不可达
+104.17.186.63 (US)#不可达
+104.17.211.191 (US)#不可达
+104.17.98.248 (US)#不可达
+104.19.51.226 (US)#不可达
+123.cf.3666888.xyz#US#美国
 129.150.53.218 (SG)#不可达
 129.151.198.3 (SE)#不可达
 129.153.203.62 (US)#不可达
@@ -92,8 +97,7 @@
 155.248.184.204 (JP)#不可达
 155.248.248.205 (IN)#不可达
 168.138.165.174 (SG)#不可达
-172.64.156.125 (US)#不可达
-172.64.229.205 (US)#不可达
+172.64.229.143 (US)#不可达
 192.9.180.162 (AU)#不可达
 192.9.250.241 (US)#不可达
 193.122.58.158 (DE)#不可达
@@ -101,7 +105,7 @@
 193.123.254.142 (KR)#不可达
 193.123.35.178 (NL)#不可达
 23.95.76.59 (CA)#不可达
-3.cf.3666888.xyz#US#美国
+3.cf.3666888.xyz#CA#Canada
 45.154.204.7 (CA)#不可达
 47.242.218.87 (HK)#不可达
 47.251.95.178 (US)#不可达
@@ -140,32 +144,45 @@
 92.38.170.10 (US)#不可达
 92.38.170.7 (US)#不可达
 :root {#不可达
+<!-- 页面元信息 -->#Unknown#不可达
+<!-- 页面内容 -->#Unknown#不可达
+<!-- 页面样式 -->#Unknown#不可达
 <!DOCTYPE html>#不可达
+<!DOCTYPE html>#Unknown#不可达
 </a>#不可达
 </a>    </span>#不可达
 </a></div>#不可达
 </a></li>#不可达
 </action-menu></div>#不可达
 </body>#不可达
+</body>#Unknown#不可达
 </button>#不可达
 </clipboard-copy>#不可达
 </cookie-consent-link>#不可达
 </details-dialog>#不可达
 </details>#不可达
+</details>#Unknown#不可达
 </div>#不可达
 </div></action-list>#不可达
 </div></anchored-position>  </focus-group>#不可达
 </footer>#不可达
 </head>#不可达
+</head>#Unknown#不可达
 </html>#不可达
+</html>#Unknown#不可达
 </li>#不可达
+</li>#Unknown#不可达
 </main>#不可达
 </nav>#不可达
+</ol>#Unknown#不可达
+</p>#Unknown#不可达
 </react-app>#不可达
 </react-partial>#不可达
+</script>#Unknown#不可达
 </span>#不可达
 </strong>#不可达
 </style>#不可达
+</style>#Unknown#不可达
 </svg>#不可达
 </svg><span data-view-component="true" class="d-inline">#不可达
 </svg>Fork#不可达
@@ -173,18 +190,23 @@
 </template>#不可达
 </turbo-frame>#不可达
 </ul>#不可达
+</ul>#Unknown#不可达
 <a aria-label="GitHub Homepage" class="footer-octicon mr-2" href="https://github.com">#不可达
 <a class="url fn" rel="author" data-hovercard-type="user" data-hovercard-url="/users/0o755/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/0o755">#不可达
 <a data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to docs&quot;,&quot;label&quot;:&quot;text:docs&quot;}" href="https://docs.github.com/" data-view-component="true" class="Link--secondary Link">Docs</a>#不可达
 <a data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" href="/0o755/edgetunnel">edgetunnel</a>#不可达
 <a href="#start-of-content" data-skip-target-assigned="false" class="px-2 tmp-py-4 color-bg-accent-emphasis color-fg-on-emphasis show-on-focus js-skip-to-content">Skip to content</a>#不可达
-<a tabindex="-1" id="item-1ad54727-12a6-4423-9535-c19165e3793a" href="/0o755/edgetunnel" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">#不可达
-<a tabindex="-1" id="item-474b589c-c9aa-4417-89e0-86e3339346b0" href="/0o755/edgetunnel/security" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">#不可达
-<a tabindex="-1" id="item-b0842f2a-aaad-466f-91ee-0ef128cf7db9" href="/0o755/edgetunnel/actions" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">#不可达
-<a tabindex="-1" id="item-bed84c36-a7f0-4359-a7d5-3b89ca158a70" href="/0o755/edgetunnel/projects" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">#不可达
-<a tabindex="-1" id="item-c8ee5df8-691c-4f08-9f1e-6032e9db14b2" href="/0o755/edgetunnel/pulse" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">#不可达
-<a tabindex="-1" id="item-d134f87a-5ae0-49c1-8b59-016d5c1c314c" href="/0o755/edgetunnel/pulls" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">#不可达
+<a href="https://api.030101.xyz">API</a>#Unknown#不可达
+<a href="https://github.com/ymyuuu" target="_blank">GitHub</a> |#Unknown#不可达
+<a href="https://t.me/HeroCore" target="_blank">Telegram</a> |#Unknown#不可达
+<a tabindex="-1" id="item-46224b6f-33a6-48e8-92b6-507c335be520" href="/0o755/edgetunnel/pulls" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">#不可达
+<a tabindex="-1" id="item-7b09467b-f2d8-4a4f-901f-a01f6204e969" href="/0o755/edgetunnel/security" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">#不可达
+<a tabindex="-1" id="item-7e3fc127-b9e2-45ea-99c0-ad16e97305b0" href="/0o755/edgetunnel/actions" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">#不可达
+<a tabindex="-1" id="item-cfd70d2e-6035-4787-b8cf-adc56d47e482" href="/0o755/edgetunnel" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">#不可达
+<a tabindex="-1" id="item-e5c5547b-78d9-4599-aadb-70831ee14393" href="/0o755/edgetunnel/projects" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">#不可达
+<a tabindex="-1" id="item-fbb73094-1f3b-47ef-9cc3-e0f076647917" href="/0o755/edgetunnel/pulse" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">#不可达
 <body class="logged-out env-production page-responsive" style="word-wrap: break-word;" >#不可达
+<body>#Unknown#不可达
 <button#不可达
 <button autofocus class="flash-close js-flash-close" type="button" aria-label="Dismiss this message">#不可达
 <button class="Box-btn-octicon m-0 btn-octicon position-absolute right-0 top-0" type="button" aria-label="Close dialog" data-close-dialog>#不可达
@@ -194,6 +216,7 @@
 <cookie-consent-link>#不可达
 <details class="details-reset details-overlay details-overlay-dark lh-default color-fg-default hx_rsm" open>#不可达
 <details-dialog class="Box Box--overlay d-flex flex-column anim-fade-in fast hx_rsm-dialog hx_rsm-modal">#不可达
+<details>#Unknown#不可达
 <div#不可达
 <div >#不可达
 <div aria-atomic="true" role="alert" class="js-flash-alert">#不可达
@@ -231,10 +254,17 @@
 <focus-group direction="vertical" mnemonics retain>#不可达
 <footer class="footer f6 color-fg-muted color-border-subtle tmp-pt-7 tmp-pb-6 p-responsive" role="contentinfo"  >#不可达
 <ghcc-consent id="ghcc" class="position-fixed bottom-0 left-0" style="z-index: 999999"#不可达
+<h1 style="font-size: 30px;">IPDB API of <span style="text-decoration: underline; cursor: pointer;"#Unknown#不可达
 <h2 class='sr-only'>Footer</h2>#不可达
+<h2>Disclaimer:</h2>#Unknown#不可达
+<h2>Help Documents:</h2>#Unknown#不可达
 <h3 class="sr-only" id="sr-footer-heading">Footer navigation</h3>#不可达
+<h3>Demo:</h3>#Unknown#不可达
 <head>#不可达
+<head>#Unknown#不可达
+<hr>#Unknown#不可达
 <html#不可达
+<html lang="zh-CN">#Unknown#不可达
 <li class="mx-2" >#不可达
 <li class="mx-2">#不可达
 <li data-view-component="true" class="d-inline-flex">#不可达
@@ -245,16 +275,35 @@
 <li hidden="hidden" data-menu-item="i4security-and-quality-tab" data-targets="action-list.items" role="none" data-view-component="true" class="ActionListItem">#不可达
 <li hidden="hidden" data-menu-item="i5insights-tab" data-targets="action-list.items" role="none" data-view-component="true" class="ActionListItem">#不可达
 <li>#不可达
+<li><code><a href="https://{dynamicDomain}/?type=bestproxy&country=true"#Unknown#不可达
+<li><code><a href="https://{dynamicDomain}/?type=bestproxy&down=true"#Unknown#不可达
+<li><code><a href="https://{dynamicDomain}/?type=cfv4;cfv6&down=true"#Unknown#不可达
+<li><code><a href="https://{dynamicDomain}/?type=cfv4;proxy"#Unknown#不可达
+<li><strong>bestcf：</strong>优选官方 IP 地址列表(Half hour)</li>#Unknown#不可达
+<li><strong>bestproxy：</strong>优选反代 IP 地址列表(Half hour)</li>#Unknown#不可达
+<li><strong>cfv4：</strong>Cloudflare IPv4 地址列表</li>#Unknown#不可达
+<li><strong>cfv6：</strong>Cloudflare IPv6 地址列表</li>#Unknown#不可达
+<li><strong>proxy：</strong>反代 IP 地址列表(Ten min)</li>#Unknown#不可达
+<li>IPDB不对因使用其信息导致的直接或间接损失负责，包括业务损失和数据丢失等。</li>#Unknown#不可达
+<li>IPDB不对用户因使用服务而违反法规法律的行为负责，用户应遵守当地法规。</li>#Unknown#不可达
+<li>IPDB不对用户在使用服务时受到的网络攻击、滥用行为负责，用户应保护账户信息。</li>#Unknown#不可达
+<li>IPDB不对用户在其服务器上存储的数据的安全性负责，建议用户定期备份重要数据。</li>#Unknown#不可达
+<li>IPDB不能保证其服务始终可用，可能会进行定期维护、升级或其他必要的操作。</li>#Unknown#不可达
+<li>IPDB仅面向非大陆地区用户，大陆地区用户在使用时需自行承担因法律法规限制可能带来的风险。</li>#Unknown#不可达
+<li>IPDB数据更新周期因数据源更新频率而有所不同，使用者应了解数据的最新情况。</li>#Unknown#不可达
+<li>IPDB的数据源包括但不限于互联网、开放数据库等公开网络资源。</li>#Unknown#不可达
+<li>IPDB致力于确保数据时效性，但不对数据的准确性、完整性或可靠性做出任何承诺。</li>#Unknown#不可达
+<li>用户在使用IPDB提供的信息时应自行判断其适用性，IPDB不对用户的判断负责。</li>#Unknown#不可达
 <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/4b.155320aa2bc20fa0.module.css" />#不可达
 <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/app-runtime.b732c9a532d735a7.module.css" />#不可达
 <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/code-2d56bdb0166c0238.css" />#不可达
-<link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/code-view.0d2df00975c67ec6.module.css" />#不可达
+<link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/code-view.d9fc6a669bbcfd53.module.css" />#不可达
 <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/dynamic-github-ui--code-view--route-components.31af323ed88630e1.module.css" />#不可达
 <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/github-552513ad07a183a1.css" />#不可达
 <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/global-adcabba7b5c5d221.css" />#不可达
-<link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/keyboard-shortcuts-dialog.dcc8643cab87cc08.module.css" />#不可达
+<link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/keyboard-shortcuts-dialog.be5da9d722f3d251.module.css" />#不可达
 <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/lazy-react-partial-marketing-header.f2d0ddba62de1377.module.css" />#不可达
-<link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/notifications-subscriptions-menu.b047ffeb875f0285.module.css" />#不可达
+<link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/notifications-subscriptions-menu.d380d1da3472c2ad.module.css" />#不可达
 <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/o6.07dbc3e95a98c7ef.module.css" />#不可达
 <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/primer-1d2c7f7b52a6068b.css" />#不可达
 <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/primer-primitives-ed9ca172356fd545.css" />#不可达
@@ -285,7 +334,7 @@
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/app-runtime-0b7903e63f63ea8d.js" />#不可达
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/aq-0dbf7d12b4d37e14.js" />#不可达
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/aria-live-76b18916d0c8ec4d.js" />#不可达
-<link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/b1-77b7bdf11a9c8a90.js" />#不可达
+<link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/b1-e65db5e6cf097025.js" />#不可达
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/bi0-5a602e8242c55c27.js" />#不可达
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/bsb-4f4ac8c20da73fac.js" />#不可达
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/by-6b3c07383371bf58.js" />#不可达
@@ -300,7 +349,7 @@
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/fe-7576d9b281e2106a.js" />#不可达
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/fetch-utilities-5305162aa9984914.js" />#不可达
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/fz-30a6af7c53dfa4f1.js" fetchpriority="low" />#不可达
-<link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/gt-9dde76e79ed3b648.js" />#不可达
+<link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/gt-50f9e6b2885dae71.js" />#不可达
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/hct-228d298cb5d81884.js" />#不可达
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/hj-5126390ff433704d.js" />#不可达
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/hotkey-5109c77d7ac61078.js" />#不可达
@@ -311,17 +360,17 @@
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/j9-bcddcbfda84469a1.js" />#不可达
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/ja9-36f036c13c2e3a4c.js" />#不可达
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/jz5-7c5d1669717041f8.js" />#不可达
-<link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/keyboard-shortcuts-dialog-70481257f6ef592d.js" fetchpriority="low" />#不可达
+<link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/keyboard-shortcuts-dialog-fd1a3e43028c7081.js" fetchpriority="low" />#不可达
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/kw-866fd9513ae95106.js" />#不可达
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/la-de176c4ee471f2b3.js" />#不可达
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/lazy-react-partial-marketing-header-c9ea22bdec610bd8.js" fetchpriority="low" />#不可达
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/lht-d07b466cb387fec6.js" fetchpriority="low" />#不可达
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/lq-0c061f33290f3a8d.js" />#不可达
-<link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/marketing-header-5e502fc96685b6a9.js" fetchpriority="low" />#不可达
+<link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/marketing-header-0ddae59a4b94e6d3.js" fetchpriority="low" />#不可达
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/me-39023c23cd285ffe.js" />#不可达
-<link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/mz-2eb954ec51a52bea.js" fetchpriority="low" />#不可达
+<link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/mz-991b0be334f7b646.js" fetchpriority="low" />#不可达
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/n4u-6317ce1c31aed1db.js" />#不可达
-<link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/nvz-f7a80162a2f3a260.js" fetchpriority="low" />#不可达
+<link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/nvz-46a994f1aea249d4.js" fetchpriority="low" />#不可达
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/o6-fe6f463fc4a0599d.js" />#不可达
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/obo-b97774c6eb95c7ee.js" fetchpriority="low" />#不可达
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/og-87742325ea179e44.js" />#不可达
@@ -340,13 +389,13 @@
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/runtime-helpers-f3f5d71440009c48.js" />#不可达
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/selector-observer-e88088f989b27670.js" />#不可达
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/ser-cd1b421ad0ad7ed5.js" />#不可达
-<link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/sp-f70ca8f28bbb41af.js" />#不可达
+<link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/sp-82d72a8c1337cd4a.js" />#不可达
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/t7l-0a8b07066f584f39.js" />#不可达
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/tua-bc25c4457bfbd204.js" fetchpriority="low" />#不可达
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/u1-c2354415da044847.js" />#不可达
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/ur-024971cb63acad59.js" />#不可达
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/wo-09f85d22a6c8931b.js" />#不可达
-<link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/wp-runtime-98e1f50f475a8fd0.js" />#不可达
+<link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/wp-runtime-0a498915f1855098.js" />#不可达
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/wsr-5fd3071e5a9061ab.js" />#不可达
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/xc-7fd1e6996fa23469.js" />#不可达
 <link crossorigin="anonymous" rel="modulepreload" href="https://github.githubassets.com/assets/xv-51cb34754bda73a9.js" />#不可达
@@ -361,18 +410,20 @@
 <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">#不可达
 <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">#不可达
 <link rel="icon" class="js-site-favicon" type="image/svg+xml" href="https://github.githubassets.com/favicons/favicon.svg" data-base-href="https://github.githubassets.com/favicons/favicon">#不可达
+<link rel="icon" type="image/png" href="https://img.icons8.com/pulsar-color/48/ip-address.png">#Unknown#不可达
 <link rel="manifest" href="/manifest.json" crossOrigin="use-credentials">#不可达
 <link rel="mask-icon" href="https://github.githubassets.com/assets/pinned-octocat-093da3e6fa40.svg" color="#000000">#不可达
 <link rel="preconnect" href="https://avatars.githubusercontent.com">#不可达
 <link rel="preconnect" href="https://github.githubassets.com" crossorigin>#不可达
 <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">#不可达
 <main id="js-repo-pjax-container" >#不可达
+<meta charset="UTF-8">#Unknown#不可达
 <meta charset="utf-8">#不可达
 <meta data-hydrostats="publish">#不可达
 <meta http-equiv="x-pjax-csp-version" content="2af6a6627810d190be616096b617c8f37a1419b9435f76190f0e0d7638222ac1" data-turbo-track="reload">#不可达
 <meta http-equiv="x-pjax-css-version" content="b7a4653359baeee3d827ca91d7c149e4962234557341efae58fad4aa5ce82a0a" data-turbo-track="reload">#不可达
-<meta http-equiv="x-pjax-js-version" content="b7f8165261620e79074faed37fbbe7c8af243a89d70b86a79ae9d47bf7d654dd" data-turbo-track="reload">#不可达
-<meta http-equiv="x-pjax-version" content="3272c914e5a058ea5b9621af3d4850913bd936d4fbbc9297f7030c735e616382" data-turbo-track="reload">#不可达
+<meta http-equiv="x-pjax-js-version" content="05fa2dda130e1bb93b8ccd5469a016f79e0aab7d1a658c50b113c0296e4bdd10" data-turbo-track="reload">#不可达
+<meta http-equiv="x-pjax-version" content="8dba20af3e25596764101eb56a921fbfba8bc50d25f354178ec35f1e4437941a" data-turbo-track="reload">#不可达
 <meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-turbo-transient="true" />#不可达
 <meta name="apple-itunes-app" content="app-id=1477376905, app-argument=https://github.com/0o755/edgetunnel/blob/main/public/cfip.txt" />#不可达
 <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">#不可达
@@ -382,14 +433,14 @@
 <meta name="description" content="edgetunnel2 VLESS/Trojan 多功能面板. Contribute to 0o755/edgetunnel development by creating an account on GitHub.">#不可达
 <meta name="disable-turbo" content="false">#不可达
 <meta name="expected-hostname" content="github.com">#不可达
-<meta name="fetch-nonce" content="v2:4d5af937-8533-0cf4-1034-2f40c31a5587">#不可达
+<meta name="fetch-nonce" content="v2:90cfb62b-061e-46b8-0824-1c08e20b8f92">#不可达
 <meta name="github-keyboard-shortcuts" content="repository,source-code,file-tree,copilot" data-turbo-transient="true" />#不可达
 <meta name="go-import" content="github.com/0o755/edgetunnel git https://github.com/0o755/edgetunnel.git">#不可达
 <meta name="google-site-verification" content="Apib7-x98H0j5cPqHWwSMm6dNU4GmODRoqxLiDzdx9I">#不可达
 <meta name="hostname" content="github.com">#不可达
 <meta name="hovercard-subject-tag" content="repository:1211574370" data-turbo-transient>#不可达
 <meta name="octolytics-url" content="https://collector.github.com/github/collect" />#不可达
-<meta name="release" content="9e40e581477beb317b61cbab81ca2d360639db1d" data-turbo-track="reload">#不可达
+<meta name="release" content="dc0ee184b0bb99412a483ac41a84601eed7184f7" data-turbo-track="reload">#不可达
 <meta name="route-action" content="show" data-turbo-transient>#不可达
 <meta name="route-controller" content="blob" data-turbo-transient>#不可达
 <meta name="route-pattern" content="/:user_id/:repository/blob/*name(/*path)" data-turbo-transient>#不可达
@@ -401,23 +452,43 @@
 <meta name="ui-target" content="full">#不可达
 <meta name="user-login" content="">#不可达
 <meta name="viewport" content="width=device-width">#不可达
+<meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=1.0, user-scalable=no" />#Unknown#不可达
 <meta property="fb:app_id" content="1401488693436528">#不可达
 <nav aria-label="Footer">#不可达
 <nav data-pjax="#js-repo-pjax-container" aria-label="Repository" data-view-component="true" class="js-repo-nav js-sidenav-container-pjax js-responsive-underlinenav overflow-hidden UnderlineNav px-3 tmp-px-3 px-md-4 tmp-px-md-4 px-lg-5 tmp-px-lg-5">#不可达
+<ol>#Unknown#不可达
+<p style="text-align: center;">#Unknown#不可达
+<p><strong>country：</strong>是否显示 IP 地区。设置为 true 表示显示。示例：country=true</p>#Unknown#不可达
+<p><strong>down：</strong>是否下载获取的内容。设置为 true 表示下载。示例：down=true</p>#Unknown#不可达
+<p><strong>type：</strong>获取的 IP 地址类型，支持单个或多个类型，用分号分隔。示例：type=cfv4;cfv6;proxy</p>#Unknown#不可达
+<p><strong>在使用本服务前务必审慎阅读并理解本免责声明的全部内容，使用本服务将被视为对本免责声明的接受和遵守。</strong></p>#Unknown#不可达
+<p><strong>支持的类型：</strong></p>#Unknown#不可达
+<p>IPDB不对用户在使用服务过程中产生的第三方费用（如网络费用、通信费用等）负责。</p>#Unknown#不可达
+<p>IPDB不对用户在使用服务过程中因自身原因导致的数据丢失、遗漏或其他损失负责。</p>#Unknown#不可达
+<p>IPDB可能根据业务发展和用户需求调整服务内容，如有重大变更将提前通知用户。</p>#Unknown#不可达
+<p>免责声明的任何更改将通过本页面发布，用户应定期查看以获取最新信息。</p>#Unknown#不可达
+<p>免责声明的效力范围将覆盖使用IPDB服务的所有用户，包括匿名用户。</p>#Unknown#不可达
+<p>如果您对本免责声明有任何疑问，请<a href="/cdn-cgi/l/email-protection#026b6c646d423231323332332c7a7b78">邮件</a>联系。将尽全力为您提供必要的协助和解释。</p>#Unknown#不可达
+<p>如果您对本免责声明有任何疑问，请<a href="/cdn-cgi/l/email-protection#563f38303916666566676667782e2f2c">邮件</a>联系。将尽全力为您提供必要的协助和解释。</p>#Unknown#不可达
+<p>寻找独一无二的<strong>优选域名</strong>？追求一劳永逸的选择？<a href="https://t.me/HeroCore" target="_blank">@HubCore</a></p>#Unknown#不可达
+<p>用户在使用IPDB服务时，应保持合理谨慎，自行承担风险，对于因使用本服务而导致的一切后果负责。</p>#Unknown#不可达
+<p>请勿将IPDB服务用于违法、滥用、攻击等恶意行为，违者IPDB有权中止或终止使用权限。</p>#Unknown#不可达
 <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>#不可达
 <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Zm4.879-2.773 4.264 2.559a.25.25 0 0 1 0 .428l-4.264 2.559A.25.25 0 0 1 6 10.559V5.442a.25.25 0 0 1 .379-.215Z"></path>#不可达
 <path d="M8 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3ZM1.5 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Zm13 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"></path>#不可达
 <react-app#不可达
 <react-partial#不可达
-<script crossorigin="anonymous" type="module" src="https://github.githubassets.com/assets/behaviors-f8592dc546321e92.js" defer="defer"></script>#不可达
-<script crossorigin="anonymous" type="module" src="https://github.githubassets.com/assets/code-menu-b790994aac3e4eab.js" defer="defer"></script>#不可达
-<script crossorigin="anonymous" type="module" src="https://github.githubassets.com/assets/code-view-d55e9c27999d9fbc.js" defer="defer"></script>#不可达
-<script crossorigin="anonymous" type="module" src="https://github.githubassets.com/assets/element-registry-ea0aa654501151ee.js" defer="defer"></script>#不可达
-<script crossorigin="anonymous" type="module" src="https://github.githubassets.com/assets/environment-d0b70ea161bc85ad.js" defer="defer"></script>#不可达
-<script crossorigin="anonymous" type="module" src="https://github.githubassets.com/assets/github-elements-d4cbf56798b1b282.js" defer="defer"></script>#不可达
+<script crossorigin="anonymous" type="module" src="https://github.githubassets.com/assets/behaviors-28aa4c69fd52f235.js" defer="defer"></script>#不可达
+<script crossorigin="anonymous" type="module" src="https://github.githubassets.com/assets/code-menu-22c59b07bad62693.js" defer="defer"></script>#不可达
+<script crossorigin="anonymous" type="module" src="https://github.githubassets.com/assets/code-view-f7758b9ed3eb52cc.js" defer="defer"></script>#不可达
+<script crossorigin="anonymous" type="module" src="https://github.githubassets.com/assets/element-registry-4050bcf241d808b8.js" defer="defer"></script>#不可达
+<script crossorigin="anonymous" type="module" src="https://github.githubassets.com/assets/environment-d3cba7a6c32a8062.js" defer="defer"></script>#不可达
+<script crossorigin="anonymous" type="module" src="https://github.githubassets.com/assets/github-elements-2d78330a3fdd3f95.js" defer="defer"></script>#不可达
 <script crossorigin="anonymous" type="module" src="https://github.githubassets.com/assets/high-contrast-cookie-e3d808ee18eb9784.js"></script>#不可达
-<script crossorigin="anonymous" type="module" src="https://github.githubassets.com/assets/notifications-subscriptions-menu-30660837c815889d.js" defer="defer"></script>#不可达
+<script crossorigin="anonymous" type="module" src="https://github.githubassets.com/assets/notifications-subscriptions-menu-e02fb53cc109c01f.js" defer="defer"></script>#不可达
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>#Unknown#不可达
 <script type="application/json" data-target="react-partial.embeddedData">{"props":{"docsUrl":"https://docs.github.com/get-started/accessibility/keyboard-shortcuts"}}</script>#不可达
+<script>#Unknown#不可达
 <span class="ActionListItem-visual ActionListItem-visual--leading">#不可达
 <span class="author flex-self-stretch" itemprop="author">#不可达
 <span class="js-stale-session-flash-signed-in" hidden>You signed in with another tab or window. <a class="Link--inTextBlock" href="">Reload</a> to refresh your session.</span>#不可达
@@ -445,7 +516,9 @@
 <span></span><span class="Label Label--secondary v-align-middle mr-1">Public template</span>#不可达
 <strong itemprop="name" class="mr-2 flex-self-stretch">#不可达
 <style type="text/css">#不可达
+<style>#Unknown#不可达
 <summary role="button" aria-label="Close dialog"></summary>#不可达
+<summary>Please click to view the important tips before use.</summary>#Unknown#不可达
 <svg aria-hidden="true" data-component="Octicon" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-alert">#不可达
 <svg aria-hidden="true" data-component="Octicon" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none m-2 tmp-m-2">#不可达
 <svg aria-hidden="true" data-component="Octicon" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">#不可达
@@ -470,36 +543,49 @@
 <template id="site-details-dialog">#不可达
 <template id="snippet-clipboard-copy-button">#不可达
 <template id="snippet-clipboard-copy-button-unpositioned">#不可达
+<title>IPDB API</title>#Unknown#不可达
 <title>edgetunnel/public/cfip.txt at main · 0o755/edgetunnel · GitHub</title>#不可达
 <turbo-frame id="repo-content-turbo-frame" target="_top" data-turbo-action="advance" class="">#不可达
-<ul aria-labelledby="action-menu-4d300862-3347-4cc7-8856-45b44270ba01-button" id="action-menu-4d300862-3347-4cc7-8856-45b44270ba01-list" role="menu" data-view-component="true" class="ActionListWrap--inset ActionListWrap">#不可达
+<ul aria-labelledby="action-menu-04f32765-c4b1-4041-a8b5-59f0fa72d4e3-button" id="action-menu-04f32765-c4b1-4041-a8b5-59f0fa72d4e3-list" role="menu" data-view-component="true" class="ActionListWrap--inset ActionListWrap">#不可达
 <ul class="list-style-none d-flex flex-justify-center flex-wrap mb-2 mb-lg-0" aria-labelledby="sr-footer-heading">#不可达
 <ul class="pagehead-actions flex-shrink-0 d-none d-md-inline" style="padding: 2px 0;">#不可达
 <ul data-view-component="true" class="UnderlineNav-body list-style-none">#不可达
+<ul>#Unknown#不可达
 >#不可达
 ></ghcc-consent>#不可达
+@media (prefers-color-scheme: dark) {#Unknown#不可达
 Actions#不可达
 Code#不可达
 Do not share my personal information#不可达
+IPv4#Unknown#不可达
 Insights#不可达
 Manage cookies#不可达
 Projects#不可达
 ProxyIP.HK.CMLiussss.net#HK#香港
-ProxyIP.JP.CMLiussss.net#JP#日本
+ProxyIP.JP.CMLiussss.net#SG#新加坡
 Pull requests#不可达
 Security and quality#不可达
 Star#不可达
 You can’t perform that action at this time.#不可达
+a {#Unknown#不可达
 academy.mastercard.com:443#金融域名 | 万事达卡#US#美国
 affirm.com:443#更多选择 | Affirm#CA#Canada
 anadoluefes.com:443#更多选择 | AnadoluEfes#US#美国
 app-name="code-view"#不可达
 asia.877774.xyz#⚡ 亚洲极速#不可达
 avido.cf.3666888.xyz#US#美国
-bestcf.030101.xyz#US#美国
-bluehost.com:443#企业域名 | BlueHost#CA#Canada
-bpb.yousef.isegaro.com#DE#德国
-cdn.2020111.xyz#CA#Canada
+background-color: #333;#Unknown#不可达
+background-color: #444;#Unknown#不可达
+background-color: #F5F5F5;#Unknown#不可达
+background-color: #eee;#Unknown#不可达
+background: linear-gradient(to right, transparent, #ccc, transparent);#Unknown#不可达
+bestcf.030101.xyz#CA#Canada
+bluehost.com:443#企业域名 | BlueHost#US#美国
+body {#Unknown#不可达
+border-radius: 3px;#Unknown#不可达
+border: 0;#Unknown#不可达
+bpb.yousef.isegaro.com#CN#China
+cdn.2020111.xyz#US#美国
 cdn.jsdelivr.net:443#更多选择 | jsDelivr#US#美国
 cdnjs.com:443#官方域名 | CDNJS#US#美国
 cdns.doon.eu.org#CA#Canada
@@ -513,7 +599,7 @@ cf.877774.xyz#CA#Canada
 cf.877774.xyz:443#大佬维护 | QMS#CA#Canada
 cf.900501.xyz#不可达
 cf.blogluo.eu.org#US#美国
-cf.cloudflare.182682.xyz#US#美国
+cf.cloudflare.182682.xyz#CA#Canada
 cf.tencentapp.cn#不可达
 cf.tencentapp.cn:443#大佬维护 | KTFF#不可达
 cfip.1323123.xyz#CA#Canada
@@ -525,25 +611,29 @@ class="Link--secondary underline-on-hover border-0 p-0 color-bg-transparent text
 class="Link--secondary underline-on-hover border-0 p-0 color-bg-transparent"#不可达
 class="application-main "#不可达
 cloudflare-dl.byoip.top#不可达
-cloudflare-ech.com:443#官方域名 | ECH#CA#Canada
-cloudflare-eth.com:443#官方域名 | Web3#US#美国
+cloudflare-ech.com:443#官方域名 | ECH#US#美国
+cloudflare-eth.com:443#官方域名 | Web3#CA#Canada
 cloudflare-ip.mofashi.ltd#US#美国
 cloudflare.182682.xyz#US#美国
 cloudflare.182682.xyz:443#大佬维护 | WeTest#US#美国
-cloudflare.dev:443#官方域名 | Developers#CA#Canada
-cloudflare.net:443#官方域名 | Business#US#美国
+cloudflare.dev:443#官方域名 | Developers#US#美国
+cloudflare.net:443#官方域名 | Business#CA#Canada
 cm.cloudflare.byoip.top:443#按运营商 | 移动Byoip#CA#Canada
 cmcc.090227.xyz:443#移动分流-cmcc.090227.xyz#US#美国
 cmcc.877774.xyz#⚡ 移动极速#不可达
 cmcc.877774.xyz:443#按运营商 | 移动QMS#US#美国
+code {#Unknown#不可达
+color: #838eb4;#Unknown#不可达
+color: #f0f0f0;#Unknown#不可达
 columbia.edu:443#教育域名 | 哥伦比亚#US#美国
-ct.090227.xyz:443#电信分流-ct.090227.xyz#CA#Canada
+ct.090227.xyz:443#电信分流-ct.090227.xyz#US#美国
 ct.877774.xyz#⚡ 电信极速#不可达
-ct.877774.xyz:443#按运营商 | 电信QMS#CA#Canada
+ct.877774.xyz:443#按运营商 | 电信QMS#US#美国
 ct.cloudflare.byoip.top:443#按运营商 | 电信Byoip#CA#Canada
 cu.877774.xyz#⚡ 联通极速#不可达
 cu.877774.xyz:443#按运营商 | 联通QMS#CA#Canada
 cu.cloudflare.byoip.top:443#按运营商 | 联通Byoip#CA#Canada
+cursor: pointer;#Unknown#不可达
 data-a11y-animated-images="system" data-a11y-link-underlines="true"#不可达
 data-action="click:cookie-consent-link#showConsentManagement"#不可达
 data-alternate="false"#不可达
@@ -563,7 +653,9 @@ data-project-hovercards-enabled#不可达
 data-react-profiling="false"#不可达
 data-ssr="false"#不可达
 data-ssr="true"#不可达
-digitalocean.com:443#企业域名 | DigitalOcean#US#美国
+digitalocean.com:443#企业域名 | DigitalOcean#CA#Canada
+document.body.innerHTML = document.body.innerHTML.replace(/{dynamicDomain}/g, window.location.hostname);#Unknown#不可达
+document.getElementById("year").textContent = new Date().getFullYear();#Unknown#不可达
 dx.hhhhh.eu.org:443#按运营商 | 电信WuYa#US#美国
 edgeone.gh-proxy.org#US#美国
 emerson.com:443#更多选择 | 艾默生#CA#Canada
@@ -571,20 +663,24 @@ engage.cloudflareclient.com:443#官方域名 | WireGuard#CA#Canada
 eur.877774.xyz#⚡ 欧洲极速#不可达
 f.lma.de5.net#US#美国
 fn.130519.xyz#CA#Canada
+font-family: Arial, sans-serif;#Unknown#不可达
 forked from <a data-hovercard-type="repository" data-hovercard-url="/cmliu/edgetunnel/hovercard" class="Link--inTextBlock" href="/cmliu/edgetunnel">cmliu/edgetunnel</a>#不可达
 freeyx.cloudflare88.eu.org#不可达
 glassdoor.com:443#企业域名 | Glassdoor#US#美国
 guide.for.edu.sg#US#美国
-harley-davidson.com:443#更多选择 | 哈雷#CA#Canada
+harley-davidson.com:443#更多选择 | 哈雷#US#美国
+height: 1px;#Unknown#不可达
 hk.onecf.eu.org#不可达
 hk443.018881.xyz#HK#香港
+hm.src = "https://hm.baidu.com/hm.js?7dd7ed0a5e25f4e945738da3329b1c6c";#Unknown#不可达
 homecare.stryker.com:443#更多选择 | 史赛克#US#United States
 hongkongairport.com:443#企业域名 | 香港机场#US#美国
+hr {#Unknown#不可达
 https://edt-aio-nav.pages.dev:443#大佬维护 | MingYu#不可达
 icook.hk#官方优选#不可达
 icook.tw#官方优选#不可达
 ikankeji.com#CA#Canada
-ikea.com:443#更多选择 | 宜家#CA#Canada
+ikea.com:443#更多选择 | 宜家#US#美国
 initial-path="/0o755/edgetunnel/blob/main/public/cfip.txt"#不可达
 investor.apple.com:443#更多选择 | Apple#CA#Canada
 ips.meizitu.net#不可达
@@ -593,10 +689,14 @@ jp.isnow.pp.ua#不可达
 jp.onecf.eu.org#不可达
 jp443.008882.xyz#HK#香港
 lang="en"#不可达
-ln.edu.hk:443#教育域名 | 岭南大学#CA#Canada
+li {#Unknown#不可达
+ln.edu.hk:443#教育域名 | 岭南大学#US#美国
 login.rockwellautomation.com#US#美国
-loreal.com:443#更多选择 | 欧莱雅#CA#Canada
+loreal.com:443#更多选择 | 欧莱雅#US#美国
 lt.hhhhh.eu.org:443#按运营商 | 联通WuYa#US#美国
+margin-bottom: 15px;#Unknown#不可达
+margin-bottom: 5px;#Unknown#不可达
+margin: 20px 0;#Unknown#不可达
 markmonitor.com:443#更多选择 | MarkMonitor#CA#Canada
 mclaren.com:443#更多选择 | 迈凯伦#CA#Canada
 mfa.gov.ua#乌克兰外交部#不可达
@@ -607,26 +707,31 @@ na.877774.xyz#⚡ 美洲极速#不可达
 nl.onecf.eu.org#不可达
 nrt.xxxxxxxx.nyc.mn#HK#香港
 nrtcfdns.zone.id#HK#香港
+onclick="window.open('https://github.com/ymyuuu', '_blank')">Mingyu</span></h1>#Unknown#不可达
 openai.com:443#企业域名 | OpenAI#CA#Canada
+p {#Unknown#不可达
+padding: 0 3%;#Unknown#不可达
+padding: 2px 5px;#Unknown#不可达
 pages.dev:443#官方域名 | Pages#US#美国
 partial-name="keyboard-shortcuts-dialog"#不可达
 partial-name="marketing-header"#不可达
-polestar.com:443#更多选择 | 极星#US#美国
+polestar.com:443#更多选择 | 极星#CA#Canada
 pre, code {#不可达
-proxyip.aliyun.fxxk.dedyn.io#US#美国
+proxyip.aliyun.fxxk.dedyn.io#DE#德国
 proxyip.digitalocean.fxxk.dedyn.io#CA#加拿大
 proxyip.hk.fxxk.dedyn.io#HK#香港
 proxyip.jp.fxxk.dedyn.io#JP#日本
-proxyip.oracle.fxxk.dedyn.io#US#美国
+proxyip.oracle.fxxk.dedyn.io#CA#加拿大
 proxyip.sg.cmliussss.net#SG#新加坡
 proxyip.sg.fxxk.dedyn.io#不可达
 proxyip.us.fxxk.dedyn.io#US#美国
-qocu.cf.3666888.xyz#CA#Canada
+qocu.cf.3666888.xyz#US#美国
 r2.dev:443#官方域名 | R2#CA#Canada
+s.parentNode.insertBefore(hm, s);#Unknown#不可达
 saas.sin.fan#US#美国
 saas.sin.fan:443#大佬维护 | MIYU#US#美国
 sanwang.cf.3666888.xyz#CA#Canada
-serviceshub.samsclub.com:443#企业域名 | 山姆会员#CA#Canada
+serviceshub.samsclub.com:443#企业域名 | 山姆会员#US#美国
 sg.onecf.eu.org#不可达
 shopify.com:443#企业域名 | Shopify#CA#Canada
 sjc.o00o.ooo#US#美国
@@ -638,31 +743,40 @@ store.ubi.com#Ubisoft#不可达
 store.ubi.com:443#企业域名 | 育碧商城#CA#Canada
 stores.staples.com#US#美国
 style="display: block; min-height: calc(100vh - 64px);"#不可达
+summary {#Unknown#不可达
 tab-size: var(--tab-size-preference);#不可达
+target="_blank">{dynamicDomain}/?type=bestproxy&country=true</a></code><br>获取优选反代 IP 地址列表并查看 IP#Unknown#不可达
+target="_blank">{dynamicDomain}/?type=bestproxy&down=true</a></code><br>下载优选反代 IP 地址列表#Unknown#不可达
+target="_blank">{dynamicDomain}/?type=cfv4;cfv6&down=true</a></code><br>下载 Cloudflare#Unknown#不可达
+target="_blank">{dynamicDomain}/?type=cfv4;proxy</a></code><br>获取 Cloudflare IPv4#Unknown#不可达
 tencentapp.cn#不可达
+text-decoration: none;#Unknown#不可达
 time.is#官方优选#不可达
-tradepro.wealthmanagement.scotiabank.com:443#金融域名 | 丰业银行#CA#Canada
+tradepro.wealthmanagement.scotiabank.com:443#金融域名 | 丰业银行#US#美国
 type="button"#不可达
 us.onecf.eu.org#不可达
-usa.visa.com:443#金融域名 | VISA美国#US#美国
+usa.visa.com:443#金融域名 | VISA美国#CA#Canada
+user-select: none;#Unknown#不可达
+var _hmt = _hmt || [];#Unknown#不可达
+var hm = document.createElement("script");#Unknown#不可达
+var s = document.getElementsByTagName("script")[0];#Unknown#不可达
 visa.com:443#企业域名 | VISA#CA#Canada
-visit.honeywell.com:443#更多选择 | 霍尼韦尔#US#美国
+visit.honeywell.com:443#更多选择 | 霍尼韦尔#CA#Canada
 w3.org:443#更多选择 | W3C万维#CA#Canada
 wealthpartners.jpmorgan.com:443#金融域名 | 摩根大通#US#美国
-www.affirm.com:443#🇺🇸美国·US#US#美国
 www.allianz.com:443#企业域名 | 安联集团#US#美国
-www.cf.090227.xyz:443#三网自适应分流-www.cf.090227.xyz#CA#Canada
-www.epicgames.com:443#更多选择 | Epicgames#CA#Canada
+www.cf.090227.xyz:443#三网自适应分流-www.cf.090227.xyz#US#美国
+www.epicgames.com:443#更多选择 | Epicgames#US#美国
 www.hyundai.com:443#更多选择 | 现代#CA#Canada
 www.jimdo.com#US#美国
-www.kia.com:443#更多选择 | 起亚#CA#Canada
+www.kia.com:443#更多选择 | 起亚#US#美国
 www.lego.com:443#更多选择 | 乐高#US#美国
 www.nestle.com:443#企业域名 | 雀巢集团#CA#Canada
 www.ntu.edu.sg:443#教育域名 | 南洋理工#CA#Canada
 www.ox.ac.uk:443#教育域名 | 牛津大学#CA#Canada
-www.razer.com:443#更多选择 | 雷蛇#US#美国
-www.researchgate.net:443#教育域名 | ResearchGate#CA#Canada
-www.sage.com:443#更多选择 | Sage#US#美国
+www.razer.com:443#更多选择 | 雷蛇#CA#Canada
+www.researchgate.net:443#教育域名 | ResearchGate#US#美国
+www.sage.com:443#更多选择 | Sage#CA#Canada
 www.shopify.com#Shopify官方#不可达
 www.speedtest.net:443#更多选择 | Ookla#CA#Canada
 www.vastnovel.com#US#美国
@@ -671,9 +785,15 @@ www.visa.cn:443#金融域名 | VISA中国#CN#中国
 www.visa.com.hk:443#金融域名 | VISA香港#CA#Canada
 www.wto.org:443#更多选择 | WTO世贸#CA#Canada
 www.zendesk.com:443#更多选择 | Zendesk#US#美国
-www.zendesk.com:443#🇺🇸美国·US#US#美国
+www.zendesk.com:443#🇺🇸美国·US#CA#Canada
 xn--b6gac.eu.org#CA#Canada
 yd.hhhhh.eu.org:443#按运营商 | 移动WuYa#US#美国
 yg1.ygkkk.dpdns.org:443#大佬维护 | YGKKK#CA#Canada
-youxuan.cf.090227.xyz#节点更新时间：2026/9/9/4:18 | 更新间隔：每10分钟1次#不可达
+youxuan.cf.090227.xyz#节点更新时间：2026/9/9/9:11 | 更新间隔：每10分钟1次#不可达
 }#不可达
+}#Unknown#不可达
+})();#Unknown#不可达
+地区</li>#Unknown#不可达
+地址列表#Unknown#不可达
+地址列表和Cloudflare IPv6 地址列表#Unknown#不可达
+地址列表和反代 IP#Unknown#不可达
