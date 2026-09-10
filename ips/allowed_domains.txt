@@ -11,7 +11,6 @@ bluehost.com:443
 bpb.yousef.isegaro.com
 c.lma.de5.net
 cdn.2020111.xyz
-cdn.9889888.xyz:443
 cdn.jsdelivr.net:443
 cdnjs.com:443
 cdns.doon.eu.org
@@ -52,6 +51,7 @@ emerson.com:443
 engage.cloudflareclient.com:443
 f.lma.de5.net
 fn.130519.xyz
+fnp.ircf.space:443
 glassdoor.com:443
 harley-davidson.com:443
 hfqek.cf.3666888.xyz
@@ -107,6 +107,7 @@ www.allianz.com:443
 www.cf.090227.xyz:443
 www.epicgames.com:443
 www.hyundai.com:443
+www.jimdo.com:443
 www.kia.com:443
 www.lego.com:443
 www.nestle.com:443
@@ -125,3 +126,4 @@ xn--b6gac.eu.org
 yd.hhhhh.eu.org:443
 yg1.ygkkk.dpdns.org:443
 youxuan.cf.3666888.xyz
+yx.cloudflare.182682.xyz:443
