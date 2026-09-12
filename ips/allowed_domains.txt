@@ -22,6 +22,7 @@ cf.cloudflare.182682.xyz
 cf.duun.eu.cc
 cfip.1323123.xyz
 cfip.cfcdn.vip
+cfip.xxxxxxxx.tk
 cfvip.cf.3666888.xyz
 cfworkers.yyaan.top
 cloudflare-ech.com:443
@@ -99,6 +100,7 @@ visit.honeywell.com:443
 w3.org:443
 wealthpartners.jpmorgan.com:443
 www.adbcardpay.xyz
+www.affirm.com:443
 www.akasantech.com
 www.allianz.com:443
 www.cf.090227.xyz:443
